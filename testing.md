@@ -1,0 +1,2 @@
+## Issue: Setup initial page and dependencies
+ Tested by running the app and making sure it compiled without errors. Added a button and inspected the element to ensure it was using the Material-UI components
