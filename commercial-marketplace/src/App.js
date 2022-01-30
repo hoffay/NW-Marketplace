@@ -1,16 +1,17 @@
 import './App.css';
-import Button from '@mui/material/Button';
+import Searchbar from './Components/Searchbar/Searchbar';
+import LCSButton1 from './Components/Header/Header';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>Commercial Marketplace</p>
-        <Button color="primary" variant="contained">
-        Click Me
-      </Button>
-      </header>
-    </div>
+    <main>
+      <div>
+        <header />
+      </div>
+      <div>
+        <Searchbar placeholder="Enter text here" />
+      </div>
+    </main>
   );
 }
 

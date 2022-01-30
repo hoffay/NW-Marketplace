@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-//import SearchIcon from '@mui/icons/Search';
+import SearchIcon from '@mui/icons-material/Search';
 import "./Searchbar.css";
 
 
@@ -11,8 +11,9 @@ function Searchbar({ placeholder, data }) {
                     type="text"
                     placeholder={placeholder}>
                 </input>
-                <button type="submit" className="searchButton"></button>
-                <div className="searchIcon"></div>
+                <button type="submit" className="searchButton">
+                    <SearchIcon />
+                </button>
             </div>
         </div>
     )
