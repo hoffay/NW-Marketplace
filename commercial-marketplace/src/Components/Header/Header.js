@@ -1,12 +1,13 @@
 import React from "react";
-import './styles.css';
+import styles from './styles.css';
+import { Button, AppBar, Toolbar } from '@mui/material'
 
-const theme = {
-    blue: {
-        default: "#4287f5",
-        hover: "#1971ff"  
-    }
-};
+// const theme = {
+//     blue: {
+//         default: "#4287f5",
+//         hover: "#1971ff"  
+//     }
+// };
 
 function LCSRedirect(ButtonLCS1) {
     window.open("https://www.mylosscontrolservices.com/");
@@ -15,9 +16,11 @@ function LCSRedirect(ButtonLCS1) {
 function LCSButton1 () {
     return (
         <header>
-            <button className="buttonLCS1" onClick={LCSRedirect}>
-                <label>My Loss Control Services</label>
-            </button>
+            <AppBar>
+                <Button style={styles.ButtonLCS1} onClick={LCSRedirect}>
+                    <label>My Loss Control Services</label>
+                </Button>
+            </AppBar>
         </header>
             
     );
