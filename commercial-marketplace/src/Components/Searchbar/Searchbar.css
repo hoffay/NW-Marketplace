@@ -29,6 +29,12 @@
   place-items: center;
 }
 
+.muiSearch {
+  fill: #1f74db;
+  width: 60;
+  height: 60;
+}
+
  .searchButton {
   cursor:pointer;
   background-color:#1f74db;

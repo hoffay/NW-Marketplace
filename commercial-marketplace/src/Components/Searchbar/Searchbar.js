@@ -17,7 +17,7 @@ function Searchbar({ placeholder, data }) {
                             startAdornment: (
                                 <InputAdornment>
                                     <IconButton>
-                                        <SearchIcon style={{fill: "#1f74db"}}/>
+                                        <SearchIcon style={{fill: "#1f74db", width: 40, height: 40}}/>
                                     </IconButton>
                                 </InputAdornment>
                             ),
