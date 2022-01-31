@@ -1,11 +1,11 @@
 import './App.css';
-import LCSButton1 from './Components/Header/Header';
+import Header from './Components/Header/Header';
 
 function App() {
   return (
     <main>
       <div>
-        <LCSButton1 />
+        <Header />
       </div>
     </main>
   );
