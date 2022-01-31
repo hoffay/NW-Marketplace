@@ -7,9 +7,12 @@ function App() {
       <div>
         <header />
       </div>
-      <div>
-        <Searchbar placeholder="Enter text here" />
-      </div>
+      <body>
+        <div>
+          <Searchbar placeholder="Enter text here" />
+        </div>
+      </body>
+
     </main>
   );
 }
