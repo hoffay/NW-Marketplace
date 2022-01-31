@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import SearchIcon from '@mui/icons-material/Search';
-import { InputAdornment, TextField, IconButton } from '@mui/material';
-import "./Searchbar.css";
+import { InputAdornment, TextField, IconButton, Button } from '@mui/material';
+import styles from "./Searchbar.css";
 
 
 function Searchbar({ placeholder, data }) {
@@ -12,12 +12,20 @@ function Searchbar({ placeholder, data }) {
                     <TextField
                         placeholder="What is the problem you are looking to solve or product you are searching for?"
                         type="search"
+                        fullWidth
                         InputProps={{
                             startAdornment: (
                                 <InputAdornment>
                                     <IconButton>
                                         <SearchIcon style={{fill: "#1f74db"}}/>
                                     </IconButton>
+                                </InputAdornment>
+                            ),
+                            endAdornment: (
+                                <InputAdornment>
+                                    <Button>
+                                        Go
+                                    </Button>
                                 </InputAdornment>
                             )
                         }}

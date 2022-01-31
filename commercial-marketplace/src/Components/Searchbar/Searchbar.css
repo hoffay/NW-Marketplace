@@ -31,7 +31,7 @@
 
  .searchButton {
   cursor:pointer;
-  background-color:#fff;
+  background-color:#1f74db;
 }
 
 input:focus {
@@ -42,8 +42,9 @@ input:focus {
 }
 
 .wrap{
-  width: 40%;
+  width: 45%;
   position: absolute;
+  align-content: center;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
