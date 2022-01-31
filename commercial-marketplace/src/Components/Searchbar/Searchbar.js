@@ -17,46 +17,28 @@ function Searchbar({ placeholder, data }) {
                             startAdornment: (
                                 <InputAdornment>
                                     <IconButton>
-                                        <SearchIcon style={{fill: "#1f74db", width: 40, height: 40}}/>
+                                        <SearchIcon style={{ fill: "#1f74db", width: 40, height: 40 }} />
                                     </IconButton>
                                 </InputAdornment>
                             ),
-                            endAdornment: (
-                                <InputAdornment>
-                                    <Button>
-                                        Go
-                                    </Button>
-                                </InputAdornment>
-                            )
                         }}
                     />
-                    {/* <button type="submit" className="searchButton">
-                        <SearchIcon />
-                    </button>
-                    <input
-                        type="text"
-                        placeholder={placeholder}>
-                    </input>
-                    <button type="submit">Go</button> */}
+                    <Button sx=
+                        {{ color: "white", 
+                        backgroundColor: "#1f74db", 
+                        width: 30,
+
+                        "&.MuiButtonBase-root:hover": {
+                            backgroundColor: '#1f74db'
+                        }
+                    }}>
+                        Go
+                    </Button>
                 </div>
             </div>
         </div>
 
     )
-    // return (
-    //     <TextField
-    //         label="With normal TextField"
-    //         InputProps={{
-    //             endAdornment: (
-    //                 <InputAdornment>
-    //                     <IconButton>
-    //                         <SearchIcon />
-    //                     </IconButton>
-    //                 </InputAdornment>
-    //             )
-    //         }}
-    //     />
-    // )
 }
 
 
