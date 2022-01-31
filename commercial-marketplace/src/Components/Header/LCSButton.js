@@ -1,13 +1,8 @@
 import React from "react";
 import styles from './styles.css';
 import { Button, withStyles } from '@mui/material'
-//import { withStyles } from '@mui/styles';
-// const styles = theme => ({
-//     blue: {
-//         default: "#4287f5",
-//         hover: "#1971ff"  
-//     }
-// });
+import { fontStyle, style } from "@mui/system";
+
 
 function LCSRedirect(ButtonLCS1) {
     window.open("https://www.mylosscontrolservices.com/");
@@ -17,11 +12,19 @@ function LCSButton1() {
     return (
             <Button 
                 sx={{
-                    color: 'white',
-                    fontFamily: 'Georgia, Times New Roman, Times, serif'
+                    color: 'black',
+                    fontFamily: 'Georgia, Times New Roman, Times, serif',
+                    border: '2px solid white',
+                    borderRadius: '50px',
+                    backgroundColor: "white",
+                    fontWeight: 'bold',
+                    width: '250px',
+
+                    '&:hover': {
+                        backgroundColor: '#d0d3d4',}
                 }}
                 onClick={LCSRedirect}>
-                My Loss Control Services
+                Loss Control Services
             </Button>
     );
 }
