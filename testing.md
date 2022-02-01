@@ -3,3 +3,6 @@
 
 ## Issue: Add Loss Control Services
  Tested by running the app and confirming successful compilation with no errors and the creation of a working button to redirect user to "My Loss Control Services" website.
+
+## Issue: Add navigation to the website
+ Tested by running the app and confirming successful compilation with no errors and the creation of a working navigation bar with all it's items.
