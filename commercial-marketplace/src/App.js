@@ -11,7 +11,7 @@ function App() {
       </div>
       <body>
         <div>
-          <Searchbar placeholder="Enter text here" />
+          <Searchbar />
         </div>
       </body>
     </main>
