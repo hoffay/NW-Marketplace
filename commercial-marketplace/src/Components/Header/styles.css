@@ -95,6 +95,8 @@
   }
 
   .productnav {
+    position: fixed;
+    bottom: 0;
     overflow: auto;
     white-space: nowrap;
   }
