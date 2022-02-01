@@ -1,8 +1,8 @@
 import './App.css';
-import Button from '@mui/material/Button';
-
+import NavBar from './Components/Header/navBar';
 function App() {
   return (
+<<<<<<< HEAD
     <>
     <div className="App">
       <header className="App-header">
@@ -29,6 +29,13 @@ function App() {
       <a href="#Health Care" >Health Care</a>
     </div>
     </>
+=======
+    <main>
+      <div>
+        <NavBar/>
+      </div>
+    </main>
+>>>>>>> origin/main
   );
 }
 
