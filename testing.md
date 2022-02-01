@@ -12,3 +12,12 @@
  ## Issue 3: Add Categories **Passed**
   Tested by running the app and confirming successful compilation with no errors and the creation of a working categories bar with all it components.
 
+## Total Results
+| Issue | Result |
+|--|--|
+|1  | Passed |
+|2  | Passed |
+|3  | Passed |
+|4  | Passed |
+|5  | Passed |
+|6  | Passed |
