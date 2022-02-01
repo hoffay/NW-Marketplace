@@ -6,3 +6,7 @@
 
 ## Issue 1: Add navigation to the website **Passed**
  Tested by running the app and confirming successful compilation with no errors and the creation of a working navigation bar with all it components.
+
+ ## Issue 3: Add Categories **Passed**
+  Tested by running the app and confirming successful compilation with no errors and the creation of a working categories bar with all it components.
+

@@ -13,3 +13,17 @@ I have learned quite a bit more about css and jss now. I was not familiar with M
 Primarily structuring these initial developments so that they are in-sync and reduce rendundancy.
 6. What will we change to improve
 Setting a stronger standard of version control practices and overall understanding of the React framework as well as Material-UI components
+
+### Gregory Bowles
+1. Issue completed 
+Issue #3(open) of setting up a navagation bar of products available to the customers. Time spent on task 4hrs (Add Categories of products)
+2. What went well: 
+Clarification on our goals has been the biggest help so far in making the next step forward. I believe that baby steps now are going to help us with giant leaps in the near future.
+3. What didn't go so well:
+My initial work with react took up majority of my time as it was a bit of a learning curve for me. I am also coming to terms with how we will go about our organization of files.
+4. What I have learned:
+I have learned to use my resources even more so than I already have. I have learned a ton of cool react features that make web development with a group a breeze. Material UI, React, and also VS code working with gitlab for easy commiting, pushing, etc.
+5. What still puzzles me:
+What puzzles me most for now are just aesthetic problems and the arrow mechanics for scrolling like in our example from the wireframe.
+6. What we will change to improve:
+I think we will continue to improve our own internal communication skills as well as our communication with our client. It has already improved but it will continue to get better.
