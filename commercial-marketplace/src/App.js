@@ -3,6 +3,7 @@ import Searchbar from './Components/Searchbar/Searchbar';
 import Header from './Components/Header/Header';
 
 import NavBar from './Components/Header/navBar';
+import ProductCategories from './Components/Header/productCategories';
 function App() {
   return (
     <main>
@@ -14,6 +15,9 @@ function App() {
           <Searchbar />
         </div>
       </body>
+      <div>
+        <ProductCategories/>
+      </div>
     </main>
   );
 }
