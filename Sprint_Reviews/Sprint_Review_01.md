@@ -27,3 +27,17 @@ I have learned to use my resources even more so than I already have. I have lear
 What puzzles me most for now are just aesthetic problems and the arrow mechanics for scrolling like in our example from the wireframe.
 6. What we will change to improve:
 I think we will continue to improve our own internal communication skills as well as our communication with our client. It has already improved but it will continue to get better.
+
+###Ryan Hoffmann
+1. Issue(s) completed in the sprint?
+Issue 1: Add navigation to the website
+2. What went well?
+After communication got better, what we needed to do became much clearer.
+3. What didn’t go so well?
+Getting initial communication organized.
+4. What have I learned?
+How to cooperate within a git environment.
+5. What still puzzles me?
+Reducing code bloat within style sheets.
+6. What will we change to improve?
+Getting more comfortable with the tech stack.
