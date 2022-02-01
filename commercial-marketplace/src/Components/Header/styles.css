@@ -93,3 +93,30 @@
   .dropdown-content tr:last-child {
     border: 0;
   }
+
+  .productnav {
+    overflow: auto;
+    white-space: nowrap;
+  }
+  
+  .productnav a {
+    display: inline-block;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+  }
+  
+  .productnav a:hover {
+    background-color: #777;
+  }
+  
+  .productnav b {
+    display: inline-block;
+    color: white;
+    background-color: #2967F0;
+    text-align: end;
+    padding: 14px;
+    text-decoration: none;
+  }
