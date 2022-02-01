@@ -7,6 +7,8 @@
 ## Issue 1: Add navigation to the website **Passed**
  Tested by running the app and confirming successful compilation with no errors and the creation of a working navigation bar with all it components.
 
+ ## Issue 6: Add search bar to home page **Passed**
+ This is tested by running the app and ensuring that the search bar is present on the page. Then, testing by entering text within the textfield to make sure it appears and removes the placeholder text.
  ## Issue 3: Add Categories **Passed**
   Tested by running the app and confirming successful compilation with no errors and the creation of a working categories bar with all it components.
 
