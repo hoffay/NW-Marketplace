@@ -4,6 +4,9 @@ import Header from './Components/Header/Header';
 
 import NavBar from './Components/Header/navBar';
 import ProductCategories from './Components/Header/productCategories';
+
+import Background from './Components/Body/Background';
+
 function App() {
   return (
     <main>
@@ -12,7 +15,8 @@ function App() {
       </div>
       <body>
         <div>
-          <Searchbar />
+          <Background/>
+          <Searchbar/>
         </div>
       </body>
       <div>
