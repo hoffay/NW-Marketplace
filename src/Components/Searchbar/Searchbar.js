@@ -13,6 +13,12 @@ function Searchbar({ placeholder, data }) {
                         placeholder="What is the problem you are looking to solve or product you are searching for?"
                         type="search"
                         fullWidth
+                        sx={{ 
+                            
+                            "& .MuiOutlinedInput-root": {
+                                backgroundColor: "white"
+                            }
+                        }}
                         InputProps={{
                             startAdornment: (
                                 <InputAdornment>
