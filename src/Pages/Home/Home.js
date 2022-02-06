@@ -1,7 +1,7 @@
 import './App.css';
-import Searchbar from '../Components/Searchbar/Searchbar';
-import NavBar from '../Components/Header/navBar';
-import ProductCategories from '../Components/Header/productCategories';
+import Searchbar from '../../Components/Searchbar/Searchbar';
+import NavBar from '../../Components/Header/navBar';
+import ProductCategories from './Components/productCategories.js'
 
 function Home() {
   return (
