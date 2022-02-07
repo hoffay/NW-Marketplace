@@ -12,6 +12,7 @@
     margin: 40px 2px;
     cursor: pointer;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    position: absolute;
 }
 
 .Button {
@@ -49,6 +50,8 @@
 .navBar{
     background-color: #0067c5;
     padding-bottom: 35px;
+    margin-left: 250px;
+    margin-right: 250px;
 
 }
 .navBar a {
@@ -121,4 +124,8 @@
     text-align: end;
     padding: 14px;
     text-decoration: none;
+  }
+
+  .navPad{
+    margin-right: 120px;
   }
