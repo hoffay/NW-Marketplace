@@ -4,7 +4,7 @@ import LCSButton1 from "./LCSButton";
 function NavBar() {
 return (
 <nav class="navBar">
-   <a href="" ><img src="https://1000logos.net/wp-content/uploads/2018/08/Nationwide-Logo.png" alt="Logo" width="89" height="50"></img> </a>
+   <a href="" ><img src="https://1000logos.net/wp-content/uploads/2018/08/Nationwide-Logo.png" alt="Logo" width="100" height="56"></img> </a>
    <a href="">Home </a>
    <a href="">Solutions Catalog </a>
 
