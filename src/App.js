@@ -5,7 +5,7 @@ import Header from './Components/Header/Header';
 import NavBar from './Components/Header/navBar';
 import ProductCategories from './Components/Header/productCategories';
 
-import Background from './Components/Body/Background';
+import Background from './Components/Background';
 
 function App() {
   return (
