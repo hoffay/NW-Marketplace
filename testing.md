@@ -11,6 +11,8 @@
  This is tested by running the app and ensuring that the search bar is present on the page. Then, testing by entering text within the textfield to make sure it appears and removes the placeholder text.
  ## Issue 3: Add Categories **Passed**
   Tested by running the app and confirming successful compilation with no errors and the creation of a working categories bar with all it components.
+## Issue 9: Restructure Home Page Components **Passed**
+Tested by running the app and confirming successful compilation with no errors and the passing of all existing tests.
 
 ## Total Results
 | Issue | Result |
@@ -21,3 +23,4 @@
 |4  | Passed |
 |5  | Passed |
 |6  | Passed |
+|9  | Passed |
