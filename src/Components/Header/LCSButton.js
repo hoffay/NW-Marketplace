@@ -19,14 +19,19 @@ function LCSButton1() {
                     backgroundColor: "white",
                     fontWeight: 'bold',
                     width: '250px',
-
+                    marginTop: '15px',
+                    position: 'absolute',
+                    marginRight: '50px',
+                    zIndex: '2',
                     '&:hover': {
                         backgroundColor: '#d0d3d4',}
                 }}
                 onClick={LCSRedirect}>
                 Loss Control Services
             </Button>
+            
     );
 }
+
 
 export default LCSButton1;
