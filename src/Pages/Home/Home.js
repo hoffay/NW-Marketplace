@@ -1,3 +1,4 @@
+import React from "react";
 import './App.css';
 import Searchbar from '../../Components/Searchbar/Searchbar';
 import NavBar from '../../Components/Header/navBar';
