@@ -127,3 +127,6 @@
   .navPad{
     margin-right: 120px;
   }
+  .navDropImg{
+    position: static;
+  }

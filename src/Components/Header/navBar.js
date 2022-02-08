@@ -2,6 +2,7 @@ import React from "react";
 import styles from './styles.css';
 import LCSButton1 from "./LCSButton";
 import { Button, withStyles } from '@mui/material'
+import DehazeIcon from '@mui/icons-material/Dehaze';
 function NavBar() {
 return (
 <nav class="navBar">
@@ -32,7 +33,7 @@ return (
             </Button>
    </div>
    <div class="dropdown">
-      <span id="navDropImg"><img src="https://img.icons8.com/material-outlined/24/000000/drag-list-down.png" height="40"></img></span>
+      <span id="navDropImg"><DehazeIcon></DehazeIcon></span>
       <div class="dropdown-content">
          <tr>
          <tr><a href="">Log In</a></tr>
