@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Sprint 2 Review
 ### Ethan Bores
 1. Issue(s) completed
@@ -13,8 +12,6 @@ I've learned how to source and import images into websites via Javascript and ho
 I am still slightly puzzled by formatting and properly aligning different objects in Javascript.
 6. What will we change to improve
 I believe that I, personally, should improve upon my communication skills in order to avoid the aforementioned mistakes.
-=======
-# Sprint 1 Review
 ### Shane Tobar
 1. Issues completed
 Issue #9 Restructuring home page components. Completed Issue #12 Reformat Search bar as well.
@@ -43,4 +40,3 @@ I'm getting better with structuring css components and react components.
 How to better style css components cleanly.
 6. What will we change to improve?
 Putting in more work to get better at css and react.
->>>>>>> main
