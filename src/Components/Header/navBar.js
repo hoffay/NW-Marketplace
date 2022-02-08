@@ -5,7 +5,7 @@ import { Button, withStyles } from '@mui/material'
 function NavBar() {
 return (
 <nav class="navBar">
-   <a href="" ><img src="https://1000logos.net/wp-content/uploads/2018/08/Nationwide-Logo.png" alt="Logo" width="100" height="56"></img> </a>
+   <a href="" ><img src="https://cdn.discordapp.com/attachments/562681337497255946/940439761108217916/nwlogo.png" height="70px" alt="Logo" ></img> </a>
    <a href="">Home </a>
    <a href="" class="navPad">Solutions Catalog </a>
    <div class="navPad">
