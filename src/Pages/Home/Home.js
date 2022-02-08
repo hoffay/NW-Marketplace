@@ -7,12 +7,12 @@ import Background from '../../Components/Background';
 function Home() {
   return (
     <main>
-      <div>
+      <header>
         <NavBar/>
-      </div>
+      </header>
       <body>
+      <Background />
         <div>
-          <Background />
           <Searchbar />
         </div>
       </body>
