@@ -26,14 +26,13 @@ function Searchbar({ placeholder, data }) {
                                         <SearchIcon style={{ fill: "#1f74db", width: 40, height: 40 }} />
                                     </IconButton>
                                 </InputAdornment>
-                            ),
+                            )
                         }}
                     />
                     <Button sx=
                         {{ color: "white", 
                         backgroundColor: "#1f74db", 
-                        width: 30,
-
+                        width: "10%",
                         "&.MuiButtonBase-root:hover": {
                             backgroundColor: '#1f74db'
                         }
@@ -43,7 +42,6 @@ function Searchbar({ placeholder, data }) {
                 </div>
             </div>
         </div>
-
     )
 }
 
