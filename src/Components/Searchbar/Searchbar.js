@@ -16,7 +16,18 @@ function Searchbar({ placeholder, data }) {
                         sx={{ 
                             
                             "& .MuiOutlinedInput-root": {
-                                backgroundColor: "white"
+                                backgroundColor: "white",
+                                '&:hover': {
+                                    borderRight: "none"
+                                }
+                            },
+                            "& .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline": {
+                                borderRight: "none"
+                            },
+                            "& .MuiOutlinedInput-root .MuiOutlinedInput-notchedOutline": {
+                                borderRight: "none",
+                                borderTopRightRadius: 0,
+                                borderBottomRightRadius: 0
                             }
                         }}
                         InputProps={{
