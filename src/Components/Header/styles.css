@@ -12,6 +12,7 @@
     margin: 40px 2px;
     cursor: pointer;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    position: absolute;
 }
 
 .Button {
@@ -121,4 +122,11 @@
     text-align: end;
     padding: 14px;
     text-decoration: none;
+  }
+
+  .navPad{
+    margin-right: 120px;
+  }
+  .navDropImg{
+    position: static;
   }

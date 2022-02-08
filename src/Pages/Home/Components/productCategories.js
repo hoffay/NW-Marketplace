@@ -1,6 +1,6 @@
 import React from "react";
-import styles from './styles.css';
-import LCSButton1 from "./LCSButton";
+import styles from './productCategories.css';
+import LCSButton1 from "../../../Components/Header/LCSButton";
 
 function ProductCategories() {
     return(
