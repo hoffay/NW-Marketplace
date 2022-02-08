@@ -13,6 +13,8 @@
   Tested by running the app and confirming successful compilation with no errors and the creation of a working categories bar with all it components.
 ## Issue 9: Restructure Home Page Components **Passed**
 Tested by running the app and confirming successful compilation with no errors and the passing of all existing tests.
+## Issue 12: Reformat Search Bar
+Tested by running the app and confirming successful compilation with no errors and the passing of all existing tests. Ensured that the search icon was visible with white background. Also checked that the hover and colored border of text field has squared corners.
 
 ## Total Results
 | Issue | Result |
