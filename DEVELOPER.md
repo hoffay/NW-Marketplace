@@ -13,4 +13,5 @@ Currently there are 4 main components:
 4. Searchbar
     * This is a textfield that will be submitted by the user to get relevant results
 
-These components have their respective styling files to help style the components
+These components have their respective styling files to help style the components.
+The app is split into the pages and components. Every page has its set of components that are used, and styling sheets. Components also have their own css files.
