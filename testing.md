@@ -15,6 +15,8 @@
 Tested by running the app and confirming successful compilation with no errors and the passing of all existing tests.
 ## Issue 12: Reformat Search Bar
 Tested by running the app and confirming successful compilation with no errors and the passing of all existing tests. Ensured that the search icon was visible with white background. Also checked that the hover and colored border of text field has squared corners.
+## Issure 8: Add Overflow to Products
+Tested by running the app and confimring the overflow mechanic works going each way and also confirming that each product can be viewed.
 
 ## Total Results
 | Issue | Result |
@@ -26,3 +28,4 @@ Tested by running the app and confirming successful compilation with no errors a
 |5  | Passed |
 |6  | Passed |
 |9  | Passed |
+|8  | Passed |
