@@ -17,6 +17,8 @@ Tested by running the app and confirming successful compilation with no errors a
 Tested by running the app and confirming successful compilation with no errors and the passing of all existing tests. Ensured that the search icon was visible with white background. Also checked that the hover and colored border of text field has squared corners.
 ## Issue 7: Fix header to match wireframe
 Tested by comparing the app to the prototype and seeing that there was a strong match between the two.
+## Issue 11: Move nav bar to use material ui
+Tested by checking to see if there are any other components that could be switched.
 ## Total Results
 | Issue | Result |
 |--|--|
@@ -29,3 +31,5 @@ Tested by comparing the app to the prototype and seeing that there was a strong 
 |9  | Passed |
 |12  | Passed |
 |7  | Passed |
+|11  | Passed |
+
