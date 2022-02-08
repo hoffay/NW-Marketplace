@@ -32,7 +32,7 @@ return (
             </Button>
    </div>
    <div class="dropdown">
-      <span id="navDropImg"><img src="https://img.icons8.com/material-outlined/24/000000/drag-list-down.png"></img></span>
+      <span id="navDropImg"><img src="https://img.icons8.com/material-outlined/24/000000/drag-list-down.png" height="40"></img></span>
       <div class="dropdown-content">
          <tr>
          <tr><a href="">Log In</a></tr>
