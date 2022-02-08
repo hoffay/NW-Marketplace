@@ -15,7 +15,8 @@
 Tested by running the app and confirming successful compilation with no errors and the passing of all existing tests.
 ## Issue 12: Reformat Search Bar
 Tested by running the app and confirming successful compilation with no errors and the passing of all existing tests. Ensured that the search icon was visible with white background. Also checked that the hover and colored border of text field has squared corners.
-
+## Issue 7: Fix header to match wireframe
+Tested by comparing the app to the prototype and seeing that there was a strong match between the two.
 ## Total Results
 | Issue | Result |
 |--|--|
@@ -27,3 +28,4 @@ Tested by running the app and confirming successful compilation with no errors a
 |6  | Passed |
 |9  | Passed |
 |12  | Passed |
+|7  | Passed |
