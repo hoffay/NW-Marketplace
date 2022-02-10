@@ -8,9 +8,6 @@ import Background from '../../Components/Background';
 function Home() {
   return (
     <main>
-      <header>
-        <NavBar/>
-      </header>
       <body>
       <Background />
         <div>
