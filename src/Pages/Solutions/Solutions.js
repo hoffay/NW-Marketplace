@@ -6,15 +6,11 @@ import VendorCard from "./Components/VendorCards";
 
 function Solutions() {
     return (
-        <Grid
-        container
-        spacing={5}
-        direction="row"
-        justify="flex-start"
-        alignItems="flex-start"
-      >
-          <VendorCard />
-       </Grid>
+        <Grid container>
+            <Grid items xs={6}>
+                <VendorCard />
+            </Grid>
+        </Grid>
 
     );
 }
