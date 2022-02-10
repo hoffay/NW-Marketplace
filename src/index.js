@@ -1,14 +1,22 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { BrowserRouter } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import './index.css';
 import reportWebVitals from './reportWebVitals';
+import NavBar from './Components/Header/navBar';
 import Home from './Pages/Home/Home';
+import Solutions from './Pages/Solutions/Solutions';
 
 ReactDOM.render(
-  <BrowserRouter>
-    <Home />
-  </BrowserRouter>,
+  <Router>
+      <header>
+        <NavBar/>
+      </header>
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/solutions" element={<Solutions />} />
+    </Routes>
+  </Router>,
   document.getElementById('root')
 );
 
