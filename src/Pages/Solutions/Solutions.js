@@ -7,9 +7,7 @@ import VendorCard from "./Components/VendorCards";
 function Solutions() {
     return (
         <Grid container>
-            <Grid items xs={6}>
-                <VendorCard />
-            </Grid>
+            <VendorCard />
         </Grid>
 
     );

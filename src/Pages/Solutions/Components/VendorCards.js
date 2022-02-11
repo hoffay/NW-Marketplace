@@ -6,26 +6,30 @@ import { Grid, Card, CardContent, Typography, CardHeader } from '@mui/material';
 function createCard(vendor) {
     console.log(vendor.Vendor_Name);
     return (
-        <Card key="{vendor}" sx={{ minWidth: 275 }}>
+        <div className="vendorCard">
+        <Grid item xs={12} sm={6} md={4}>
+        <Card key={vendor.Vendor_Name} variant="outlined">
 
             <CardHeader
                 title={vendor.Vendor_Name}
             />
             <CardContent>
-                <div style={{ overflow: "hidden", textOverflow: "ellipsis", width: '11rem' }}>
+                <div style={{ overflow: "hidden", textOverflow: "ellipsis" }}>
                     <Typography>
                         {vendor.Description}
                     </Typography>
                 </div>
             </CardContent>
         </Card>
+        </Grid>
+        </div>
     );
 }
 
 function VendorCard() {
 
     return (
-        <div className="card-deck text-center">
+        <div className="card-deck">
 
             {vendors.map(createCard)}
 
