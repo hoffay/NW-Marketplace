@@ -12,14 +12,15 @@ import VendorCard from "./Components/VendorCards";
 
 function Solutions() {
     return (
-        <Grid container>
-            {vendors.map(vendor => (
-                <Grid item key={vendor.Vendor_Name} xs={2} md={2} lg={2}>
-                    <VendorCard vendor={vendor} />
-                </Grid>
-            ))}
+        <body>
+        <Grid container sx={{ flexGrow: 1, overflow: "auto" }} wrap="nowrap" minWidth="fit-content" rowSpacing={1} justifyContent="center">
+                {vendors.map(vendor => (
+                    <Grid item key={vendor.Vendor_Name} xs={2} md={2} lg={2}>
+                        <VendorCard vendor={vendor} />
+                    </Grid>
+                ))}
         </Grid>
-
+        </body>
     );
 }
 

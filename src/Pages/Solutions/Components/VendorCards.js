@@ -29,7 +29,7 @@ function VendorCard({ vendor }) {
     return (
         <div className="vendorCard">
 
-            <Card key={vendor.Vendor_Name} variant="outlined" sx>
+            <Card key={vendor.Vendor_Name} variant="outlined">
                 <CardHeader
                     title={vendor.Vendor_Name}
                 />
