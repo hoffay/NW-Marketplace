@@ -1,7 +1,6 @@
 import React from 'react';
 import { vendors } from '../../../VendorData';
-import { Grid, Card, CardContent, Typography, CardHeader } from '@mui/material';
-
+import { Grid, Card, CardContent, Typography, CardHeader, CardActions, Button } from '@mui/material'
 
 function createCard(vendor) {
     return (
@@ -29,7 +28,7 @@ function VendorCard({ vendor }) {
     return (
         <div className="vendorCard">
 
-            <Card key={vendor.Vendor_Name} variant="outlined">
+            <Card key={vendor.Vendor_Name} variant="outlined" sx={{ minWidth: 275, height: 300 }}>
                 <CardHeader
                     title={vendor.Vendor_Name}
                 />
@@ -40,6 +39,11 @@ function VendorCard({ vendor }) {
                         </Typography>
                     </div>
                 </CardContent>
+                <CardActions>
+                    <Button size="small" onClick={() => window.open(vendor.Web_Link)}>
+                        Go to Site
+                    </Button>
+                </CardActions>
             </Card>
 
         </div>
