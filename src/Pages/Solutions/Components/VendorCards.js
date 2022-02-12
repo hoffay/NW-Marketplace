@@ -4,34 +4,43 @@ import { Grid, Card, CardContent, Typography, CardHeader } from '@mui/material';
 
 
 function createCard(vendor) {
-    console.log(vendor.Vendor_Name);
     return (
         <div className="vendorCard">
-        <Grid item xs={12} sm={6} md={4}>
-        <Card key={vendor.Vendor_Name} variant="outlined">
-
-            <CardHeader
-                title={vendor.Vendor_Name}
-            />
-            <CardContent>
-                <div style={{ overflow: "hidden", textOverflow: "ellipsis" }}>
-                    <Typography>
-                        {vendor.Description}
-                    </Typography>
-                </div>
-            </CardContent>
-        </Card>
-        </Grid>
+            <Grid item xs={12} sm={6} md={4}>
+                <Card key={vendor.Vendor_Name} variant="outlined">
+                    <CardHeader
+                        title={vendor.Vendor_Name}
+                    />
+                    <CardContent>
+                        <div style={{ overflow: "hidden", textOverflow: "ellipsis" }}>
+                            <Typography>
+                                {vendor.Description}
+                            </Typography>
+                        </div>
+                    </CardContent>
+                </Card>
+            </Grid>
         </div>
     );
 }
 
-function VendorCard() {
+function VendorCard({ vendor }) {
 
     return (
-        <div className="card-deck">
+        <div className="vendorCard">
 
-            {vendors.map(createCard)}
+            <Card key={vendor.Vendor_Name} variant="outlined" sx>
+                <CardHeader
+                    title={vendor.Vendor_Name}
+                />
+                <CardContent>
+                    <div style={{ overflow: "hidden", textOverflow: "ellipsis" }}>
+                        <Typography>
+                            {vendor.Description}
+                        </Typography>
+                    </div>
+                </CardContent>
+            </Card>
 
         </div>
     );
