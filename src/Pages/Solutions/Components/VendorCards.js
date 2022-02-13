@@ -33,7 +33,7 @@ function VendorCard({ vendor }) {
                     title={vendor.Vendor_Name}
                 />
                 <CardContent>
-                    <div style={{ overflow: "hidden", textOverflow: "ellipsis" }}>
+                    <div style={{ overflow: "hidden", textOverflow: "ellipsis", maxHeight: "100px" }}>
                         <Typography>
                             {vendor.Description}
                         </Typography>
