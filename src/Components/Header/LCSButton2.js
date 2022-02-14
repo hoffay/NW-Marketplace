@@ -18,9 +18,7 @@ function LCSButton2() {
                 fontWeight: 'bold',
                 width: '250px',
                 height: '40px',
-               
                 zIndex: '1',
-                
                 marginLeft: '100px',
                 marginRight: '200px',
                 '&:hover': {
