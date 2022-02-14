@@ -44,8 +44,8 @@ function VendorCard({ vendor }) {
                         </Typography>
                     </div>
                 </CardContent>
-                <CardActions>
-                    <Button size="small" onClick={() => window.open(vendor.Web_Link)}>
+                <CardActions sx={{ justifyContent: "center" }}>
+                    <Button size="medium" variant="contained" sx={{ width: 200 }} onClick={() => window.open(vendor.Web_Link)}>
                         Go to Site
                     </Button>
                 </CardActions>
