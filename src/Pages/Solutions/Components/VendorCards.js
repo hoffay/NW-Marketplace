@@ -1,6 +1,6 @@
 import React from 'react';
 import { vendors } from '../../../VendorData';
-import { Grid, Card, CardContent, Typography, CardHeader, CardActions, Button } from '@mui/material'
+import { Grid, Card, CardContent, Typography, CardHeader, CardActions, Button, CardMedia } from '@mui/material'
 
 function createCard(vendor) {
     return (
@@ -29,9 +29,14 @@ function VendorCard({ vendor }) {
         <div className="vendorCard">
 
             <Card key={vendor.Vendor_Name} variant="outlined" sx={{ minWidth: 275, height: 300 }}>
-                <CardHeader
-                    title={vendor.Vendor_Name}
-                />
+                <div style={{ display: "flex", justifyContent: "center", alignItems: "center", height: 100 }}>
+                    <CardMedia
+                        component="img" 
+                        image={process.env.PUBLIC_URL + `/VendorImages/${vendor.Logo}.png`}
+                        height="auto"
+                        sx={{ width: "auto" }}
+                    />
+                </div>
                 <CardContent>
                     <div style={{ overflow: "hidden", textOverflow: "ellipsis", maxHeight: "100px" }}>
                         <Typography>

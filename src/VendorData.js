@@ -2,7 +2,7 @@ export const vendors = [
         {
           Industry: "Farm/Agribusiness",
           Vendor_Name: "Quanturi",
-          Logo: "",
+          Logo: "quanturi",
           Web_Link: "https://quanturi.com/",
           Description: "Quanturi is the leading provider of wireless temperature monitoring and data analysis solutions for fermentable materials. Quanturi's robust systems are specifically designed to monitor hay, compost, grain and many other fermentable materials during storage. Quanturi systems help to reduce the risk of fire and support the quality control of stored materials.",
           Contact_Info: "Name: John Anderson\nPhone: (612) 555-4321\nJanderson@quanturi.ai",
@@ -13,7 +13,7 @@ export const vendors = [
         {
           Industry: "Farm/Agribusiness",
           Vendor_Name: "CropZilla",
-          Logo: "",
+          Logo: "cropzilla",
           Web_Link: "https://cropzilla.com/",
           Description: "CropZilla uses sensor technology to track equipment performance, helping the farmer to optimize operations based on cost and timeliness.",
           Contact_Info: "Name: Spencer Smith\nPhone: (330) 555-8557\nSpencers@cropzilla.com",
@@ -24,7 +24,7 @@ export const vendors = [
         {
           Industry: "Farm/Agribusiness\nFood Service\nHabitational\nHotel/Motel",
           Vendor_Name: "OneEvent",
-          Logo: "",
+          Logo: "oneEvent",
           Web_Link: "https://oneeventtech.com/",
           Description: "OneEvent is a sensor technology solution that leverages machine learning to evaluate changes to the environment in which it is positioned. The product has been focused on the early ditection of fire loss.",
           Contact_Info: "Name: Chris Thomas\nPhone: (752) 651-4538\nThomas@oneevent.com",
@@ -35,7 +35,7 @@ export const vendors = [
         {
           Industry: "Food Service\nRetail\nHotel/Motel\nHabitational\nProcess/Service\nManufacturing\nAuto Service\nWholesale\nConstruction\nOffice/Professional\nHealth Care\nFarm/Agribusiness",
           Vendor_Name: "HSB",
-          Logo: "",
+          Logo: "hsb",
           Web_Link: "https://www.munichre.com/hsb/en.html",
           Description: "HSB can help avoid or reduce the damage to your building or equipment by detecting adverse conditions and then sending an alert, so the hazard can be mitigated prior to a loss.\n\nHSB sensors are ideal for detecting water leaks, frozen pipes, refrigeration failure, high temperature conditions, mold conditions, and power outages.",
           Contact_Info: "Name: Zack Miller\nPhone: (651) 534-8324\nMiller@HSB.com",
@@ -46,7 +46,7 @@ export const vendors = [
         {
           Industry: "Farm/Agribusiness\nConstruction",
           Vendor_Name: "Zubie",
-          Logo: "",
+          Logo: "zubie",
           Web_Link: "https://zubie.com/asset-trak/",
           Description: "Asset tracking that speeds the time to recover lost or stollen assets with previous locations, device tamper alerts, and location information. Detailed location history lets users monitor how and where assets are being used.",
           Contact_Info: "Bob Mueller\nPhone: (568) 321-8537\nBM@Zubie.com",
@@ -57,7 +57,7 @@ export const vendors = [
         {
           Industry: "Farm/Agribusiness\nFood Service\nHealth Care\nWholesale\nRetail",
           Vendor_Name: "Razor Tracking",
-          Logo: "",
+          Logo: "razorTracking",
           Web_Link: "https://razortracking.com/",
           Description: "Dash cameras developed to provide evidence of events leading up to and during road traffic accidents. The cameras provide instant notifications and video in less than a minute, allowing for driver coaching and assistance in claims handling.",
           Contact_Info: "Joe Scarben\nPhone: (854) 555-8934\nScarben@razortracking.com",
@@ -68,7 +68,7 @@ export const vendors = [
         {
           Industry: "Farm/Agribusiness\nHabitational\nFood Service\nHotel/Motel",
           Vendor_Name: "PrevTech",
-          Logo: "",
+          Logo: "prevTech",
           Web_Link: "https://www.prevtech.ca/",
           Description: "Prev Tech continuously monitors the condition of electrical networks, detecting and diagnosing abnormalities and potential problems in real time, allowing losses to be avoided entirely.",
           Contact_Info: "Michael Burns\nPhone: (899) 551-4563\nMburns@prevtech.com",
@@ -79,7 +79,7 @@ export const vendors = [
         {
           Industry: "Farm/Agribusiness\nHabitational\nRetail\nFood Service",
           Vendor_Name: "Ting",
-          Logo: "",
+          Logo: "ting",
           Web_Link: "https://www.whiskerlabs.com/",
           Description: "Ting offers a unique and innovative approach to predict potentially hazardous conditions and help prevent disasters before they strike.",
           Contact_Info: "Tim Martin\nPhone: (894) 546-1325\nTim.Martin@whiskerlabs.com",
@@ -90,7 +90,7 @@ export const vendors = [
         {
           Industry: "Farm/Agribusiness",
           Vendor_Name: "BassAgritech Temprevent",
-          Logo: "",
+          Logo: "bassAgritech",
           Web_Link: "https://www.bassagritech.com/temprevent",
           Description: "Temperature sensors detect overheating bearings or other components before any major issues can be caused. Sensors can fit in much tighter places and last longer than the most advanced temperature sensors currently on the market.",
           Contact_Info: "Luke Allen\nPhone: (895)541-8974\nLAS@bassagritech.com",
@@ -101,7 +101,7 @@ export const vendors = [
         {
           Industry: "Farm/Agribusiness",
           Vendor_Name: "Stripper Saver",
-          Logo: "",
+          Logo: "stripperSaver",
           Web_Link: "https://www.facebook.com/Stripper-Saver-806-759-0649-735080730030510/",
           Description: "Fire suppression systems designed specifically for John Deere Cotton Strippers.",
           Contact_Info: "Michael Gary\nPhone: (221) 891-5432\nMGary@Stripper-Saver.com",
@@ -112,7 +112,7 @@ export const vendors = [
         {
           Industry: "Farm/Agribusiness\nManufacturing",
           Vendor_Name: "Argus",
-          Logo: "",
+          Logo: "argus",
           Web_Link: "http://argusfirecontrol.com/Products.html",
           Description: "Argus Fire Control specializes in the design, manufacture, and service of industrial production protection systems for fire hazards as well as metal detection and diverting. Argus Fire Control offers engineered systems for the textile spinning and non-woven industry as well as for wood-working, cotton gins, recycling, and other industrial applications.",
           Contact_Info: "Owen Beckett\nPhone: (465) 548-5435\nOBP@ argusfirecontrol.com",
@@ -123,7 +123,7 @@ export const vendors = [
         {
           Industry: "Construction\nFarm/Agribusiness",
           Vendor_Name: "ES Track",
-          Logo: "",
+          Logo: "esTrack",
           Web_Link: "https://www.equipmentshare.com/t3",
           Description: "ES Track offers telematics and hardware technology to monitor equipment health, software to optimize rental utilization, and mobile applications for team members to clock in and off on the spot. ES Track integrates with existing software systems to digitize a business's manual processes.",
           Contact_Info: "Jacob Ryan\nPhone: (899)123-8452\nJR@equipmentshare.com",
@@ -134,7 +134,7 @@ export const vendors = [
         {
           Industry: "Food Service\nRetail\nHotel/Motel\nProcess/Service\nManufacturing\nAuto Service\nWholesale\nConstruction\nHealth Care\nFarm/Agribusiness",
           Vendor_Name: "Kinetic",
-          Logo: "",
+          Logo: "kinetic",
           Web_Link: "https://www.wearkinetic.com/",
           Description: "Wearable devices and software that gather data and offer reminders to workers when the devices sense high-risk montions that could potentially cause injury.",
           Contact_Info: "Walker Lane\nPhone: (944) 235-7788\nWalker@Kinetic.com",
@@ -145,7 +145,7 @@ export const vendors = [
         {
           Industry: "Manufacturing\nProcess/Service\nConstruction\nFarm/Agribusiness",
           Vendor_Name: "MakUSafe",
-          Logo: "",
+          Logo: "makeUSafe",
           Web_Link: "https://makusafe.com/?gclid=Cj0KCQiA5aWOBhDMARIsAIXLlkfnfBX6FZkNnPAPgq8J4DkIWSUFFts4Lav2d7ZSkQeGVY-KjAbig_0aApqIEALw_wcB",
           Description: "The MakuSafe dashboard displays data from connected factory equipment and systems, providing insights and context into employee health safety concerns. Devices send data from each worker the business's platforms, creating opportunities to enhance operations and reduce workplace hazards.",
           Contact_Info: "Sydney Kendall\nPhone: (635) 567-8922\nSydney@makusafe.com",
@@ -156,7 +156,7 @@ export const vendors = [
         {
           Industry: "Habitational\nFarm/Agribusiness\nManufacturing\nConstruction",
           Vendor_Name: "InfraLytiks",
-          Logo: "",
+          Logo: "infraLytics",
           Web_Link: "https://infralytiks.com/",
           Description: "InfraLytiks is an engineering and data analytics company that uses machine learning, artificial intelligence, and computer vision to automate complex processes and detect internal building hazards.",
           Contact_Info: "Gracelyn Hart\nPhone: (214) 321-7892\nGracelyn@infralytiks.com",
@@ -167,7 +167,7 @@ export const vendors = [
         {
           Industry: "Habitational\nConstruction",
           Vendor_Name: "Cape Analytics",
-          Logo: "",
+          Logo: "capeAnalytics",
           Web_Link: "https://capeanalytics.com/",
           Description: "Cape Analytics uses deep learning and geospatial imagery to provide instant property intelligence for buildings, including property defects and potential exposures.",
           Contact_Info: "Cameron Beacher\nPhone: (863) 498-1235\nBeacher@capeanalytics.com",
@@ -178,7 +178,7 @@ export const vendors = [
         {
           Industry: "Habitational\nFood Service\nRetail \nProcess Service\nOffice/Professional",
           Vendor_Name: "Senseware",
-          Logo: "",
+          Logo: "senseWare",
           Web_Link: "https://www.senseware.co/",
           Description: "Senseware is a wireless sensor-based system that communicates physical asset data on a real-time basis to help promote energy efficiency and sustainability. Senseware uses smart sensors, wireless communication, the internet, and cloud-based technology to ‘connect the unconnected’and create Intelligent communities.",
           Contact_Info: "Gia Mead\nPhone: (544)936-4512\nMead@senseware.co",
@@ -189,7 +189,7 @@ export const vendors = [
         {
           Industry: "Retail\nFood Service\nProfess/Service\nHabitational\nOffice/Professional",
           Vendor_Name: "Deep Sentinel",
-          Logo: "",
+          Logo: "deepSentinel",
           Web_Link: "https://www.deepsentinel.com/",
           Description: "Deep Sentinel is a home security company that produces a series of cameras powered by deep learning that can evaluate threats on a property.",
           Contact_Info: "Peter Flynn\nPhone: (912) 453-7532\nFlynn@deepsentinel.com",
@@ -200,7 +200,7 @@ export const vendors = [
         {
           Industry: "Retail\nHotel/Motel\nProcess/Service\nAuto Service\nOffice/Professional",
           Vendor_Name: "Cogito",
-          Logo: "",
+          Logo: "cogito",
           Web_Link: "https://cogitocorp.com/",
           Description: "Cogito enhances the emotional intelligence of phone professionals by applying behavioral science through artificial intelligence.",
           Contact_Info: "Vick Ricky\nPhone: (744) 456-4211\nVick@Cogito.com",
@@ -211,7 +211,7 @@ export const vendors = [
         {
           Industry: "Health Care\nHabitational",
           Vendor_Name: "Care Predict",
-          Logo: "",
+          Logo: "carePredict",
           Web_Link: "https://www.carepredict.com/",
           Description: "CarePredict technology continuously observes, learns, and triggers just in time care for aging seniors. The technology is ideal for group living, home care, and senior centers.",
           Contact_Info: "Tom Townsie\nPhone: (894) 112-4882\nTownsie@carepredict.com",
@@ -222,7 +222,7 @@ export const vendors = [
         {
           Industry: "Construction\nFood Service\nProcess/Service\nAuto Service\nHealth Care",
           Vendor_Name: "Thimble",
-          Logo: "",
+          Logo: "thimble",
           Web_Link: "https://www.thimble.com/",
           Description: "Thimble provides liability coverage for customers in more than 100 professions including landscapers, beauticians, dog walkers, handymen, DJs, and musicians. The flexible coverage platform offers short term, versatile insurance to small businesses, independent workers, and freelancers.",
           Contact_Info: "Allen Wallace\nPhone: (112) 453-1232\nWallace@thimble.com",
@@ -233,7 +233,7 @@ export const vendors = [
         {
           Industry: "Food Service\nRetail\nHotel/Motel\nProcess/Service\nAuto Service\nOffice/Professional",
           Vendor_Name: "ServiceBOT",
-          Logo: "",
+          Logo: "serviceBot",
           Web_Link: "https://servisbot.com/",
           Description: "A conversational AI platform that provides a number of low-code and no-code tools that enable business users to easily design, build, and manage conversational AI experiences.",
           Contact_Info: "Jimmie Bond\nPhone: (235) 215-4621\nBond@ServiceBOT.com",
@@ -244,7 +244,7 @@ export const vendors = [
         {
           Industry: "Food Service\nRetail\nProcess/Service\nAuto Service\nConstruction\nHealth Care",
           Vendor_Name: "Actuate",
-          Logo: "",
+          Logo: "actuate",
           Web_Link: "https://actuate.ai/",
           Description: "Actuate builds software that employs computer vision to automatically detect gun threats, intruders, and liability hazards in security camera feeds.",
           Contact_Info: "Jessa Darrows\nPhone: (911) 546-4651\nDarrows@actuate.ai",
@@ -255,7 +255,7 @@ export const vendors = [
         {
           Industry: "Food Service\nRetail\nHotel/Motel\nProcess/Service\nAuto Service\nOffice/Professional\nHealth Care",
           Vendor_Name: "Floatbot",
-          Logo: "",
+          Logo: "floatbot",
           Web_Link: "https://floatbot.ai/",
           Description: "Floatbot is a conversational AI platform that helps businesses increase sales and reduce call volume by automating data collection and customer support, through (hybrid) AI-powered chatbots and voicebots.",
           Contact_Info: "Briane Stein\nPhone: (215) 987-4532",
