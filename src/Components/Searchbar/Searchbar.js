@@ -1,12 +1,11 @@
 import React, { useState } from "react";
 import SearchIcon from '@mui/icons-material/Search';
 import { InputAdornment, TextField, IconButton, Button } from '@mui/material';
-import styles from "./Searchbar.css";
+import "./Searchbar.css";
 
 
 function Searchbar({ placeholder, data }) {
     return (
-        <div className="wrap">
             <div className="searchBar">
                 <div className="searchInputs">
                     <TextField
@@ -59,7 +58,6 @@ function Searchbar({ placeholder, data }) {
                     </Button>
                 </div>
             </div>
-        </div>
     )
 }
 

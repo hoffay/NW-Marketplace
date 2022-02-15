@@ -10,7 +10,7 @@ function Home() {
     <main>
       <body>
       <Background />
-        <div>
+        <div className="wrap">
           <Searchbar />
         </div>
       </body>

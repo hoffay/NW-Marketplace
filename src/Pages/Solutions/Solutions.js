@@ -10,7 +10,9 @@ function Solutions() {
   return (
     <div>
     <div class = 'pos'>
+      <div className="wrapSolutions">
     <Searchbar/>
+    </div>
     </div>
     <VendorGrid />
     </div>
