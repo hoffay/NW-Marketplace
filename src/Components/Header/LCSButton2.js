@@ -18,12 +18,13 @@ function LCSButton2() {
                 border: '2px solid 30cddc',
                 borderRadius: '50px',
                 backgroundColor: "#30cddc",
-                fontWeight: 'bold',
-                width: '250px',
-                height: '40px',
+                fontWeight: '850',
+                width: '280px',
+                height: '50px',
                 zIndex: '1',
                 marginLeft: '100px',
-                marginRight: '200px',
+                marginRight: '180px',
+                paddingLeft: '40px',
                 '&:hover': {
                     backgroundColor: '#d0d3d4',}
                 }}
