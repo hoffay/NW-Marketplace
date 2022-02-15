@@ -14,6 +14,7 @@ function LCSButton2() {
             sx={{
                 color: 'white',
                 fontFamily: 'Georgia, Times New Roman, Times, serif',
+                fontSize: 16,
                 border: '2px solid 30cddc',
                 borderRadius: '50px',
                 backgroundColor: "#30cddc",
