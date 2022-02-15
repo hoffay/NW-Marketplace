@@ -3,7 +3,9 @@ import styles from './styles.css';
 import { Button, withStyles } from '@mui/material'
 import { fontStyle, style } from "@mui/system";
 
-
+function LCSRedirect(ButtonLCS1) {
+    window.open("https://www.mylosscontrolservices.com/");
+}
 
 
 function LCSButton2() {
@@ -23,11 +25,11 @@ function LCSButton2() {
                 marginRight: '200px',
                 '&:hover': {
                     backgroundColor: '#d0d3d4',}
-            }}
-            >
+                }}
+                onClick={LCSRedirect}>
+            
             Go to Website
             </Button>
-            
     );
 }
 

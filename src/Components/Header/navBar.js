@@ -117,7 +117,7 @@ function homeClick(yep) {
                 onClick={solutionsClick}
                 sx={{ my: 2, fontSize: 18, color: 'white', display: 'block'}}
               >
-                Solution's Catelog
+                Solution's Catalog
               </Button>
           </Box>
           <div class="layered">
