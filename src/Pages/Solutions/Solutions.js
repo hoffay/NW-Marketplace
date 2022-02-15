@@ -18,14 +18,8 @@ import VendorCard from "./Components/VendorCards";
 
 function Solutions() {
     return (
-        <div sx={{ display: "flex", wrap: "wrap", justifyContent: "space-around", overflow: "hidden" }}>
-
-            <Grid className="vendorGrid" container wrap="nowrap">
-                <div>
-                    <Button >
-                        RIGHT
-                    </Button>
-                </div>
+        <div sx={{ display: "flex", wrap: "wrap", justifyContent: "space-around", overflowX: "hidden" }}>
+            <Grid className="vendorGrid" container wrap="nowrap" sx={{ overflowX: "scroll" }}>
                 {vendors.map(vendor => (
                     <Grid item key={vendor.Vendor_Name} xs={2} md={2} lg={2}>
                         <VendorCard vendor={vendor} />
