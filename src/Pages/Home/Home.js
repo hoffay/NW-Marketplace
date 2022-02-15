@@ -13,9 +13,6 @@ function Home() {
         <div>
           <Searchbar/>
         </div>
-        <div>
-          <CLButton/>
-        </div>
       </body>
       <div>
         <ProductCategories/>
