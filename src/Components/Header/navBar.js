@@ -15,7 +15,7 @@ import LCSButton1 from "./LCSButton";
 import LCSButton2 from "./LCSButton2";
 
 
-const pages = ['Home', 'Solution\'s Catelog'];
+const pages = ['Home', 'Solutions Catelog'];
 const settings = ['Log in', 'How It Works', 'My Loss Control', 'About Us', 'Settings', 'Help'];
 
 
