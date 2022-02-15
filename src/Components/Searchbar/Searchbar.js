@@ -10,7 +10,7 @@ function Searchbar({ placeholder, data }) {
             <div className="searchBar">
                 <div className="searchInputs">
                     <TextField
-                        placeholder="What is the problem you are looking to solve or product you are searching for?"
+                        placeholder="What is the product you are looking for?"
                         type="search"
                         fullWidth
                         sx={{ 
