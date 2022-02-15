@@ -45,3 +45,18 @@
       display: flex;
       justify-content: right;
   }
+
+  .pos{
+    position: relative;
+    padding-top: 70px;
+    
+  }
+
+  .wrapSolutions{
+    width: 80%;
+    height: 20;
+    position: absolute;
+    align-content: center;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }

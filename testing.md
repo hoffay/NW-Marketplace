@@ -43,6 +43,9 @@ Tested by ensuring all other elements work as intended. Inspected element to mak
 ## Issue 17: Align Nav Bar Items
 Tested by ensuring all the elements aligned as a group.
 
+##Issue 16: Vendor screen search functionality
+Tested by ensuring all elements aligned as a group and properly formatted 
+
 ## Total Results S1
 | Issue | Result |
 |--|--|
@@ -74,3 +77,4 @@ Tested by ensuring all the elements aligned as a group.
 |18  | Passed |
 |14  | Passed |
 |17  | Passed |
+|16  | Passed |
