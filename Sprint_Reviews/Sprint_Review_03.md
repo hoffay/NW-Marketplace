@@ -29,17 +29,17 @@ Better understanding of how to complete and design issues. Hopefully completing 
 
 ### Ryan Hoffmann
 1. Issue(s) completed in the sprint?
-I completed #7: Fix header to match wireframe
+I completed #17: Align Nav Bar Items
 2. What went well?
-Betting communication between our team and Nationwide's team.
+Understanding using Material ui and react together.
 3. What didn’t go so well?
-Css structuring.
+Haveing to rewrite a lot of code.
 4. What have I learned?
-I'm getting better with structuring css components and react components.
+Getting better at using React.
 5. What still puzzles me?
-How to better style css components cleanly.
+Nothing at the moment
 6. What will we change to improve?
-Putting in more work to get better at css and react.
+Becoming more efficient with React.
 ### Gregory Bowles
 1. Issue completed 
 Issue #8(closed) of cleaning up menu bar at the bottom of the site. Adding scroll mechanic. Time spent 5hrs
