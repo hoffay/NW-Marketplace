@@ -3,6 +3,7 @@ import styles from './styles.css';
 import LCSButton1 from "./LCSButton";
 import { Button, withStyles } from '@mui/material'
 import DehazeIcon from '@mui/icons-material/Dehaze';
+
 function NavBar() {
 return (
 <nav class="navBar">
@@ -14,19 +15,21 @@ return (
    <Button 
                 sx={{
                     color: 'white',
-                    fontFamily: 'Georgia, Times New Roman, Times, serif',
+                    fontFamily: 'arial',
                     border: '2px solid 30cddc',
                     borderRadius: '50px',
                     backgroundColor: "#30cddc",
                     fontWeight: 'bold',
-                    width: '250px',
+                    fontSize: '18px',
+                    width: '220px',
                     height: '40px',
                     marginTop: '15px',
                     zIndex: '1',
                     position: 'relative',
                     marginLeft: '200px',
+                    textTransform: 'none',
                     '&:hover': {
-                        backgroundColor: '#d0d3d4',}
+                        backgroundColor: '#30cddc',}
                 }}
                 >
                 Go to Website
