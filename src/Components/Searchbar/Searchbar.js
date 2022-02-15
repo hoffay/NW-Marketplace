@@ -17,6 +17,7 @@ function Searchbar({ placeholder, data }) {
                             width: "100%",
                             "& .MuiOutlinedInput-root": {
                                 backgroundColor: "white",
+                                width: "100%",
                                 '&:hover': {
                                     borderRight: "none"
                                 }
@@ -28,6 +29,9 @@ function Searchbar({ placeholder, data }) {
                                 borderRight: "none",
                                 borderTopRightRadius: 0,
                                 borderBottomRightRadius: 0
+                            },
+                            "& .MuiOutlinedInput-input .MuiInputBase-input": {
+                                width: "100%"
                             }
                         }}
                         InputProps={{
