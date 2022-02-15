@@ -12,7 +12,7 @@ function Searchbar({ placeholder, data }) {
                     <TextField
                         placeholder="What is the product you are looking for?"
                         type="search"
-                        fullWidth
+                        width="inherit"
                         sx={{ 
                             
                             "& .MuiOutlinedInput-root": {
@@ -44,6 +44,9 @@ function Searchbar({ placeholder, data }) {
                         {{ color: "white", 
                         backgroundColor: "#1f74db", 
                         width: "10%",
+                        fontWeight: "bold",
+                        fontSize: "16px",
+                        fontFamily: "Georgia",
                         "&.MuiButtonBase-root:hover": {
                             backgroundColor: '#1f74db'
                         }
