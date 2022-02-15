@@ -109,7 +109,7 @@ function homeClick(yep) {
           <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
               <Button
                 onClick={homeClick}
-                sx={{ mr: 8, fontSize: 18, my: 2, color: 'white', display: 'block'}}
+                sx={{ mr: 8, fontSize: 18, ml: 10 ,my: 2, color: 'white', display: 'block'}}
               >
                 Home
               </Button>
