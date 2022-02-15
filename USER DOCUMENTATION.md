@@ -8,3 +8,4 @@ The navigation bar will provide routes to solutions, logins, the Nationwide home
 - Available will be the Header containing navigation
 - Footer containing Product Filters
 - Search bar for finding specific solutions
+- A link to the most trending user searches can be found below the search bar
