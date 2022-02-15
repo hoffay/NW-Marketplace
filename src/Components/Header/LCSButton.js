@@ -11,18 +11,21 @@ function LCSButton1() {
                 sx={{
                     color: 'black',
                     fontFamily: 'Georgia, Times New Roman, Times, serif',
+                    fontSize: '18px',
                     border: '2px solid white',
                     borderRadius: '50px',
                     backgroundColor: "white",
                     fontWeight: 'bold',
-                    width: '250px',
+                    width: '235px',
                     height: '40px',
                     marginTop: '15px',
                     position: 'absolute',
                     marginRight: '50px',
                     zIndex: '2',
+                    textTransform: 'none',
                     '&:hover': {
-                        backgroundColor: '#d0d3d4',}
+                        backgroundColor: 'white',}
+
                 }}
                 onClick={LCSRedirect}>
                 Loss Control Services
