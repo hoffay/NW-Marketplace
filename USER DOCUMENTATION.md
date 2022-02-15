@@ -10,3 +10,4 @@ The solutions page proivdes a comprehensive set of vendors of which they can cho
 - Footer containing Product Filters
 - Search bar for finding specific solutions
 - When in the Solutions page, users can look at all the possible products they need
+-Solutions page provides search bar for easier navigation
