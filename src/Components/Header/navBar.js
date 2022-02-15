@@ -55,7 +55,7 @@ function homeClick(yep) {
             component="div"
             sx={{ mr: 15, display: { xs: 'none', md: 'flex' } }}
           >
-            <img src="https://cdn.discordapp.com/attachments/562681337497255946/940439761108217916/nwlogo.png" height="70px" alt="Logo" ></img>
+            <img src="nwlogo.png" height="70px" alt="Logo" ></img>
           </Typography>
 
           <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
