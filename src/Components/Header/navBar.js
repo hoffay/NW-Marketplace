@@ -19,7 +19,6 @@ const pages = ['Home', 'Solution\'s Catelog'];
 const settings = ['Log in', 'How It Works', 'My Loss Control', 'About Us', 'Settings', 'Help'];
 
 
-
 const NavBar = () => {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
   const [anchorElUser, setAnchorElUser] = React.useState(null);
@@ -38,6 +37,13 @@ const NavBar = () => {
   const handleCloseUserMenu = () => {
     setAnchorElUser(null);
   };
+
+  function solutionsClick(yep) {
+    window.location.replace("/solutions");
+}
+function homeClick(yep) {
+  window.location.replace("/");
+}
 
   return (
     <AppBar position="static">
@@ -82,6 +88,8 @@ const NavBar = () => {
                 display: { xs: 'block', md: 'none' },
               }}
             >
+                            
+
               {pages.map((page) => (
                 <MenuItem key={page} onClick={handleCloseNavMenu}>
                   <Typography textAlign="center" font-size="25px">{page}</Typography>
@@ -99,15 +107,18 @@ const NavBar = () => {
             LOGO
           </Typography>
           <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
-            {pages.map((page) => (
               <Button
-                key={page}
-                onClick={handleCloseNavMenu}
+                onClick={homeClick}
                 sx={{ my: 2, color: 'white', display: 'block'}}
               >
-                {page}
+                Home
               </Button>
-            ))}
+              <Button
+                onClick={solutionsClick}
+                sx={{ my: 2, color: 'white', display: 'block'}}
+              >
+                Solution's Catelog
+              </Button>
           </Box>
           <div class="layered">
     <LCSButton1/>
