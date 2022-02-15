@@ -128,12 +128,18 @@ function homeClick(yep) {
             <Tooltip title="Open settings">
               <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>
               <div class="moveright">
-              <DehazeIcon></DehazeIcon>
+              <DehazeIcon
+              style={{ 
+                color: "#30cddc",
+                width: 50,
+                height: 50,
+            }}
+              ></DehazeIcon>
               </div>
               </IconButton>
             </Tooltip>
             <Menu
-              sx={{ mt: '2 5px' }}
+              sx={{ mt: '2 5px'}}
               id="menu-appbar"
               anchorEl={anchorElUser}
               anchorOrigin={{
@@ -151,7 +157,14 @@ function homeClick(yep) {
               {settings.map((setting) => (
                 <MenuItem key={setting} 
                 onClick={handleCloseUserMenu}
-                sx={{fontsize: 35,color: '#207acc'}}
+                sx={{
+                  fontsize: 35,
+                  color: '#207acc',
+                  borderBottom: 1,
+                  borderColor: '#CCD7E4',
+                  bgcolor: 'white'
+                
+                }}
                 >
                  
                   <Typography textAlign="center">{setting}</Typography>
