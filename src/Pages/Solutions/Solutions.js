@@ -1,8 +1,14 @@
+import React from 'react';
+import './Solutions.css';
+import VendorGrid from "./Components/VendorGrid";
+
 
 function Solutions() {
-    return (
-        <h1>Solutions Page</h1>
-    );
+  
+
+  return (
+    <VendorGrid />
+  );
 }
 
 export default Solutions;
