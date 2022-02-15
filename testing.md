@@ -37,6 +37,9 @@ Tested by running the app and confimring the overflow mechanic works going each 
 Tested by interacting with the other elements of the page to ensure no unwanted effects occurred.
 Ensured scrollable div containing the vendor cards.
 
+## Issue 18: Increase Search Bar Size and Font
+Tested by ensuring all other elements work as intended. Inspected element to make sure fonts were aligned and following 15/16px size
+
 ## Total Results S1
 | Issue | Result |
 |--|--|
