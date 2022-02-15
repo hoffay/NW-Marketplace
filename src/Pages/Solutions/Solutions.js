@@ -8,14 +8,13 @@ function Solutions() {
   
 
   return (
-    <main>
-    <div class = 'pos'>
-    <Searchbar />
-    </div>
     <div>
+    <div class = 'pos'>
+    <Searchbar/>
+    </div>
     <VendorGrid />
     </div>
-    </main>
+
   );
 }
 
