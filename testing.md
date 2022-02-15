@@ -40,6 +40,9 @@ Ensured scrollable div containing the vendor cards.
 ## Issue 18: Increase Search Bar Size and Font
 Tested by ensuring all other elements work as intended. Inspected element to make sure fonts were aligned and following 15/16px size
 
+## Issue 17: Align Nav Bar Items
+Tested by ensuring all the elements aligned as a group.
+
 ## Total Results S1
 | Issue | Result |
 |--|--|
@@ -70,3 +73,4 @@ Tested by ensuring all other elements work as intended. Inspected element to mak
 |--|--|
 |18  | Passed |
 |14  | Passed |
+|17  | Passed |
