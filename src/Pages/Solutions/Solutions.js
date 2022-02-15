@@ -1,6 +1,6 @@
 import Searchbar from "../../Components/Searchbar/Searchbar";
 import React, { useEffect, useState } from 'react';
-import { Grid, Card, CardContent, Typography, CardHeader } from '@mui/material';
+import { Grid, Card, CardContent, Typography, CardHeader, Button } from '@mui/material';
 import { vendors } from "../../VendorData";
 import VendorCard from "./Components/VendorCards";
 
@@ -10,17 +10,29 @@ import VendorCard from "./Components/VendorCards";
 //     fetch('http://localhost:3000/vendorData')
 // })
 
+// const scroll = (scrollOffset) => {
+//     ref.current.scrollLeft += scrollOffset;
+// };
+
+//grid container sx={{ flexGrow: 1, overflowX: "scroll" }}  rowSpacing={1} justifyContent="center"
+
 function Solutions() {
     return (
-        <body>
-        <Grid container sx={{ flexGrow: 1, overflow: "auto" }} wrap="nowrap" minWidth="fit-content" rowSpacing={1} justifyContent="center">
+        <div sx={{ display: "flex", wrap: "wrap", justifyContent: "space-around", overflow: "hidden" }}>
+
+            <Grid className="vendorGrid" container wrap="nowrap">
+                <div>
+                    <Button >
+                        RIGHT
+                    </Button>
+                </div>
                 {vendors.map(vendor => (
                     <Grid item key={vendor.Vendor_Name} xs={2} md={2} lg={2}>
                         <VendorCard vendor={vendor} />
                     </Grid>
                 ))}
-        </Grid>
-        </body>
+            </Grid>
+        </div>
     );
 }
 
