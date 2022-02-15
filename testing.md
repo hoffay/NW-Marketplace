@@ -46,6 +46,9 @@ Tested by ensuring all the elements aligned as a group.
 ##Issue 16: Vendor screen search functionality
 Tested by ensuring all elements aligned as a group and properly formatted 
 
+##Issue 13: Background image cropped
+Tested by examining alignment of the bottom of the background with the middle of the search bar along with responsiveness to changes in window size.
+
 ## Total Results S1
 | Issue | Result |
 |--|--|
@@ -73,7 +76,7 @@ Tested by ensuring all elements aligned as a group and properly formatted
 
 ## Total Results S3
 | Issue | Result |
-|--|--|
+|13 | Passed |
 |18  | Passed |
 |14  | Passed |
 |17  | Passed |
