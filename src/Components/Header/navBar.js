@@ -109,13 +109,13 @@ function homeClick(yep) {
           <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
               <Button
                 onClick={homeClick}
-                sx={{ mr: 8, fontSize: 18, ml: 10 ,my: 2, color: 'white', display: 'block'}}
+                sx={{ mr: 8, fontSize: 16, ml: 10 ,my: 2, color: 'white', display: 'block'}}
               >
                 Home
               </Button>
               <Button
                 onClick={solutionsClick}
-                sx={{ my: 2, fontSize: 18, color: 'white', display: 'block'}}
+                sx={{ my: 2, fontSize: 16, color: 'white', display: 'block'}}
               >
                 Solution's Catalog
               </Button>

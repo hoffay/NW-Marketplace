@@ -10,11 +10,11 @@ function Searchbar({ placeholder, data }) {
             <div className="searchBar">
                 <div className="searchInputs">
                     <TextField
-                        placeholder="What is the problem you are looking to solve or product you are searching for?"
+                        className="muiSearchField"
+                        placeholder="What is the product you are looking for?"
                         type="search"
-                        fullWidth
                         sx={{ 
-                            
+                            width: "100%",
                             "& .MuiOutlinedInput-root": {
                                 backgroundColor: "white",
                                 '&:hover': {
@@ -44,6 +44,9 @@ function Searchbar({ placeholder, data }) {
                         {{ color: "white", 
                         backgroundColor: "#1f74db", 
                         width: "10%",
+                        fontWeight: "bold",
+                        fontSize: "16px",
+                        fontFamily: "Georgia",
                         "&.MuiButtonBase-root:hover": {
                             backgroundColor: '#1f74db'
                         }

@@ -18,6 +18,7 @@ function LCSButton1() {
                     borderRadius: '50px',
                     backgroundColor: "white",
                     fontWeight: 'bold',
+                    fontSize: 15,
                     width: '250px',
                     marginRight: '500px',
                       
