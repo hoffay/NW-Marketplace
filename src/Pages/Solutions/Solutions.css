@@ -37,13 +37,11 @@
     }
   }
   
-  .wrap{
-    position: absolute;
-    align-content: center;
-    top: 50%;
-    transform: translate(-50%, -50%);
+  .VendorWrap{
+    padding-top: 200px;
   }
 
-  .fullVendorView {
-      margin-top: 200px;
+  .scrollButtons {
+      display: flex;
+      justify-content: right;
   }
