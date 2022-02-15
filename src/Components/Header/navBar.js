@@ -149,7 +149,11 @@ function homeClick(yep) {
               onClose={handleCloseUserMenu}
             >
               {settings.map((setting) => (
-                <MenuItem key={setting} onClick={handleCloseUserMenu}>
+                <MenuItem key={setting} 
+                onClick={handleCloseUserMenu}
+                sx={{fontsize: 35,color: '#207acc'}}
+                >
+                 
                   <Typography textAlign="center">{setting}</Typography>
                 </MenuItem>
               ))}
