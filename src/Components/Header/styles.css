@@ -125,8 +125,16 @@
   }
 
   .navPad{
-    margin-right: 120px;
+    margin-right: -500px;
   }
-  .navDropImg{
-    position: static;
+  .layered {
+    display: grid;
+    justify-items: center;
+    align-items: center;
   }
+  
+  .layered > * {
+    grid-column-start: 1;
+    grid-row-start: 1;
+  }
+  
