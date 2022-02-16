@@ -1,8 +1,5 @@
 import React from "react";
-import styles from './styles.css';
-import { Button, withStyles } from '@mui/material'
-import { fontStyle, style } from "@mui/system";
-
+import { Button } from '@mui/material'
 
 function LCSRedirect(ButtonLCS1) {
     window.open("https://www.mylosscontrolservices.com/");
@@ -14,6 +11,7 @@ function LCSButton1() {
                 sx={{
                     color: 'black',
                     fontFamily: 'Georgia, Times New Roman, Times, serif',
+                    fontSize: '18px',
                     border: '2px solid white',
                     borderRadius: '50px',
                     backgroundColor: "white",
@@ -23,8 +21,10 @@ function LCSButton1() {
                     marginRight: '500px',
                       
                     zIndex: '2',
+                    textTransform: 'none',
                     '&:hover': {
-                        backgroundColor: '#d0d3d4',}
+                        backgroundColor: 'white',}
+
                 }}
                 onClick={LCSRedirect}>
                 Loss Control Services
