@@ -1,3 +1,5 @@
+
+# Sprint 1
 ## Issue 5: Setup initial page and dependencies **Passed**
  Tested by running the app and making sure it compiled without errors. Added a button and inspected the element to ensure it was using the Material-UI components
 
@@ -13,6 +15,7 @@
  ## Issue 3: Add Categories **Passed**
   Tested by running the app and confirming successful compilation with no errors and the creation of a working categories bar with all it components.
 
+# Sprint 2
 ## Issue 9: Restructure Home Page Components **Passed**
 Tested by running the app and confirming successful compilation with no errors and the passing of all existing tests.
 
@@ -25,10 +28,28 @@ Tested by comparing the app to the prototype and seeing that there was a strong 
 ## Issue 11: Move nav bar to use material ui
 Tested by checking to see if there are any other components that could be switched.
 
-## Issure 8: Add Overflow to Products
+## Issue 8: Add Overflow to Products
 Tested by running the app and confimring the overflow mechanic works going each way and also confirming that each product can be viewed.
 
-## Total Results
+# Sprint 3
+
+## Issue 14: Vendor screen navigation
+Tested by interacting with the other elements of the page to ensure no unwanted effects occurred.
+Ensured scrollable div containing the vendor cards.
+
+## Issue 18: Increase Search Bar Size and Font
+Tested by ensuring all other elements work as intended. Inspected element to make sure fonts were aligned and following 15/16px size
+
+## Issue 17: Align Nav Bar Items
+Tested by ensuring all the elements aligned as a group.
+
+##Issue 16: Vendor screen search functionality
+Tested by ensuring all elements aligned as a group and properly formatted 
+
+##Issue 13: Background image cropped
+Tested by examining alignment of the bottom of the background with the middle of the search bar along with responsiveness to changes in window size.
+
+## Total Results S1
 | Issue | Result |
 |--|--|
 |1  | Passed |
@@ -43,3 +64,20 @@ Tested by running the app and confimring the overflow mechanic works going each 
 |11  | Passed |
 |8  | Passed |
 
+
+## Total Results S2
+| Issue | Result |
+|--|--|
+|9  | Passed |
+|12  | Passed |
+|7  | Passed |
+|11  | Passed |
+|8  | Passed |
+
+## Total Results S3
+| Issue | Result |
+|13 | Passed |
+|18  | Passed |
+|14  | Passed |
+|17  | Passed |
+|16  | Passed |

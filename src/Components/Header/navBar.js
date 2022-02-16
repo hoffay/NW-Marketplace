@@ -1,54 +1,180 @@
-import React from "react";
-import styles from './styles.css';
-import LCSButton1 from "./LCSButton";
-import { Button, withStyles } from '@mui/material'
+import * as React from 'react';
+import AppBar from '@mui/material/AppBar';
+import Box from '@mui/material/Box';
+import Toolbar from '@mui/material/Toolbar';
+import IconButton from '@mui/material/IconButton';
+import Typography from '@mui/material/Typography';
+import Menu from '@mui/material/Menu';
+import MenuIcon from '@mui/icons-material/Menu';
+import Container from '@mui/material/Container';
+import Button from '@mui/material/Button';
+import Tooltip from '@mui/material/Tooltip';
+import MenuItem from '@mui/material/MenuItem';
 import DehazeIcon from '@mui/icons-material/Dehaze';
+import LCSButton1 from "./LCSButton";
+import LCSButton2 from "./LCSButton2";
 
-function NavBar() {
-return (
-<nav class="navBar">
-   <a href="" ><img src="https://cdn.discordapp.com/attachments/562681337497255946/940439761108217916/nwlogo.png" height="70px" alt="Logo" ></img> </a>
-   <a href="">Home </a>
-   <a href="" class="navPad">Solutions Catalog </a>
-   <div class="navPad">
-   <LCSButton1/>
-   <Button 
+
+const pages = ['Home', 'Solutions Catelog'];
+const settings = ['Log in', 'How It Works', 'My Loss Control', 'About Us', 'Settings', 'Help'];
+
+
+const NavBar = () => {
+  const [anchorElNav, setAnchorElNav] = React.useState(null);
+  const [anchorElUser, setAnchorElUser] = React.useState(null);
+
+  const handleOpenNavMenu = (event) => {
+    setAnchorElNav(event.currentTarget);
+  };
+  const handleOpenUserMenu = (event) => {
+    setAnchorElUser(event.currentTarget);
+  };
+
+  const handleCloseNavMenu = () => {
+    setAnchorElNav(null);
+  };
+
+  const handleCloseUserMenu = () => {
+    setAnchorElUser(null);
+  };
+
+  function solutionsClick(yep) {
+    window.location.replace("/solutions");
+}
+function homeClick(yep) {
+  window.location.replace("/");
+}
+
+  return (
+    <AppBar position="static">
+      <Container maxWidth="x3">
+        <Toolbar disableGutters>
+          <Typography
+            variant="h6"
+            noWrap
+            component="div"
+            sx={{ mr: 15, display: { xs: 'none', md: 'flex' } }}
+          >
+            <img src="nwlogo.png" height="70px" alt="Logo" ></img>
+          </Typography>
+
+          <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
+            <IconButton
+              size="large"
+              aria-label="account of current user"
+              aria-controls="menu-appbar"
+              aria-haspopup="true"
+              onClick={handleOpenNavMenu}
+              color="inherit"
+
+            >
+              <MenuIcon />
+            </IconButton>
+            <Menu
+              id="menu-appbar"
+              anchorEl={anchorElNav}
+              anchorOrigin={{
+                vertical: 'bottom',
+                horizontal: 'left',
+              }}
+              keepMounted
+              transformOrigin={{
+                vertical: 'top',
+                horizontal: 'left',
+              }}
+              open={Boolean(anchorElNav)}
+              onClose={handleCloseNavMenu}
+              sx={{
+                display: { xs: 'block', md: 'none' },
+              }}
+            >
+                            
+
+              {pages.map((page) => (
+                <MenuItem key={page} onClick={handleCloseNavMenu}>
+                  <Typography textAlign="center" font-size="25px">{page}</Typography>
+                </MenuItem>
+              ))}
+            </Menu>
+          </Box>
+          <Typography
+            variant="h6"
+           
+            noWrap
+            component="div"
+            sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}
+          >
+            LOGO
+          </Typography>
+          <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
+              <Button
+                onClick={homeClick}
+                sx={{ mr: 8, fontSize: 16, ml: 10 ,my: 2, color: 'white', display: 'block'}}
+              >
+                Home
+              </Button>
+              <Button
+                onClick={solutionsClick}
+                sx={{ my: 2, fontSize: 16, color: 'white', display: 'block'}}
+              >
+                Solution's Catalog
+              </Button>
+          </Box>
+          <div class="layered">
+    <LCSButton1/>
+    <LCSButton2/>
+</div>
+          <Box sx={{ flexGrow: 0 }}>
+            <Tooltip title="Open settings">
+              <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>
+              <div class="moveright">
+              <DehazeIcon
+              style={{ 
+                color: "#30cddc",
+                width: 50,
+                height: 50,
+            }}
+              ></DehazeIcon>
+              </div>
+              </IconButton>
+            </Tooltip>
+            <Menu
+              sx={{ mt: '2 5px'}}
+              id="menu-appbar"
+              anchorEl={anchorElUser}
+              anchorOrigin={{
+                vertical: 'top',
+                horizontal: 'right',
+              }}
+              keepMounted
+              transformOrigin={{
+                vertical: 'top',
+                horizontal: 'right',
+              }}
+              open={Boolean(anchorElUser)}
+              onClose={handleCloseUserMenu}
+            >
+              {settings.map((setting) => (
+                <MenuItem key={setting} 
+                onClick={handleCloseUserMenu}
                 sx={{
-                    color: 'white',
-                    fontFamily: 'arial',
-                    border: '2px solid 30cddc',
-                    borderRadius: '50px',
-                    backgroundColor: "#30cddc",
-                    fontWeight: 'bold',
-                    fontSize: '18px',
-                    width: '220px',
-                    height: '40px',
-                    marginTop: '15px',
-                    zIndex: '1',
-                    position: 'relative',
-                    marginLeft: '200px',
-                    textTransform: 'none',
-                    '&:hover': {
-                        backgroundColor: '#30cddc',}
+                  fontsize: 35,
+                  color: '#207acc',
+                  borderBottom: 1,
+                  borderColor: '#CCD7E4',
+                  bgcolor: 'white'
+                
                 }}
                 >
-                Go to Website
-            </Button>
-   </div>
-   <div class="dropdown">
-      <span id="navDropImg"><DehazeIcon></DehazeIcon></span>
-      <div class="dropdown-content">
-         <tr>
-         <tr><a href="">Log In</a></tr>
-         <tr><a href="">How It Works</a></tr>
-         <tr><a href="">My Loss Control</a></tr>
-         <tr><a href="">About Us</a></tr>
-         <tr><a href="">Settings</a></tr>
-         <tr><a href="">Help</a></tr>
-         </tr>
-      </div>
-   </div>
-</nav>
-)
-}
+                 
+                  <Typography textAlign="center">{setting}</Typography>
+                </MenuItem>
+              ))}
+            </Menu>
+          </Box>
+        </Toolbar>
+      </Container>
+    </AppBar>
+  );
+};
 export default NavBar;

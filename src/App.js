@@ -1,4 +1,3 @@
-import './App.css';
 import Searchbar from './Components/Searchbar/Searchbar';
 import Header from './Components/Header/Header';
 

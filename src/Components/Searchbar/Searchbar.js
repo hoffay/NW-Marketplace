@@ -1,22 +1,22 @@
 import React, { useState } from "react";
 import SearchIcon from '@mui/icons-material/Search';
 import { InputAdornment, TextField, IconButton, Button } from '@mui/material';
-import styles from "./Searchbar.css";
+import "./Searchbar.css";
 
 
 function Searchbar({ placeholder, data }) {
     return (
-        <div className="wrap">
             <div className="searchBar">
                 <div className="searchInputs">
                     <TextField
-                        placeholder="What is the problem you are looking to solve or product you are searching for?"
+                        className="muiSearchField"
+                        placeholder="What is the product you are looking for?"
                         type="search"
-                        fullWidth
                         sx={{ 
-                            
+                            width: "100%",
                             "& .MuiOutlinedInput-root": {
                                 backgroundColor: "white",
+                                width: "100%",
                                 '&:hover': {
                                     borderRight: "none"
                                 }
@@ -28,6 +28,9 @@ function Searchbar({ placeholder, data }) {
                                 borderRight: "none",
                                 borderTopRightRadius: 0,
                                 borderBottomRightRadius: 0
+                            },
+                            "& .MuiOutlinedInput-input .MuiInputBase-input": {
+                                width: "100%"
                             }
                         }}
                         InputProps={{
@@ -44,6 +47,9 @@ function Searchbar({ placeholder, data }) {
                         {{ color: "white", 
                         backgroundColor: "#1f74db", 
                         width: "10%",
+                        fontWeight: "bold",
+                        fontSize: "16px",
+                        fontFamily: "Georgia",
                         "&.MuiButtonBase-root:hover": {
                             backgroundColor: '#1f74db'
                         }
@@ -52,7 +58,6 @@ function Searchbar({ placeholder, data }) {
                     </Button>
                 </div>
             </div>
-        </div>
     )
 }
 

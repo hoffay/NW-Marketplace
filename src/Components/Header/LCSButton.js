@@ -16,11 +16,10 @@ function LCSButton1() {
                     borderRadius: '50px',
                     backgroundColor: "white",
                     fontWeight: 'bold',
-                    width: '235px',
-                    height: '40px',
-                    marginTop: '15px',
-                    position: 'absolute',
-                    marginRight: '50px',
+                    fontSize: 15,
+                    width: '250px',
+                    marginRight: '500px',
+                      
                     zIndex: '2',
                     textTransform: 'none',
                     '&:hover': {

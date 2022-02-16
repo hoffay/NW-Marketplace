@@ -15,10 +15,11 @@
   border-radius: 2px;
   border-top-right-radius: 0px;
   border-bottom-right-radius: 0px;
-  font-size: 18px;
+  font-size: 16px;
   padding: 15px;
   height: 30px;
-  width: 900px;
+  width: "100%";
+  font-family: "Roboto","Helvetica","Arial",sans-serif;
 }
 
 .searchIcon {
@@ -47,11 +48,8 @@ input:focus {
   font-size: 35px;
 }
 
-.wrap{
-  width: 50%;
-  position: absolute;
-  align-content: center;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+
+
+.muiSearchField {
+  width: "100%";
 }
