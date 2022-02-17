@@ -55,7 +55,7 @@ function homeClick(yep) {
             component="div"
             sx={{ mr: 15, display: { xs: 'none', md: 'flex' } }}
           >
-            <img src="nwlogo.png" height="70px" alt="Logo" ></img>
+            <img src="nwlogo.png" height="100px" alt="Logo" ></img>
           </Typography>
 
           <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
@@ -92,14 +92,13 @@ function homeClick(yep) {
 
               {pages.map((page) => (
                 <MenuItem key={page} onClick={handleCloseNavMenu}>
-                  <Typography textAlign="center" font-size="25px">{page}</Typography>
+                  <Typography textAlign="center">{page}</Typography>
                 </MenuItem>
               ))}
             </Menu>
           </Box>
           <Typography
             variant="h6"
-           
             noWrap
             component="div"
             sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}
@@ -109,15 +108,15 @@ function homeClick(yep) {
           <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
               <Button
                 onClick={homeClick}
-                sx={{ mr: 8, fontSize: 16, ml: 10 ,my: 2, color: 'white', display: 'block'}}
+                sx={{ mr: 8, fontSize: 22, ml: 10 ,my: 2, color: 'white', display: 'block'}}
               >
                 Home
               </Button>
               <Button
                 onClick={solutionsClick}
-                sx={{ my: 2, fontSize: 16, color: 'white', display: 'block'}}
+                sx={{ my: 2, fontSize: 22, color: 'white', display: 'block'}}
               >
-                Solution's Catalog
+                Solutions<br></br>Catalog
               </Button>
           </Box>
           <div class="layered">
