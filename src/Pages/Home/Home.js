@@ -12,6 +12,7 @@ function Home() {
       <Background />
         <div className="wrap">
           <Searchbar />
+          <CLButton/>
         </div>
       </body>
       <div>
