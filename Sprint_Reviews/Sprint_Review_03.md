@@ -1,6 +1,7 @@
 # Sprint 3 Review
 ### Ethan Bores
 1. Issue(s) completed
+Issue #13: Add "Click here" button
 Issue #19: Background image cropped
 2. What went well
 Adding better styling to the Loss Control Services buttons and cropping the background and adding responsiveness for window resizing went smoother than I had originally expected it to go.

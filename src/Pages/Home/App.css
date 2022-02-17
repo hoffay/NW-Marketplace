@@ -45,3 +45,24 @@
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+.center{
+  text-align: center;
+  position: relative;
+  top: 100px;
+  bottom:auto;
+  left: auto;
+  align-content: center;
+}
+
+.textAdj1{
+  font-size: 32px;
+  font-weight: bold;
+  color: #747478;
+  margin-bottom: 20px;
+}
+
+.textAdj2{
+  font-size: 32px;
+  color: #747478;
+}
