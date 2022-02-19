@@ -34,3 +34,8 @@
   padding: 14px;
   text-decoration: none;
 }
+
+.prodArrows {
+  display: flex;
+  justify-content: right;
+}
