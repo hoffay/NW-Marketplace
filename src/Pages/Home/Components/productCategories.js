@@ -1,5 +1,5 @@
 import React, { useState, useRef } from 'react';
-import { Grid, IconButton } from '@mui/material';
+import { Grid, IconButton, Button } from '@mui/material';
 import styles from './productCategories.css';
 import LCSButton1 from "../../../Components/Header/LCSButton";
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
@@ -44,14 +44,14 @@ function ProductCategories() {
     <div className="container">
       <div className="prodArrows">
         {scrollX !== 0 && (
-          <IconButton onClick={() => slide(-200)}>
+          <Button variant="outlined" size="medium" sx={{ border: "2px solid", color: "#1f74db" }} onClick={() => slide(-200)}>
             <ArrowBackIosIcon />
-          </IconButton>
+          </Button>
         )}
         {!scrolEnd && (
-          <IconButton onClick={() => slide(+200)}>
+          <Button variant="outlined" size="medium" sx={{ border: "2px solid", color: "#1f74db" }} onClick={() => slide(+200)}>
             <ArrowForwardIosIcon />
-          </IconButton>
+          </Button>
         )}
       </div>
       <div className="overflow" ref={scrl} onScroll={scrollCheck}>
