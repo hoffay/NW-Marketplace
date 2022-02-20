@@ -39,7 +39,7 @@ export default function PositionedMenu() {
           vertical: 'top',
           horizontal: 'left',
         }}
-        sx={{ padding: '4px 0'}}
+       
       >
              
         <MenuItem >All</MenuItem>
