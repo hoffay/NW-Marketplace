@@ -13,11 +13,11 @@ import MenuItem from '@mui/material/MenuItem';
 import DehazeIcon from '@mui/icons-material/Dehaze';
 import LCSButton1 from "./LCSButton";
 import LCSButton2 from "./LCSButton2";
+import PositionedMenu from "./navbarDropdown"
 
 
-const pages = ['Home', 'Solutions Catelog'];
+const pages = ['Home', 'Solutions Catalog'];
 const settings = ['Log in', 'How It Works', 'My Loss Control', 'About Us', 'Settings', 'Help'];
-
 
 const NavBar = () => {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
@@ -97,6 +97,7 @@ function homeClick(yep) {
               ))}
             </Menu>
           </Box>
+          
           <Typography
             variant="h6"
             noWrap
@@ -108,16 +109,17 @@ function homeClick(yep) {
           <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
               <Button
                 onClick={homeClick}
-                sx={{ mr: 8, fontSize: 22, ml: 10 ,my: 2, color: 'white', display: 'block'}}
+                sx={{ mr: 6, fontSize: 22, ml: 10 ,my: 2, color: 'white', display: 'block',textTransform: 'none'}}
               >
                 Home
               </Button>
-              <Button
+              <PositionedMenu/>
+              {/* <Button
                 onClick={solutionsClick}
                 sx={{ my: 2, fontSize: 22, color: 'white', display: 'block'}}
               >
                 Solutions<br></br>Catalog
-              </Button>
+              </Button> */}
           </Box>
           <div class="layered">
     <LCSButton1/>
