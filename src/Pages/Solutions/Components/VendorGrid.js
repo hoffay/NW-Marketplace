@@ -52,8 +52,8 @@ function VendorGrid() {
         </IconButton>
       )}
       </div>
-      <div className="fullVendorView" sx={{ display: "flex", wrap: "wrap", justifyContent: "center",overflowX: "hidden" }} >
-        <Grid ref={scrl} onScroll={scrollCheck} id="vendorGrid" container columnSpacing={{ xs: 1, sm: 2, md: 3 }} wrap="nowrap" sx={{ overflowX: "scroll" }}>
+      <div className="fullVendorView" sx={{ display: "flex", wrap: "wrap", justifyContent: "center", overflowX: "hidden" }} >
+        <Grid ref={scrl} onScroll={scrollCheck} id="vendorGrid" container columnSpacing={{ xs: 1, sm: 2, md: 3 }} wrap="nowrap" sx={{ overflowX: "hidden" }}>
           {vendors.map(vendor => (
             <Grid item key={vendor.Vendor_Name} xs={2} md={2} lg={2}>
               <VendorCard vendor={vendor} />
