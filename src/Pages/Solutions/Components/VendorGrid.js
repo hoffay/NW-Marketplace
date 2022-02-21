@@ -1,5 +1,5 @@
 import React, { useState, useRef } from 'react';
-import { Grid, IconButton } from '@mui/material';
+import { Grid, Button } from '@mui/material';
 import { vendors } from "../../../VendorData";
 import ArrowBackIosIcon from '@mui/icons-material/ArrowBackIos';
 import VendorCard from "./VendorCards";
@@ -42,14 +42,14 @@ function VendorGrid() {
     <div className="VendorWrap">
       <div className="scrollButtons">
       {scrollX !== 0 && (
-        <IconButton onClick={() => slide(-200)}>
+        <Button variant="outlined" size="medium" sx={{ border: "2px solid", color: "#1f74db" }} onClick={() => slide(-200)}>
           <ArrowBackIosIcon />
-        </IconButton>
+        </Button>
       )}
       {!scrolEnd && (
-        <IconButton onClick={() => slide(+200)}>
+        <Button variant="outlined" size="medium" sx={{ border: "2px solid", color: "#1f74db" }} onClick={() => slide(+200)}>
           <ArrowForwardIosIcon />
-        </IconButton>
+        </Button>
       )}
       </div>
       <div className="fullVendorView" sx={{ display: "flex", wrap: "wrap", justifyContent: "center", overflowX: "hidden" }} >
