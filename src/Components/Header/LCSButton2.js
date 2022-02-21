@@ -25,6 +25,7 @@ function LCSButton2() {
                 marginLeft: '100px',
                 marginRight: '180px',
                 paddingLeft: '40px',
+                textTransform: 'none',
                 '&:hover': {
                     backgroundColor: '#d0d3d4',}
                 }}
