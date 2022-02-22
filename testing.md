@@ -59,6 +59,8 @@ Tested by following previous tests to make sure that the footer product categori
 ## Issue 21: Add Arrows to Product Categories
 Tested by following same steps as issue #14 and making sure the elements within the grid were scrollable by using the arrow's onclick function
 
+## Issue 20: Replace solutions with the dropdown
+Tested by making sure when clicking the dropdown all the items are there and it doesn't change the rest of the page when opened.
 ## Total Results S1
 | Issue | Result |
 |--|--|
