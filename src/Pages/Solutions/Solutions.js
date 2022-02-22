@@ -6,19 +6,20 @@ import SortByButton from './Components/SortByButton';
 
 
 
+
 function Solutions() {
   
 
   return (
     <div>
-    <div class = 'pos'>
-      <div className="wrapSolutions">
-    <Searchbar/>
+      <div class = 'pos'>
+        <div className="wrapSolutions">
+        <Searchbar/>
+          </div>
+        </div>
+      <div> <VendorGrid /></div>
     </div>
-    </div>
-    <SortByButton/>
-    <VendorGrid />
-    </div>
+
 
   );
 }
