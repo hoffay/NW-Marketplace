@@ -8,7 +8,7 @@ import Divider from '@mui/material/Divider';
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 import ArrowBackIcon from '@mui/icons-material/ArrowBack';
-import AscDesc from './AscDesc';
+
 
 const StyledMenu = styled((props) => (
   <Menu
@@ -51,8 +51,8 @@ const StyledMenu = styled((props) => (
   },
 }));
 
-function sortbyButton() {
-  const [anchorEl, setAnchorEl] = React.useState(null);
+function SortByButton() {
+  const [anchorEl, setAnchorEl]=React.useState(null);
   const open = Boolean(anchorEl);
   const handleClick = (event) => {
     setAnchorEl(event.currentTarget);
@@ -99,4 +99,4 @@ function sortbyButton() {
   );
 }
 
-export default sortbyButton;
+export default SortByButton;

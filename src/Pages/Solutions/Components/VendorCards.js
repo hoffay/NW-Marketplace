@@ -1,7 +1,7 @@
 import React from 'react';
 import { vendors } from '../../../VendorData';
 import { Grid, Card, CardContent, Typography, CardHeader, CardActions, Button, CardMedia } from '@mui/material'
-import AscDesc from './AscDesc';
+
 
 
 function createCard(vendor) {
