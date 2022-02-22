@@ -23,10 +23,12 @@ Currently there are 5 main components:
 4. Searchbar
     * This is a textfield that will be submitted by the user to get relevant results
 5. The Vendor Grid
-    * This is a MUI Grid containing cards the hold all the necessary cendor info
+    * This is a MUI Grid containing cards the hold all the necessary vendor info
 6. Vendor Card
     * A MUI card that hold the link, description, and image of a vendor from provided json
-7. Vendor Sort Button
+7. Click Here Text
+    * This allows for redirection to the solutions page. Contained in a set of divs
+8. Vendor Sort Button
     * A Mui menuitem that will sort the vendor cards in ascending and descending order
 
 These components have their respective styling files to help style the components.

@@ -1,14 +1,45 @@
 # Sprint 4 Review
-### Gregory Bowles
-1. Issue(s) not completed
-Issue #24 Add sorting of vendor cards
+### Ethan Bores
+1. Issue(s) completed
+Issue #13: Add "Click here" button
+Issue #19: Background image cropped
 2. What went well
-Adding menu button and changing primary characteristics
+Adding better styling to the Loss Control Services buttons and cropping the background and adding responsiveness for window resizing went smoother than I had originally expected it to go.
 3. What didn't go so well
-I have had trouble aligning the new button as well as implementing the sort functions of ascending and descending
+I had trouble aligning a new button below the search bar and creating and editing the styling of the plaintext alongside it.
 4. What I have learned
-I have learned a little more about importing react components and implementing the API's 
+I have learned more about styling elements and adjusting positions; however I am still quite rusty when dealing with the latter of those two.
 5. What still puzzles me
-Why does a function that uses "useState" need to be capitalized
+I am still puzzled by the way that CSS and JS work together to position objects on the webpage.
 6. What will we change to improve
-I will continue to work on the sort and the properties of the button
+I will continue to brush up on my CSS skills by watching videos and reading tutorials about CSS.
+### Shane Tobar
+1. Issues completed
+Issue #23 Reformat Vendor Cards, #21 Add Arrows to Product Categories, #22 Resize product categories. Assisted with 
+issue #25 Add Commercial Marketplace to Home
+2. What went well
+Second page is nearly completed
+3. What didn't go so well
+Better communication needs to happen. Not everyone participated in the standup
+4. What I have learned
+Feeling much more comfortable with HTML and CSS
+5. What still puzzles me
+Still need improvement in designing HTML layouts
+6. What will we change to improve
+Hopefully completing issues ahead of time which can be done with stronger communication.
+
+
+### Ryan Hoffmann
+1. Issue(s) completed in the sprint?
+I completed #17: Align Nav Bar Items
+2. What went well?
+Understanding using Material ui and react together.
+3. What didn’t go so well?
+Haveing to rewrite a lot of code.
+4. What have I learned?
+Getting better at using React.
+5. What still puzzles me?
+Nothing at the moment
+6. What will we change to improve?
+Becoming more efficient with React.
+

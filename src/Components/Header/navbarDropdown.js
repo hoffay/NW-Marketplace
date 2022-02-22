@@ -12,6 +12,9 @@ export default function PositionedMenu() {
   const handleClose = () => {
     setAnchorEl(null);
   };
+  function solutionsClick() {
+    window.location.replace("/solutions");
+}
 
   return (
     <div>
@@ -43,18 +46,18 @@ export default function PositionedMenu() {
       >
              
         <MenuItem >All</MenuItem>
-        <MenuItem onClick={handleClose}>Food Services</MenuItem>
-        <MenuItem onClick={handleClose}>Retail</MenuItem>
-        <MenuItem onClick={handleClose}>Hotel/Motel</MenuItem>
-        <MenuItem onClick={handleClose}>Farm/Agribusines</MenuItem>
-        <MenuItem onClick={handleClose}>Habitual</MenuItem>
-        <MenuItem onClick={handleClose}>Proecess/Service</MenuItem>
-        <MenuItem onClick={handleClose}>Manufacturing</MenuItem>
-        <MenuItem onClick={handleClose}>Auto Service</MenuItem>
-        <MenuItem onClick={handleClose}>Wholesale</MenuItem>
-        <MenuItem onClick={handleClose}>Contracting</MenuItem>
-        <MenuItem onClick={handleClose}>Office/Professional</MenuItem>
-        <MenuItem onClick={handleClose}>Health Care</MenuItem>
+        <MenuItem onClick={solutionsClick}>Food Services</MenuItem>
+        <MenuItem onClick={solutionsClick}>Retail</MenuItem>
+        <MenuItem onClick={solutionsClick}>Hotel/Motel</MenuItem>
+        <MenuItem onClick={solutionsClick}>Farm/Agribusines</MenuItem>
+        <MenuItem onClick={solutionsClick}>Habitual</MenuItem>
+        <MenuItem onClick={solutionsClick}>Proecess/Service</MenuItem>
+        <MenuItem onClick={solutionsClick}>Manufacturing</MenuItem>
+        <MenuItem onClick={solutionsClick}>Auto Service</MenuItem>
+        <MenuItem onClick={solutionsClick}>Wholesale</MenuItem>
+        <MenuItem onClick={solutionsClick}>Contracting</MenuItem>
+        <MenuItem onClick={solutionsClick}>Office/Professional</MenuItem>
+        <MenuItem onClick={solutionsClick}>Health Care</MenuItem>
       </Menu>
     </div>
   );

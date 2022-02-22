@@ -43,13 +43,23 @@ Tested by ensuring all other elements work as intended. Inspected element to mak
 ## Issue 17: Align Nav Bar Items
 Tested by ensuring all the elements aligned as a group.
 
-##Issue 16: Vendor screen search functionality
+## Issue 16: Vendor screen search functionality
 Tested by ensuring all elements aligned as a group and properly formatted 
 
-##Issue 13: Background image cropped
+## Issue 13: Background image cropped
 Tested by examining alignment of the bottom of the background with the middle of the search bar along with responsiveness to changes in window size.
 
-##Issue 24: Add sorting of Vendor Cards
+# Sprint 4
+## Issue 23: Reformat Vendor Cards
+Tested by using the other elements of the page. Made sure that the scroll arrows operated as intended
+
+## Issue 22: Resize Product Categories
+Tested by following previous tests to make sure that the footer product categories scaled with the other elements.
+
+## Issue 21: Add Arrows to Product Categories
+Tested by following same steps as issue #14 and making sure the elements within the grid were scrollable by using the arrow's onclick function
+
+## Issue 24: Add sorting of Vendor Cards
 Tested by ensuring sort accuracy of company names across the page
 
 ## Total Results S1
@@ -87,4 +97,7 @@ Tested by ensuring sort accuracy of company names across the page
 
 ## Total Results S4
 | Issue | Result |
+|21 | Passed |
+|22  | Passed |
+|23  | Passed |
 |24  | Failed  |

@@ -44,6 +44,7 @@
   .scrollButtons {
       display: flex;
       justify-content: right;
+      margin: 20px;
   }
 
   .pos{
@@ -61,3 +62,6 @@
     transform: translate(-50%, -50%);
   }
 
+  .fullVendorView {
+    padding-left: 20px;
+  }
