@@ -4,7 +4,7 @@ import { vendors } from "../../../VendorData";
 import ArrowBackIosIcon from '@mui/icons-material/ArrowBackIos';
 import VendorCard from "./VendorCards";
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
-
+import SortByButton from './sortbyButton';
 
 function VendorGrid() {
 
@@ -40,7 +40,11 @@ function VendorGrid() {
 
   return (
     <div className="VendorWrap">
+        
       <div className="scrollButtons">
+        <div className="sortButton">
+        <SortByButton/>
+        </div>
       {scrollX !== 0 && (
         <Button variant="outlined" size="medium" sx={{ border: "2px solid", color: "#1f74db" }} onClick={() => slide(-200)}>
           <ArrowBackIosIcon />
@@ -61,8 +65,8 @@ function VendorGrid() {
           ))}
         </Grid>
       </div>
-
-    </div>
+      </div>
+    
     );
 }
 

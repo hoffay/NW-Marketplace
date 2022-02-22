@@ -31,28 +31,15 @@ Hopefully completing issues ahead of time which can be done with stronger commun
 
 ### Ryan Hoffmann
 1. Issue(s) completed in the sprint?
-I completed #17: Align Nav Bar Items
+I completed #20: Replace solutions with the dropdown.
 2. What went well?
-Understanding using Material ui and react together.
+Everything
 3. What didn’t go so well?
-Haveing to rewrite a lot of code.
+Nothing, react and material ui are working very well for me
 4. What have I learned?
-Getting better at using React.
+Getting better at using React and material ui.
 5. What still puzzles me?
 Nothing at the moment
 6. What will we change to improve?
 Becoming more efficient with React.
 
-### Gregory Bowles
-1. Issue(s) completed in the sprint?
-I completed #16 Vendor screen search functionality  
-2. What went well?
-Moving componets over to fit external pages 
-3. What didn’t go so well?
-Having to rewrite code and searching for alternative resources for help
-4. What have I learned?
-I am improving my react skills 
-5. What still puzzles me?
-I am still working on arrow functionality 
-6. What will we change to improve?
-Becoming more efficient with React
