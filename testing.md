@@ -62,6 +62,8 @@ Tested by following same steps as issue #14 and making sure the elements within 
 ## Issue 24: Add sorting of Vendor Cards
 Tested by ensuring sort accuracy of company names across the page
 
+## Issue 20: Replace solutions with the dropdown
+Tested by making sure when clicking the dropdown all the items are there and it doesn't change the rest of the page when opened.
 ## Total Results S1
 | Issue | Result |
 |--|--|
