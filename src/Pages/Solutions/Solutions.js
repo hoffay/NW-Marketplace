@@ -2,7 +2,7 @@ import React from 'react';
 import './Solutions.css';
 import VendorGrid from "./Components/VendorGrid";
 import Searchbar from '../../Components/Searchbar/Searchbar';
-import SortByButton from './Components/SortByButton';
+
 
 
 
