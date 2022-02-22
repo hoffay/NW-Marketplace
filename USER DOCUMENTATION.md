@@ -12,4 +12,6 @@ The solutions page proivdes a comprehensive set of vendors of which they can cho
 - When in the Solutions page, users can look at all the possible products they need
 - Solutions page provides search bar for easier navigation
 - A link to the most trending user searches can be found below the search bar
+- Following this, users can use the "click here" button to access the solutions page
+- On the solutions page, users can check out the sites of all current vendors
 
