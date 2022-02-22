@@ -11,6 +11,7 @@ There are two primary pages currently:
 2. Solutions Page
     * Contains scrollable grid with cards of all vendors provided by NW
     * Contains navbar
+    * Contains menuitem button
 ## App Components
 Currently there are 5 main components:
 1. The Header
@@ -27,6 +28,8 @@ Currently there are 5 main components:
     * A MUI card that hold the link, description, and image of a vendor from provided json
 7. Click Here Text
     * This allows for redirection to the solutions page. Contained in a set of divs
+8. Vendor Sort Button
+    * A Mui menuitem that will sort the vendor cards in ascending and descending order
 
 These components have their respective styling files to help style the components.
 The app is split into the pages and components. Every page has its set of components that are used, and styling sheets. Components also have their own css files.

@@ -2,7 +2,8 @@ import React from 'react';
 import { Button, TextField } from '@mui/material';
 import '../App.css';
 
-function CLButtonClick(CLButton) {}
+function CLButtonClick(CLButton) {
+}
 
 function CLButton() {
     return (
