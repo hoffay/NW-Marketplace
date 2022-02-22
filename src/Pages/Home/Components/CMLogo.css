@@ -1,0 +1,41 @@
+.CMLogo{
+  font-size: 80px;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+  color: white;
+  margin-right: 1200px;
+  margin-left: 100px;
+  justify-content: center;
+}
+
+.CMLogoLower{
+  font-size: 76px;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+  color: white;
+  margin-right: 1200px;
+  margin-left: 100px;
+  margin-bottom: 20px;
+  justify-content: center;
+}
+
+.CMSubtext{
+    position: absolute;
+    font-family: 'arial', sans-serif;
+    font-size: 20px;
+    color: #747478;
+    margin-left: 100px;
+    color: white;
+  }
+
+  .CMContainer{
+    position: relative;
+    align-content: center;
+    margin-top: 100px;
+    left: 50%;
+    transform: translate(-45%, -270%);
+<<<<<<< HEAD
+  }
+=======
+  }
+>>>>>>> bc3a049a50b59a3b5ea7b7dd380f81c83b1332a3

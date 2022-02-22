@@ -4,12 +4,14 @@ import Searchbar from '../../Components/Searchbar/Searchbar';
 import ProductCategories from './Components/productCategories.js'
 import Background from '../../Components/Background';
 import CLButton from "./Components/clickHereButton";
+import CMLogo from "./Components/CMLogo";
 
 function Home() {
   return (
     <main>
       <body>
       <Background />
+      <CMLogo />
         <div className="wrap">
           <Searchbar />
           <CLButton/>
