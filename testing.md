@@ -49,6 +49,9 @@ Tested by ensuring all elements aligned as a group and properly formatted
 ##Issue 13: Background image cropped
 Tested by examining alignment of the bottom of the background with the middle of the search bar along with responsiveness to changes in window size.
 
+##Issue 24: Add sorting of Vendor Cards
+Tested by ensuring sort accuracy of company names across the page
+
 ## Total Results S1
 | Issue | Result |
 |--|--|
@@ -81,3 +84,7 @@ Tested by examining alignment of the bottom of the background with the middle of
 |14  | Passed |
 |17  | Passed |
 |16  | Passed |
+
+## Total Results S4
+| Issue | Result |
+|24  | Failed  |

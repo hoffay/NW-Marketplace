@@ -11,5 +11,7 @@ The solutions page proivdes a comprehensive set of vendors of which they can cho
 - Search bar for finding specific solutions
 - When in the Solutions page, users can look at all the possible products they need
 - Solutions page provides search bar for easier navigation
+- Solutions page provides a sorting button function for company names
 - A link to the most trending user searches can be found below the search bar
+
 

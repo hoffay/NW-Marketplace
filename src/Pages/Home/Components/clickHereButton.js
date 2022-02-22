@@ -3,7 +3,6 @@ import { Button, TextField } from '@mui/material';
 import '../App.css';
 
 function CLButtonClick(CLButton) {
-    window.location.replace("/solutions");
 }
 
 function CLButton() {
