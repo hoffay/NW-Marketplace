@@ -6,10 +6,6 @@ import VendorCard from "./VendorCards";
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 import SortByButton from './SortByButton';
 
-
-
-
-
 function VendorGrid() {
 
   let scrl = useRef(null);
