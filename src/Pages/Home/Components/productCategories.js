@@ -65,27 +65,7 @@ function ProductCategories() {
           </Grid>
           <Grid item>
             <Box>
-              <a href="#Habitational">Habitational</a>
-            </Box>
-          </Grid>
-          <Grid item>
-            <Box>
-              <a href="#Process">Process/Service</a>
-            </Box>
-          </Grid>
-          <Grid item>
-            <Box>
-              <a href="#Manufacturing">Manufacturing</a>
-            </Box>
-          </Grid>
-          <Grid item>
-            <Box>
-              <a href="#Auto">Auto Service</a>
-            </Box>
-          </Grid>
-          <Grid item>
-            <Box>
-              <a href="#Wholesale">Wholesale</a>
+              <a href="#Auto Service">Auto Service</a>
             </Box>
           </Grid>
           <Grid item>
@@ -95,12 +75,32 @@ function ProductCategories() {
           </Grid>
           <Grid item>
             <Box>
-              <a href="#Office">Office/Professional</a>
+              <a href="#Habitational">Habitational</a>
             </Box>
           </Grid>
           <Grid item>
             <Box>
-              <a href="#Health">Health Care</a>
+              <a href="#Health Care">Health Care</a>
+            </Box>
+          </Grid>
+          <Grid item>
+            <Box>
+              <a href="#Manufacturing">Manufacturing</a>
+            </Box>
+          </Grid>
+          <Grid item>
+            <Box>
+              <a href="#Office/Professional">Office/Professional</a>
+            </Box>
+          </Grid>
+          <Grid item>
+            <Box>
+              <a href="#Process/Service">Process/Service</a>
+            </Box>
+          </Grid>
+          <Grid item>
+            <Box>
+              <a href="#Wholesale">Wholesale</a>
             </Box>
           </Grid>
         </Grid>
