@@ -88,12 +88,12 @@ function SortByButton() {
       >
         <MenuItem onClick={handleClose} disableRipple >
           <ArrowForwardIcon />
-          Ascending Order
+          a-z
         </MenuItem>
         <Divider sx={{ my: 0.5 }} />
         <MenuItem onClick={handleClose} disableRipple>
           <ArrowBackIcon />
-          Descending Order
+          z-a
         </MenuItem>
       </StyledMenu>
     </div>
