@@ -1,5 +1,5 @@
 .CMLogo{
-  font-size: 80px;
+  font-size: 4vw;
   font-weight: bold;
   font-family: 'Times New Roman', Times, serif;
   color: white;
@@ -8,7 +8,7 @@
 }
 
 .CMLogoLower{
-  font-size: 76px;
+  font-size: vw;
   font-weight: bold;
   font-family: 'Times New Roman', Times, serif;
   color: white;
@@ -20,16 +20,17 @@
 .CMSubtext{
     position: absolute;
     font-family: 'arial', sans-serif;
-    font-size: 20px;
+    font-size: 1.5vw;
     color: #747478;
     margin-left: 100px;
     color: white;
+    overflow: hidden;
+    white-space: nowrap;
   }
 
   .CMContainer{
-    display: inline-block;
-    position: relative;
-    margin-top: 100px;
-    left: 50%;
-    transform: translate(-180%, -250%);
+    position: sticky;
+    margin-top: -40vh;
+    margin-left: 3vw;
+    font-size: 3.5vw;
   }
