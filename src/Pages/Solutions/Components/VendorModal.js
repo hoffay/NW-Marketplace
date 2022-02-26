@@ -3,7 +3,6 @@ import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 import Modal from '@mui/material/Modal';
 import Button from '@mui/material/Button';
-import { TextField } from '@mui/material';
 
 
 const style = {
@@ -97,7 +96,7 @@ export default function VendorModal({ vendor }) {
                         justifyContent: "space-between"
                     }}>
                         <div style={{ display: "flex", flexDirection: "row" }}>
-                        <div style={{ flexDirection: "column" }}>
+                        <div style={{ flexDirection: "column", marginLeft: 32, marginTop: 20, color: "white" }}>
                             <div>
                             <Typography>
                                 Owner Name
@@ -114,7 +113,7 @@ export default function VendorModal({ vendor }) {
                             </Typography>
                             </div>
                         </div>
-                        <div>
+                        <div style={{ marginTop: 20, color: "white" }}>
                             <Typography>
                                 Social Media
                             </Typography>
@@ -123,7 +122,9 @@ export default function VendorModal({ vendor }) {
                         <div style={{ display: "flex", justifyContent: "center", marginBottom: "2rem" }}>
                             <Button variant="contained" sx={{ 
                                 color: "white", 
-                                backgroundColor: "#30cddc" 
+                                backgroundColor: "#30cddc", 
+                                width: "18rem", 
+                                height: "3rem" 
                                 }}>
                             Go to Site
                             </Button>
