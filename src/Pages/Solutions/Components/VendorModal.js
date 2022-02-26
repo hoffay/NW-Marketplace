@@ -113,7 +113,7 @@ export default function VendorModal({ vendor }) {
                             </Typography>
                             </div>
                         </div>
-                        <div style={{ marginTop: 20, color: "white" }}>
+                        <div style={{ marginTop: 20, color: "white", marginRight: 32 }}>
                             <Typography>
                                 Social Media
                             </Typography>
