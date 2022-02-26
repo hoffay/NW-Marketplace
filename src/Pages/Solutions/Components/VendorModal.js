@@ -42,8 +42,8 @@ export default function VendorModal({ vendor }) {
                             src={process.env.PUBLIC_URL + `/VendorImages/actuate.png`}
                         />
                     </div>
-                    <div style={{ display: "flex", backgroundColor: "#1f74db", alignItems: "center", height: "4rem" }}>
-                        <Typography id="modal-modal-discount" color="white">
+                    <div style={{ display: "flex", backgroundColor: "#1f74db", alignItems: "center", height: "4rem", marginLeft: "-32px", marginRight: "-32px" }}>
+                        <Typography id="modal-modal-discount" color="white" sx={{ marginLeft: "32px" }}>
                             Nationwide customers get a 2% bonus on blank
                         </Typography>
                     </div>
