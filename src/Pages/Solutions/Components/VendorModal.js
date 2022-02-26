@@ -16,7 +16,7 @@ const style = {
     border: '2px solid',
     boxShadow: 24,
     p: 4,
-    borderColor: '#30cddc',
+    borderColor: '#1f74db',
     height: "45rem",
 };
 
@@ -69,44 +69,65 @@ export default function VendorModal({ vendor }) {
                     <Typography variant="h5" fontWeight="bold" sx={{ mt: "3rem" }}>
                         Example Scenarios
                     </Typography>
-                    <div style={{ 
-                            display: "flex",
-                            height: "5rem",
-                            border: "2px solid #000", 
-                            borderRadius: 25,
-                            borderBottomRightRadius: 0,
-                            borderColor: "#1f74db",
-                            backgroundColor: "#ddddff",
-                            justifyContent: "center", 
-                            alignItems: "center",
-                            marginTop: "1rem",
-                            marginBottom: "3rem"
-                        }}>
+                    <div style={{
+                        display: "flex",
+                        height: "5rem",
+                        border: "2px solid #000",
+                        borderRadius: 25,
+                        borderBottomRightRadius: 0,
+                        borderColor: "#1f74db",
+                        backgroundColor: "#ddddff",
+                        justifyContent: "center",
+                        alignItems: "center",
+                        marginTop: "1rem",
+                        marginBottom: "3rem"
+                    }}>
                         <Typography>
                             I really loved this product! Helped me a lot
                         </Typography>
                     </div>
-                    <div className="socialsBox" style={{ 
+                    <div className="socialsBox" style={{
                         display: "flex",
-                        marginLeft: -32, 
-                        marginRight: -32, 
+                        marginLeft: -32,
+                        marginRight: -32,
                         marginBottom: -32,
                         backgroundColor: "#1f74db",
-                        height: 234 
-                        }}>
-                        <div style={{ flex: "0 49%" }}>
-                        <Typography>
-                            Socials here
-                        </Typography>
+                        height: 234,
+                        flexDirection: "column",
+                        justifyContent: "space-between"
+                    }}>
+                        <div style={{ display: "flex", flexDirection: "row" }}>
+                        <div style={{ flexDirection: "column" }}>
+                            <div>
+                            <Typography>
+                                Owner Name
+                            </Typography>
+                            </div>
+                            <div>
+                            <Typography>
+                                Phone Number
+                            </Typography>
+                            </div>
+                            <div>
+                            <Typography>
+                                Email
+                            </Typography>
+                            </div>
                         </div>
                         <div>
                             <Typography>
-                                MORE INFO
+                                Social Media
                             </Typography>
                         </div>
-                        <Typography>fsfjdlsa;fjk</Typography>
-
-                        
+                        </div>
+                        <div style={{ display: "flex", justifyContent: "center", marginBottom: "2rem" }}>
+                            <Button variant="contained" sx={{ 
+                                color: "white", 
+                                backgroundColor: "#30cddc" 
+                                }}>
+                            Go to Site
+                            </Button>
+                        </div>
                     </div>
                 </Box>
             </Modal>
