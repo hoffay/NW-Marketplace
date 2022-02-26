@@ -95,7 +95,7 @@ export default function VendorModal({ vendor }) {
                         flexDirection: "column",
                         justifyContent: "space-between"
                     }}>
-                        <div style={{ display: "flex", flexDirection: "row" }}>
+                        <div style={{ display: "flex", flexDirection: "row", justifyContent: "space-between" }}>
                         <div style={{ flexDirection: "column", marginLeft: 32, marginTop: 20, color: "white" }}>
                             <div>
                             <Typography>
