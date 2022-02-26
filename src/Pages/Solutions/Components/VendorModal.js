@@ -46,7 +46,7 @@ export default function VendorModal({ vendor }) {
                             Nationwide customers get a 2% bonus on blank
                         </Typography>
                     </div>
-                    <Typography id="modal-modal-title" variant="h4" sx={{ mt: 2 }}>
+                    <Typography id="modal-modal-title" fontWeight="bold" variant="h4" sx={{ mt: 2 }}>
                         Vendor Name Here
                     </Typography>
                     <div style={{ display: "inline-flex", mt: 2, marginBottom: "1rem", marginTop: "1rem" }}>
@@ -97,12 +97,12 @@ export default function VendorModal({ vendor }) {
                     }}>
                         <div style={{ display: "flex", flexDirection: "row", justifyContent: "space-between" }}>
                         <div style={{ flexDirection: "column", marginLeft: 32, marginTop: 20, color: "white" }}>
-                            <div>
+                            <div style={{ marginBottom: "1rem" }}>
                             <Typography>
                                 Owner Name
                             </Typography>
                             </div>
-                            <div>
+                            <div style={{ marginBottom: "1rem" }}>
                             <Typography>
                                 Phone Number
                             </Typography>
