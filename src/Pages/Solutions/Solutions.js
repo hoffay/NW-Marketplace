@@ -2,7 +2,7 @@ import React from 'react';
 import './Solutions.css';
 import VendorGrid from "./Components/VendorGrid";
 import Searchbar from '../../Components/Searchbar/Searchbar';
-
+import VendorModal from './Components/VendorModal';
 
 
 
@@ -12,6 +12,7 @@ function Solutions() {
 
   return (
     <div>
+      <VendorModal></VendorModal>
       <div class = 'pos'>
         <div className="wrapSolutions">
         <Searchbar/>
