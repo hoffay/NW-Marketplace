@@ -114,20 +114,14 @@ function homeClick(yep) {
                 Home
               </Button>
               <PositionedMenu/>
-              {/* <Button
-                onClick={solutionsClick}
-                sx={{ my: 2, fontSize: 22, color: 'white', display: 'block'}}
-              >
-                Solutions<br></br>Catalog
-              </Button> */}
           </Box>
           <div class="layered">
     <LCSButton1/>
     <LCSButton2/>
 </div>
           <Box sx={{ flexGrow: 0 }}>
-            <Tooltip title="Open settings">
-              <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>
+            <Tooltip>
+              <IconButton onMouseOver={handleOpenUserMenu} sx={{ p: 0 }}>
               <div class="moveright">
               <DehazeIcon
               style={{ 

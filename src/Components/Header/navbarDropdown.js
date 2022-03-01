@@ -15,6 +15,9 @@ export default function PositionedMenu() {
   function solutionsClick() {
     window.location.replace("/solutions");
 }
+function foodClick() {
+  window.location.replace("/solutions/food");
+}
 
   return (
     <div>
@@ -23,7 +26,7 @@ export default function PositionedMenu() {
         aria-controls={open ? 'demo-positioned-menu' : undefined}
         aria-haspopup="true"
         aria-expanded={open ? 'true' : undefined}
-        onClick={handleClick}
+        onMouseOver={handleClick}
         sx={{ mr: 8, fontSize: 22, ml: 5 ,my: 2, color: 'white', display: 'block',textTransform: 'none'}}
       >
         Solutions<br></br>Catalog
@@ -46,7 +49,7 @@ export default function PositionedMenu() {
       >
              
         <MenuItem >All</MenuItem>
-        <MenuItem onClick={solutionsClick}>Food Services</MenuItem>
+        <MenuItem onClick={foodClick}>Food Services</MenuItem>
         <MenuItem onClick={solutionsClick}>Retail</MenuItem>
         <MenuItem onClick={solutionsClick}>Hotel/Motel</MenuItem>
         <MenuItem onClick={solutionsClick}>Farm/Agribusines</MenuItem>

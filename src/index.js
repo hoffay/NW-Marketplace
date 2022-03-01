@@ -6,6 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import NavBar from './Components/Header/navBar';
 import Home from './Pages/Home/Home';
 import Solutions from './Pages/Solutions/Solutions';
+import Food from './Pages/Solutions/Food/Food';
 
 ReactDOM.render(
   <Router>
@@ -15,6 +16,7 @@ ReactDOM.render(
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/solutions" element={<Solutions />} />
+      <Route path="/solutions/food" element={<Food />} />
     </Routes>
   </Router>,
   document.getElementById('root')
