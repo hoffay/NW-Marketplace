@@ -12,7 +12,6 @@ function Solutions() {
 
   return (
     <div>
-      <VendorModal></VendorModal>
       <div class = 'pos'>
         <div className="wrapSolutions">
         <Searchbar/>
