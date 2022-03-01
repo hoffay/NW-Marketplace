@@ -30,6 +30,8 @@ Currently there are 5 main components:
     * This allows for redirection to the solutions page. Contained in a set of divs
 8. Vendor Sort Button
     * A Mui menuitem that will sort the vendor cards in ascending and descending order
+9. Vendor Modal
+    * A pop-up modal with vendor details
 
 These components have their respective styling files to help style the components.
 The app is split into the pages and components. Every page has its set of components that are used, and styling sheets. Components also have their own css files.

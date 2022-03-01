@@ -103,3 +103,14 @@ Tested by making sure when clicking the dropdown all the items are there and it 
 |22  | Passed |
 |23  | Passed |
 |24  | Failed  |
+
+# Sprint 5
+## Issue 31: Make product cards expandable to show details
+Tested by created testing branch using the previous solutions page. Replaced the go-to-site button with the button to open the modal. Made sure the modal was centered on page regardless of position or size.
+## Issue 32: Vendor cards overlap on smaller screens:
+Tested by maximizing/minimizing screen sizes and making sure modals didn't overlap. CHecked that all previous tests passed
+
+## Total Results S5
+| Issue | Result |
+|31 | Passed |
+|32  | Passed |
