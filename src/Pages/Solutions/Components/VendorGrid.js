@@ -136,7 +136,7 @@ function VendorGrid() {
   };
 
   let vendorDisplay = data.map(vendor => (
-    <Grid item key={vendor.Vendor_Name} xs={2} md={2} lg={2}>
+    <Grid item key={vendor.Vendor_Name} >
       <VendorCard vendor={vendor} />
     </Grid>
   ));
