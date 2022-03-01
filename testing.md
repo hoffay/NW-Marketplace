@@ -64,6 +64,9 @@ Tested by ensuring sort accuracy of company names across the page
 
 ## Issue 20: Replace solutions with the dropdown
 Tested by making sure when clicking the dropdown all the items are there and it doesn't change the rest of the page when opened.
+
+## Issue 30: Make site more scalable
+Tested by viewing the webstie under different view ports and seeing that it still scaled well.
 ## Total Results S1
 | Issue | Result |
 |--|--|
@@ -112,5 +115,6 @@ Tested by maximizing/minimizing screen sizes and making sure modals didn't overl
 
 ## Total Results S5
 | Issue | Result |
-|31 | Passed |
+|31  | Passed |
 |32  | Passed |
+|30  | Passed |

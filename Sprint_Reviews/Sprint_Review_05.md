@@ -31,15 +31,14 @@ Hopefully completing issues ahead of time which can be done with stronger commun
 
 ### Ryan Hoffmann
 1. Issue(s) completed in the sprint?
-I completed #20: Replace solutions with the dropdown.
+I completed #30: Make site more scalable.
 2. What went well?
-Everything
+Scaling
 3. What didn’t go so well?
-Nothing, react and material ui are working very well for me
+Finding which components are the real one and not overwritten.
 4. What have I learned?
-Getting better at using React and material ui.
+Knowing which code is working and which is not.
 5. What still puzzles me?
-Nothing at the moment
+Nothing at the moment.
 6. What will we change to improve?
-Becoming more efficient with React.
-
+Getting better at styling.
