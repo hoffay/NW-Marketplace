@@ -55,8 +55,8 @@ const StyledMenu = styled((props) => (
 
 
 function VendorGrid() {
-  
-  const [anchorEl, setAnchorEl]=React.useState(null);
+
+  const [anchorEl, setAnchorEl] = React.useState(null);
   const open = Boolean(anchorEl);
   const handleClick = (event) => {
     setAnchorEl(event.currentTarget);
@@ -74,7 +74,7 @@ function VendorGrid() {
 
   useEffect(() => {
     loadUsersData();
-  },[]);
+  }, []);
 
   const loadUsersData = async () => {
     setData(vendors);
@@ -87,10 +87,10 @@ function VendorGrid() {
   }
 
   const ascending = () => {
-    const newvendor_list = [...data].sort((a,b) => {
-        if (a.Vendor_Name < b.Vendor_Name) return -1;
-        if (a.Vendor_Name === b.Vendor_Name) return 0;
-        return 1;
+    const newvendor_list = [...data].sort((a, b) => {
+      if (a.Vendor_Name < b.Vendor_Name) return -1;
+      if (a.Vendor_Name === b.Vendor_Name) return 0;
+      return 1;
     });
     setData(newvendor_list);
     console.log(data);
@@ -99,14 +99,14 @@ function VendorGrid() {
   }
 
   const descending = () => {
-    const newvendor_list = [...data].sort((a,b) => {
-        if (b.Vendor_Name < a.Vendor_Name) return -1;
-        if (b.Vendor_Name === a.Vendor_Name) return 0;
-        return 1;
+    const newvendor_list = [...data].sort((a, b) => {
+      if (b.Vendor_Name < a.Vendor_Name) return -1;
+      if (b.Vendor_Name === a.Vendor_Name) return 0;
+      return 1;
     });
     setData(newvendor_list);
-    
- 
+
+
   }
 
   const slide = (shift) => {
@@ -143,64 +143,63 @@ function VendorGrid() {
 
   return (
     <div className="VendorWrap">
-        
+
       <div className="scrollButtons">
         <div className="sortButton">
-        <div>
-      <Button
-        id = 'demo-customized-button'
-        aria-controls={open ? 'demo-customized-menu' : undefined}
-        aria-haspopup="true"
-        aria-expanded={open ? 'true' : undefined}
-        variant="contained"
-        disableElevation
-        onClick={handleClick}
-        endIcon={<KeyboardArrowDownIcon />}
-      >
-        Sort by
-      </Button>
-      <StyledMenu
-        id="demo-customized-menu"
-        MenuListProps={{
-          'aria-labelledby': 'demo-customized-button',
-        }}
-        anchorEl={anchorEl}
-        open={open}
-        onClick={handleClose}
-        onClose={handleClose}
-      >
-        <MenuItem onClick={ascending}  >
-          <ArrowForwardIcon />
-          a-z
-        </MenuItem>
-        <Divider sx={{ my: 0.5 }} />
-        <MenuItem onClick={descending} >
-          <ArrowBackIcon />
-          z-a
-        </MenuItem>
-      </StyledMenu>
-    </div>
+          <div>
+            <Button
+              id='demo-customized-button'
+              aria-controls={open ? 'demo-customized-menu' : undefined}
+              aria-haspopup="true"
+              aria-expanded={open ? 'true' : undefined}
+              variant="contained"
+              disableElevation
+              onClick={handleClick}
+              endIcon={<KeyboardArrowDownIcon />}
+            >
+              Sort by
+            </Button>
+            <StyledMenu
+              id="demo-customized-menu"
+              MenuListProps={{
+                'aria-labelledby': 'demo-customized-button',
+              }}
+              anchorEl={anchorEl}
+              open={open}
+              onClick={handleClose}
+              onClose={handleClose}
+            >
+              <MenuItem onClick={ascending}  >
+                <ArrowForwardIcon />
+                A-Z
+              </MenuItem>
+              <Divider sx={{ my: 0.5 }} />
+              <MenuItem onClick={descending} >
+                <ArrowBackIcon />
+                Z-A
+              </MenuItem>
+            </StyledMenu>
+          </div>
         </div>
-      {scrollX !== 0 && (
-        <Button variant="outlined" size="medium" sx={{ border: "2px solid", color: "#1f74db" }} onClick={() => slide(-200)}>
-          <ArrowBackIosIcon />
-        </Button>
-      )}
-      {!scrolEnd && (
-        <Button variant="outlined" size="medium" sx={{ border: "2px solid", color: "#1f74db" }} onClick={() => slide(+200)}>
-          <ArrowForwardIosIcon />
-        </Button>
-      )}
+        {scrollX !== 0 && (
+          <Button variant="outlined" size="medium" sx={{ border: "2px solid", color: "#1f74db" }} onClick={() => slide(-200)}>
+            <ArrowBackIosIcon />
+          </Button>
+        )}
+        {!scrolEnd && (
+          <Button variant="outlined" size="medium" sx={{ border: "2px solid", color: "#1f74db" }} onClick={() => slide(+200)}>
+            <ArrowForwardIosIcon />
+          </Button>
+        )}
       </div>
       <div className="fullVendorView" sx={{ display: "flex", wrap: "wrap", justifyContent: "center", overflowX: "hidden" }} >
-        <script>console.log(data)</script>
         <Grid ref={scrl} onScroll={scrollCheck} id="vendorGrid" container columnSpacing={{ xs: 1, sm: 2, md: 3 }} wrap="nowrap" sx={{ overflowX: "hidden" }}>
           {vendorDisplay}
         </Grid>
       </div>
-      </div>
-    
-    );
+    </div>
+
+  );
 }
 
 export default VendorGrid;
