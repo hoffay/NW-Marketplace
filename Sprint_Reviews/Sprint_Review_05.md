@@ -1,18 +1,18 @@
 # Sprint 5 Review
 ### Ethan Bores
 1. Issue(s) completed
-Issue #13: Add "Click here" button
-Issue #19: Background image cropped
+Issue #28: Improve scaling for "Commercial Marketplace" text on homepage
+Issue #29: Realign center of search bar with the bottom of the background
 2. What went well
-Adding better styling to the Loss Control Services buttons and cropping the background and adding responsiveness for window resizing went smoother than I had originally expected it to go.
+Handing text resizing and maintaining a consistent place on the homepage for the "Commercial Marketplace" text went well for me.
 3. What didn't go so well
-I had trouble aligning a new button below the search bar and creating and editing the styling of the plaintext alongside it.
+I spent slightly more time attempting to align the search bar with the bottom of the background, but still accomplished the task in a relatively short time in comparison to that of my issues of previous sprints.
 4. What I have learned
-I have learned more about styling elements and adjusting positions; however I am still quite rusty when dealing with the latter of those two.
+I have learned how to better use CSS to add responsiveness to websites, as well as becoming better at cleaning up my code.
 5. What still puzzles me
-I am still puzzled by the way that CSS and JS work together to position objects on the webpage.
+I am still puzzled by the implementation of MUI to create better responsive UI.
 6. What will we change to improve
-I will continue to brush up on my CSS skills by watching videos and reading tutorials about CSS.
+To improve, I plan to study documentation of MUI and possibly refactor my code to incorporate it for improved efficiency.
 ### Shane Tobar
 1. Issues completed
 Issue #31 Make product card expandable to show details, #32 Vendor cards overlap on smaller screens.
