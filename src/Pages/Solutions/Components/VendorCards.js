@@ -1,6 +1,7 @@
 import React from 'react';
 import { vendors } from '../../../VendorData';
 import { Grid, Card, CardContent, Typography, CardHeader, CardActions, Button, CardMedia } from '@mui/material'
+import VendorModal from './VendorModal';
 
 
 
@@ -47,9 +48,7 @@ function VendorCard({ vendor }) {
                     </div>
                 </CardContent>
                 <CardActions sx={{ justifyContent: "center" }}>
-                    <Button size="medium" variant="contained" sx={{ width: 200 }} onClick={() => window.open(vendor.Web_Link)}>
-                        Go to Site
-                    </Button>
+                    <VendorModal vendor={vendor}/>
                 </CardActions>
             </Card>
 
