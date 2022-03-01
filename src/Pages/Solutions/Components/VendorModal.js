@@ -27,7 +27,7 @@ export default function VendorModal({ vendor }) {
 
     return (
         <div>
-            <Button size="medium" variant="contained" sx={{ width: 200 }} onClick={handleOpen}>Open modal</Button>
+            <Button size="medium" variant="contained" sx={{ width: 200 }} onClick={handleOpen}>Details</Button>
             <Modal
                 open={open}
                 onClose={handleClose}
