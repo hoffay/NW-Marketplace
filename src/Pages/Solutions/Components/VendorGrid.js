@@ -86,7 +86,7 @@ function VendorGrid() {
 
   }
 
-  const vendorOnClick = () => {
+  const ascending = () => {
     const newvendor_list = [...data].sort((a,b) => {
         if (a.Vendor_Name < b.Vendor_Name) return -1;
         if (a.Vendor_Name === b.Vendor_Name) return 0;
@@ -96,6 +96,17 @@ function VendorGrid() {
     console.log(data);
     console.log('NEWVENDORLIST: ' + Array.isArray(newvendor_list))
     console.log('data: ' + Array.isArray(data))
+  }
+
+  const descending = () => {
+    const newvendor_list = [...data].sort((a,b) => {
+        if (b.Vendor_Name < a.Vendor_Name) return -1;
+        if (b.Vendor_Name === a.Vendor_Name) return 0;
+        return 1;
+    });
+    setData(newvendor_list);
+    
+ 
   }
 
   const slide = (shift) => {
@@ -155,14 +166,15 @@ function VendorGrid() {
         }}
         anchorEl={anchorEl}
         open={open}
+        onClick={handleClose}
         onClose={handleClose}
       >
-        <MenuItem onClick={vendorOnClick} disableRipple >
+        <MenuItem onClick={ascending}  >
           <ArrowForwardIcon />
           a-z
         </MenuItem>
         <Divider sx={{ my: 0.5 }} />
-        <MenuItem onClick={handleClose} disableRipple>
+        <MenuItem onClick={descending} >
           <ArrowBackIcon />
           z-a
         </MenuItem>
