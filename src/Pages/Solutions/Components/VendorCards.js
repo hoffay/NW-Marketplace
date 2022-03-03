@@ -42,7 +42,7 @@ function VendorCard({ vendor }) {
                 </div>
                 <CardContent>
                     <div style={{ overflow: "hidden", textOverflow: "ellipsis", maxHeight: "100px" }}>
-                        <Typography>
+                        <Typography align="left">
                             {vendor.Description}
                         </Typography>
                     </div>

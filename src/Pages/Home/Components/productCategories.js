@@ -44,7 +44,7 @@ function ProductCategories() {
     <div className="container">
       <div className="prodArrows">
         {scrollX !== 0 && (
-          <Button variant="outlined" size="medium" sx={{ border: "2px solid", color: "#1f74db" }} onClick={() => slide(-200)}>
+          <Button variant="outlined" size="medium" sx={{ border: "2px solid", color: "#1f74db"}} onClick={() => slide(-200)}>
             <ArrowBackIosIcon />
           </Button>
         )}
