@@ -19,11 +19,11 @@
   margin-left: 1px;
   width: 200px;
   text-decoration: none;
-  font-size: 18px;
   height: 50px;
   font-weight: bold;
   justify-content: center;
-  font-family: "Roboto","Helvetica","Arial",sans-serif;
+  font-family: "times new roman";
+  font-size: 2.5vh;
 }
 
 .blocks a:hover {
@@ -39,12 +39,12 @@
   margin-left: 1px;
   width: 200px;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 2.5vh;
   height: 50px;
   overflow: hidden;
   text-decoration: none;
   justify-content: center;
-  font-family: "Roboto","Helvetica","Arial",sans-serif;
+  font-family: "times new roman";
 }
 
 .prodArrows {

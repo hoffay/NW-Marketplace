@@ -37,7 +37,7 @@ function Searchbar({ placeholder, data }) {
                             startAdornment: (
                                 <InputAdornment>
                                     <IconButton>
-                                        <SearchIcon style={{ fill: "#1f74db", width: 40, height: 40 }} />
+                                        <SearchIcon style={{ fill: "#30cddc", width: 40, height: 40 }} />
                                     </IconButton>
                                 </InputAdornment>
                             )
@@ -45,11 +45,12 @@ function Searchbar({ placeholder, data }) {
                     />
                     <Button sx=
                         {{ color: "white", 
-                        backgroundColor: "#1f74db", 
+                        backgroundColor: "#30cddc", 
                         width: "10%",
                         fontWeight: "bold",
                         fontSize: "16px",
-                        fontFamily: "Georgia",
+                        fontFamily: "arial",
+                        textTransform: "none",
                         "&.MuiButtonBase-root:hover": {
                             backgroundColor: '#1f74db'
                         }
