@@ -47,7 +47,7 @@ function VendorCard({ vendor }) {
                     </div>
                 </CardContent>
                 <CardActions sx={{ justifyContent: "center" }}>
-                    <Button size="medium" variant="contained" sx={{ width: 200, backgroundColor: '#30cddc' }} onClick={() => window.open(vendor.Web_Link)}>
+                    <Button size="medium" variant="contained" sx={{ width: 200, backgroundColor: '#30cddc', textTransform: 'none' }} onClick={() => window.open(vendor.Web_Link)}>
                         Go to Site
                     </Button>
                 </CardActions>
