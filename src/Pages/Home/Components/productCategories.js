@@ -80,6 +80,11 @@ function ProductCategories() {
           </Grid>
           <Grid item>
             <Box>
+              <a href="#Auto Service">Food Services</a>
+            </Box>
+          </Grid>
+          <Grid item>
+            <Box>
               <a href="#Habitational">Habitational</a>
             </Box>
           </Grid>
