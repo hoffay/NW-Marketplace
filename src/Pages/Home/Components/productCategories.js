@@ -75,12 +75,22 @@ function ProductCategories() {
           </Grid>
           <Grid item>
             <Box>
+              <a href="#Farm">Farm/Agribusiness</a>
+            </Box>
+          </Grid>
+          <Grid item>
+            <Box>
               <a href="#Habitational">Habitational</a>
             </Box>
           </Grid>
           <Grid item>
             <Box>
               <a href="#Health Care">Health Care</a>
+            </Box>
+          </Grid>
+          <Grid item>
+            <Box>
+              <a href="#Hotel">Hotel/Motel</a>
             </Box>
           </Grid>
           <Grid item>
@@ -100,12 +110,16 @@ function ProductCategories() {
           </Grid>
           <Grid item>
             <Box>
+              <a href="#Retail">Retail</a>
+            </Box>
+          </Grid>
+          <Grid item>
+            <Box>
               <a href="#Wholesale">Wholesale</a>
             </Box>
           </Grid>
         </Grid>
-
-      </div>
+        </div>
     </div>
   );
 
