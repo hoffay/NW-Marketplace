@@ -48,7 +48,9 @@ function VendorCard({ vendor }) {
                     </div>
                 </CardContent>
                 <CardActions sx={{ justifyContent: "center" }}>
-                    <VendorModal vendor={vendor}/>
+                <Button size="medium" variant="contained" sx={{ width: 200 }} onClick={() => window.open(vendor.Web_Link)}>
+                        Go to Site
+                    </Button>
                 </CardActions>
             </Card>
 
