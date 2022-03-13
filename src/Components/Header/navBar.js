@@ -48,7 +48,7 @@ const NavBar = () => {
   }
 
   let activeStyle = {
-    borderBottom: "6px solid red",
+    borderBottom: "6px solid #30cddc",
     alignSelf: "center",
     textDecoration: "none"
   }
