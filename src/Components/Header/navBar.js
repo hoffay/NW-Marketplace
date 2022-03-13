@@ -120,15 +120,14 @@ const NavBar = () => {
             LOGO
           </Typography>
           <Box className="thisBox" sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
-            <NavLink to="/" end style={({ isActive }) => isActive ? activeStyle : nonActive } >
             <Button
+              component={NavLink} to="/" end style={({ isActive }) => isActive ? activeStyle : nonActive }
               sx={{
                 mr: 6, ml: 10, my: 2, color: 'white', display: 'block', textTransform: 'none', alignSelf: "center",
               }}                
               >
             <Typography sx={{ fontSize: 22, fontFamily: "Arial", fontWeight: "bold" }}>Home</Typography>
-          </Button>
-          </NavLink>
+          </Button> 
           <PositionedMenu />
           {/* <Button
                 onClick={solutionsClick}
