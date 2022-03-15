@@ -12,11 +12,54 @@ export default function PositionedMenu() {
   const handleClose = () => {
     setAnchorEl(null);
   };
-  function solutionsClick() {
-    window.location.replace("/solutions");
+//TODO Will refactor later
+function food() {
+  window.location.replace("/solutions#food");
+  document.location.reload()
 }
-function foodClick() {
-  window.location.replace("/solutions/food");
+function retail() {
+  window.location.replace("/solutions#retail");
+  document.location.reload()
+}
+function hotelmotel() {
+  window.location.replace("/solutions#hotelmotel");
+  document.location.reload()
+}
+function farmagribusiness() {
+  window.location.replace("/solutions#farmagribusiness");
+  document.location.reload()
+}
+function habitual() {
+  window.location.replace("/solutions#habitual");
+  document.location.reload()
+}
+function processservice() {
+  window.location.replace("/solutions#processservice");
+  document.location.reload()
+}
+function manufacturing() {
+  window.location.replace("/solutions#manufacturing");
+  document.location.reload()
+}
+function autoService() {
+  window.location.replace("/solutions#autoService");
+  document.location.reload()
+}
+function wholesale() {
+  window.location.replace("/solutions#wholesale");
+  document.location.reload()
+}
+function Construction() {
+  window.location.replace("/solutions#construction");
+  document.location.reload()
+}
+function officeprofessional() {
+  window.location.replace("/solutions#officeprofessional");
+  document.location.reload()
+}
+function healthcare() {
+  window.location.replace("/solutions#healthcare");
+  document.location.reload()
 }
 
   return (
@@ -49,18 +92,18 @@ function foodClick() {
       >
              
         <MenuItem >All</MenuItem>
-        <MenuItem onClick={foodClick}>Food Services</MenuItem>
-        <MenuItem onClick={solutionsClick}>Retail</MenuItem>
-        <MenuItem onClick={solutionsClick}>Hotel/Motel</MenuItem>
-        <MenuItem onClick={solutionsClick}>Farm/Agribusines</MenuItem>
-        <MenuItem onClick={solutionsClick}>Habitual</MenuItem>
-        <MenuItem onClick={solutionsClick}>Proecess/Service</MenuItem>
-        <MenuItem onClick={solutionsClick}>Manufacturing</MenuItem>
-        <MenuItem onClick={solutionsClick}>Auto Service</MenuItem>
-        <MenuItem onClick={solutionsClick}>Wholesale</MenuItem>
-        <MenuItem onClick={solutionsClick}>Contracting</MenuItem>
-        <MenuItem onClick={solutionsClick}>Office/Professional</MenuItem>
-        <MenuItem onClick={solutionsClick}>Health Care</MenuItem>
+        <MenuItem onClick={food}>Food Services</MenuItem>
+        <MenuItem onClick={retail}>Retail</MenuItem>
+        <MenuItem onClick={hotelmotel}>Hotel/Motel</MenuItem>
+        <MenuItem onClick={farmagribusiness}>Farm/Agribusines</MenuItem>
+        <MenuItem onClick={habitual}>Habitual</MenuItem>
+        <MenuItem onClick={processservice}>Proecess/Service</MenuItem>
+        <MenuItem onClick={manufacturing}>Manufacturing</MenuItem>
+        <MenuItem onClick={autoService}>Auto Service</MenuItem>
+        <MenuItem onClick={wholesale}>Wholesale</MenuItem>
+        <MenuItem onClick={Construction}>Construction</MenuItem>
+        <MenuItem onClick={officeprofessional}>Office/Professional</MenuItem>
+        <MenuItem onClick={healthcare}>Health Care</MenuItem>
       </Menu>
     </div>
   );
