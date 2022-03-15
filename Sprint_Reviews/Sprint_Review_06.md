@@ -1,4 +1,4 @@
-# Sprint 5 Review
+# Sprint 6 Review
 ### Ethan Bores
 1. Issue(s) completed
 Issue #28: Improve scaling for "Commercial Marketplace" text on homepage
@@ -15,12 +15,12 @@ I am still puzzled by the implementation of MUI to create better responsive UI.
 To improve, I plan to study documentation of MUI and possibly refactor my code to incorporate it for improved efficiency.
 ### Shane Tobar
 1. Issues completed
-Issue #31 Make product card expandable to show details, #32 Vendor cards overlap on smaller screens.
-Assisted with sorting functionality for vendor cards
+Issue #38 Add breadcrumbs to pages, #39 Create JSON for all products.
+Assisted with Issue #26 choosing a business category on home page directs to specific category
 2. What went well
-Moving fast, client is happy with progress
+Have a new page and additional features
 3. What didn't go so well
-Better communication needs to happen. Not everyone participated in the standup
+Communication still needs to be improved, leads to crunch on feature implementation.
 4. What I have learned
 Feeling much more comfortable with HTML and CSS
 5. What still puzzles me
