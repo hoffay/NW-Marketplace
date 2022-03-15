@@ -111,7 +111,7 @@ function VendorGrid() {
   }, []);
 
   const loadUsersData = async () => {
-    setData(vendors);
+    setData(sortCards());
   }
 
 
