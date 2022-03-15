@@ -1,6 +1,7 @@
 import React from 'react';
 import { vendors } from '../../../VendorData';
 import { Grid, Card, CardContent, Typography, CardHeader, CardActions, Button, CardMedia } from '@mui/material'
+import VendorModal from './VendorModal';
 
 
 function createCard(vendor) {
@@ -39,13 +40,13 @@ function VendorCard({ vendor }) {
                 </div>
                 <CardContent>
                     <div style={{ overflow: "hidden", textOverflow: "ellipsis", maxHeight: "100px" }}>
-                        <Typography>
+                        <Typography align="left">
                             {vendor.Description}
                         </Typography>
                     </div>
                 </CardContent>
                 <CardActions sx={{ justifyContent: "center" }}>
-                    <Button size="medium" variant="contained" sx={{ width: 200 }} onClick={() => window.open(vendor.Web_Link)}>
+                <Button size="medium" variant="contained" sx={{ width: 200, backgroundColor: '#30cddc', textTransform: 'none' }} onClick={() => window.open(vendor.Web_Link)}>
                         Go to Site
                     </Button>
                 </CardActions>

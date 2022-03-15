@@ -44,7 +44,7 @@ function ProductCategories() {
     <div className="container">
       <div className="prodArrows">
         {scrollX !== 0 && (
-          <Button variant="outlined" size="medium" sx={{ border: "2px solid", color: "#1f74db" }} onClick={() => slide(-200)}>
+          <Button variant="outlined" size="medium" sx={{ border: "2px solid", color: "#1f74db"}} onClick={() => slide(-200)}>
             <ArrowBackIosIcon />
           </Button>
         )}
@@ -75,12 +75,27 @@ function ProductCategories() {
           </Grid>
           <Grid item>
             <Box>
+              <a href="#Farm">Farm/Agribusiness</a>
+            </Box>
+          </Grid>
+          <Grid item>
+            <Box>
+              <a href="#Auto Service">Food Services</a>
+            </Box>
+          </Grid>
+          <Grid item>
+            <Box>
               <a href="#Habitational">Habitational</a>
             </Box>
           </Grid>
           <Grid item>
             <Box>
               <a href="#Health Care">Health Care</a>
+            </Box>
+          </Grid>
+          <Grid item>
+            <Box>
+              <a href="#Hotel">Hotel/Motel</a>
             </Box>
           </Grid>
           <Grid item>
@@ -100,12 +115,16 @@ function ProductCategories() {
           </Grid>
           <Grid item>
             <Box>
+              <a href="#Retail">Retail</a>
+            </Box>
+          </Grid>
+          <Grid item>
+            <Box>
               <a href="#Wholesale">Wholesale</a>
             </Box>
           </Grid>
         </Grid>
-
-      </div>
+        </div>
     </div>
   );
 
