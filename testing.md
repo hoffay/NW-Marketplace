@@ -118,3 +118,12 @@ Tested by maximizing/minimizing screen sizes and making sure modals didn't overl
 |31  | Passed |
 |32  | Passed |
 |30  | Passed |
+
+# Sprint 6
+## Issue 26: Choosing a business category on home page directs to specific category
+Tested by matching the sorted industries to the json file. Tested to see if the modal matched the vendor card.
+
+
+## Total Results S6
+| Issue | Result |
+|26  | Passed |
