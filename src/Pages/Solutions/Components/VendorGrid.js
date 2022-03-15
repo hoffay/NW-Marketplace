@@ -58,7 +58,7 @@ const StyledMenu = styled((props) => (
 
 
 function sortCards(){
-  let industry1="empty"
+  let industry1=""
   if(window.location.hash==="#food") {
 industry1="Food Service";
 } else if(window.location.hash==="#retail"){
