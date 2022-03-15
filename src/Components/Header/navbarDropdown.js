@@ -111,12 +111,6 @@ document.location.reload()
 }
 }
 
-let activeStyle = {
-  borderBottom: "6px solid #30cddc",
-  alignSelf: "center",
-  textDecoration: "none",
-  mr: 8, fontSize: 22, ml: 5 ,my: 2, color: 'white', display: 'block',textTransform: 'none'
-}
 
 let nonActive = {
   alignSelf: "center",
@@ -138,18 +132,9 @@ let activeStyle = {
   mr: 8, fontSize: 22, ml: 5 ,my: 2, color: 'white', display: 'block',textTransform: 'none'
 }
 
-let nonActive = {
-  alignSelf: "center",
-  textDecoration: "none",
-  mr: 8, fontSize: 22, ml: 5 ,my: 2, color: 'white', display: 'block',textTransform: 'none'
-}
 
-const { pathname } = useLocation();
 
-const navHandleClick = (e) => {
-  const { linkDisabled } = this.state
-  if(linkDisabled) e.preventDefault()
-}
+
 
   return (
     <div>
