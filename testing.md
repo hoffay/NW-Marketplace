@@ -132,9 +132,13 @@ Tested by accessing the different pages and making sure highlight appears and do
 ## Issue 39: Create JSON for all products
 This cannot be tested since it is just the creation of a JSON file.
 
+## Issue 33: Image cutoff of Navbar
+Tested with varying window sizes
+
 ## Total Results S6
 | Issue | Result |
 |--|--|
 |26  | Passed |
 |38  | Passed |
+|33  | NA  |
 |39  | NA |
