@@ -48,7 +48,7 @@ function VendorCard({ vendor }) {
                     </div>
                 </CardContent>
                 <CardActions sx={{ justifyContent: "center" }}>
-                <VendorModal />
+                <VendorModal vendor={vendor}/>
                 </CardActions>
             </Card>
 

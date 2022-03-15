@@ -38,7 +38,7 @@ export default function VendorModal({ vendor }) {
                     <div style={{ height: "4rem" }}>
                         <img
                             alt="VendorImage"
-                            src={process.env.PUBLIC_URL + `/VendorImages/actuate.png`}
+                            src={process.env.PUBLIC_URL + `/VendorImages/${vendor.Logo}.png`}
                         />
                     </div>
                     <div style={{ display: "flex", backgroundColor: "#1f74db", alignItems: "center", height: "4rem", marginLeft: "-32px", marginRight: "-32px" }}>
@@ -47,14 +47,14 @@ export default function VendorModal({ vendor }) {
                         </Typography>
                     </div>
                     <Typography id="modal-modal-title" fontWeight="bold" variant="h4" sx={{ mt: 2 }}>
-                        {vendor.Vendor_Name}
+                        {vendor.Solution}
                     </Typography>
                     <div style={{ display: "inline-flex", mt: 2, marginBottom: "1rem", marginTop: "1rem" }}>
                         <Typography fontWeight="bold" sx={{ mr: 1 }}>
                             Company Name:
                         </Typography>
                         <Typography>
-                            {vendor.Vendor_Name}
+                            {vendor.Company}
                         </Typography>
                     </div>
                     <div style={{ display: "inline-flex", mt: 2 }}>
