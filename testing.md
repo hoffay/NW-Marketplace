@@ -118,3 +118,8 @@ Tested by maximizing/minimizing screen sizes and making sure modals didn't overl
 |31  | Passed |
 |32  | Passed |
 |30  | Passed |
+
+
+# Sprint 6
+## Issue 33: Image Cutoff from sizing
+Tested with varying window sizes.
