@@ -85,7 +85,7 @@ return (
 
         </div>
     )
-    }else {
+    } else {
         return (
             <div className="vendorCard">
     
