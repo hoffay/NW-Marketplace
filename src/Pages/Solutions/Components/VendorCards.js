@@ -55,7 +55,7 @@ function VendorCard({ vendor }) {
 
 let updateVendor = vendors.filter(vendor => vendor['Industry'].includes(industry1));
 console.log(updateVendor)
-vendor=updateVendor[0]//If the number is removed all the vendors will be blank but the vendor shown in correct
+vendor=updateVendor[0]//If the number is removed all the vendors will be blank but the vendor shown is correct
 
 if(industry1!=="empty"){
 return (
