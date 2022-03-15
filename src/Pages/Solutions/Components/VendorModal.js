@@ -38,7 +38,7 @@ export default function VendorModal({ vendor }) {
                     <div style={{ height: "4rem" }}>
                         <img
                             alt="VendorImage"
-                            src={process.env.PUBLIC_URL + `/VendorImages/actuate.png`}
+                            src={process.env.PUBLIC_URL + `/VendorImages/${vendor.Logo}.png`}
                         />
                     </div>
                     <div style={{ display: "flex", backgroundColor: "#1f74db", alignItems: "center", height: "4rem", marginLeft: "-32px", marginRight: "-32px" }}>

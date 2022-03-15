@@ -12,6 +12,9 @@ import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 import ArrowBackIcon from '@mui/icons-material/ArrowBack';
 
+
+
+
 const StyledMenu = styled((props) => (
   <Menu
     elevation={0}
@@ -54,6 +57,37 @@ const StyledMenu = styled((props) => (
 }));
 
 
+function sortCards(){
+  let industry1=""
+  if(window.location.hash==="#food") {
+industry1="Food Service";
+} else if(window.location.hash==="#retail"){
+   industry1="Retail";  
+} else if(window.location.hash==="#hotelmotel"){
+   industry1="Hotel/Motel";  
+} else if(window.location.hash==="#farmagribusiness"){
+   industry1="Farm/Agribusiness";  
+} else if(window.location.hash==="#habitual"){
+   industry1="Habitational";  
+} else if(window.location.hash==="#processservice"){
+   industry1="Process/Service";  
+} else if(window.location.hash==="#manufacturing"){
+   industry1="Manufacturing";  
+} else if(window.location.hash==="#autoService"){
+   industry1="Auto Service";  
+} else if(window.location.hash==="#wholesale"){
+   industry1="Wholesale";  
+} else if(window.location.hash==="#construction"){
+   industry1="Construction";  
+} else if(window.location.hash==="#officeprofessional"){
+   industry1="Office/Professional";  
+} else if(window.location.hash==="#healthcare"){
+   industry1="Health Care"; 
+}
+
+const updateVendor = vendors.filter(vendor => vendor['Industry'].includes(industry1));
+return updateVendor;
+}
 function VendorGrid() {
 
   const [anchorEl, setAnchorEl] = React.useState(null);
@@ -77,7 +111,7 @@ function VendorGrid() {
   }, []);
 
   const loadUsersData = async () => {
-    setData(vendors);
+    setData(sortCards());
   }
 
 
