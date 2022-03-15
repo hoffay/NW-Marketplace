@@ -14,52 +14,100 @@ export default function PositionedMenu() {
   };
 //TODO Will refactor later
 function food() {
-  window.location.replace("/solutions#food");
-  document.location.reload()
+  if(window.location.hash===""){
+  window.location.replace("/solutions#food").then(document.location.reload());
+  }else{
+    window.location.replace("/solutions#food")
+ document.location.reload()
+  }
 }
 function retail() {
-  window.location.replace("/solutions#retail");
-  document.location.reload()
+  if(window.location.hash===""){
+  window.location.replace("/solutions#retail").then(document.location.reload());
+}else{
+  window.location.replace("/solutions#food")
+document.location.reload()
+}
 }
 function hotelmotel() {
-  window.location.replace("/solutions#hotelmotel");
-  document.location.reload()
+  if(window.location.hash===""){
+  window.location.replace("/solutions#hotelmotel").then(document.location.reload());
+}else{
+  window.location.replace("/solutions#hotelmotel")
+document.location.reload()
+}
 }
 function farmagribusiness() {
-  window.location.replace("/solutions#farmagribusiness");
-  document.location.reload()
+  if(window.location.hash===""){
+  window.location.replace("/solutions#farmagribusiness").then(document.location.reload());
+}else{
+  window.location.replace("/solutions#farmagribusiness")
+document.location.reload()
+}
 }
 function habitual() {
-  window.location.replace("/solutions#habitual");
-  document.location.reload()
+  if(window.location.hash===""){
+  window.location.replace("/solutions#habitual").then(document.location.reload());
+}else{
+  window.location.replace("/solutions#habitual")
+document.location.reload()
+}
 }
 function processservice() {
-  window.location.replace("/solutions#processservice");
-  document.location.reload()
+  if(window.location.hash===""){
+  window.location.replace("/solutions#processservice").then(document.location.reload());
+}else{
+  window.location.replace("/solutions#processservice")
+document.location.reload()
+}
 }
 function manufacturing() {
-  window.location.replace("/solutions#manufacturing");
-  document.location.reload()
+  if(window.location.hash===""){
+  window.location.replace("/solutions#manufacturing").then(document.location.reload());
+}else{
+  window.location.replace("/solutions#manufacturing")
+document.location.reload()
+}
 }
 function autoService() {
-  window.location.replace("/solutions#autoService");
-  document.location.reload()
+  if(window.location.hash===""){
+  window.location.replace("/solutions#autoService").then(document.location.reload());
+}else{
+  window.location.replace("/solutions#autoService")
+document.location.reload()
+}
 }
 function wholesale() {
-  window.location.replace("/solutions#wholesale");
-  document.location.reload()
+  if(window.location.hash===""){
+  window.location.replace("/solutions#wholesale").then(document.location.reload());
+}else{
+  window.location.replace("/solutions#wholesale")
+document.location.reload()
+}
 }
 function Construction() {
-  window.location.replace("/solutions#construction");
-  document.location.reload()
+  if(window.location.hash===""){
+  window.location.replace("/solutions#construction").then(document.location.reload());
+}else{
+  window.location.replace("/solutions#construction")
+document.location.reload()
+}
 }
 function officeprofessional() {
-  window.location.replace("/solutions#officeprofessional");
-  document.location.reload()
+  if(window.location.hash===""){
+  window.location.replace("/solutions#officeprofessional").then(document.location.reload());
+}else{
+  window.location.replace("/solutions#officeprofessional")
+document.location.reload()
+}
 }
 function healthcare() {
-  window.location.replace("/solutions#healthcare");
-  document.location.reload()
+  if(window.location.hash===""){
+  window.location.replace("/solutions#healthcare").then(document.location.reload());
+}else{
+  window.location.replace("/solutions#healthcare")
+document.location.reload()
+}
 }
 
   return (
