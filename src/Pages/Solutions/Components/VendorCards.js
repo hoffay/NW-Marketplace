@@ -27,10 +27,9 @@ function createCard(vendor) {
 }
 
 function VendorCard({ vendor }) {
-
+    //TODO Will refactor later
     return (
-        <div className="vendorCard">
-
+<div className='vendorCard'>
             <Card key={vendor.Vendor_Name} variant="outlined" sx={{ minWidth: 275, height: 300 }}>
                 <div style={{ display: "flex", justifyContent: "center", alignItems: "center", height: 100 }}>
                     <CardMedia
@@ -55,7 +54,8 @@ function VendorCard({ vendor }) {
             </Card>
 
         </div>
-    );
+    )
+
 }
 
 export default VendorCard;
