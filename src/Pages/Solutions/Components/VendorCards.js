@@ -27,9 +27,10 @@ function createCard(vendor) {
 }
 
 function VendorCard({ vendor }) {
-    //TODO Will refactor later
+
     return (
-<div className='vendorCard'>
+        <div className="vendorCard">
+
             <Card key={vendor.Vendor_Name} variant="outlined" sx={{ minWidth: 275, height: 300 }}>
                 <div style={{ display: "flex", justifyContent: "center", alignItems: "center", height: 100 }}>
                     <CardMedia
@@ -47,13 +48,14 @@ function VendorCard({ vendor }) {
                     </div>
                 </CardContent>
                 <CardActions sx={{ justifyContent: "center" }}>
-                <VendorModal vendor={vendor}/>
+                <Button size="medium" variant="contained" sx={{ width: 200, backgroundColor: '#30cddc', textTransform: 'none' }} onClick={() => window.open(vendor.Web_Link)}>
+                        Go to Site
+                    </Button>
                 </CardActions>
             </Card>
 
         </div>
-    )
-
+    );
 }
 
 export default VendorCard;
