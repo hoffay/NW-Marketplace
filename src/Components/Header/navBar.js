@@ -58,7 +58,7 @@ function homeClick(yep) {
             <img src="nwlogo.png" height="100px" alt="Logo" ></img>
           </Typography>
 
-          <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
+          <Box sx={{minwidth: 1/4, flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
             <IconButton
               size="large"
               aria-label="account of current user"
@@ -106,10 +106,10 @@ function homeClick(yep) {
           >
             LOGO
           </Typography>
-          <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
+          <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'flex' } }}>
               <Button
                 onClick={homeClick}
-                sx={{ mr: 6, fontSize: 22, ml: 10 ,my: 2, color: 'white', display: 'block',textTransform: 'none'}}
+                sx={{mr: 6, fontSize: 22, ml: 10 ,my: 2, color: 'white', display: 'block',textTransform: 'none'}}
               >
                 Home
               </Button>
