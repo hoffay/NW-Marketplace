@@ -8,6 +8,7 @@ function CLButton() {
     return (
         <div className = "center">
         <><div className = "textAdj1">
+            
             Looking for something else?
         </div><>
         <Button
@@ -17,7 +18,7 @@ function CLButton() {
                 backgroundColor: "white",
                 fontWeight: 'bold',
                 textDecorationLine: 'underline',
-                fontSize: '32px',
+                fontSize: '3vh',
                 display: 'inline-block',
                 alignContent: 'center',
                 color: '#30cddc',

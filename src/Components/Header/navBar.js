@@ -14,6 +14,8 @@ import DehazeIcon from '@mui/icons-material/Dehaze';
 import LCSButton1 from "./LCSButton";
 import LCSButton2 from "./LCSButton2";
 import PositionedMenu from "./navbarDropdown"
+import Breadcrumbs from '@mui/material';
+import { NavLink } from "react-router-dom";
 
 
 const pages = ['Home', 'Solutions Catalog'];
@@ -40,10 +42,21 @@ const NavBar = () => {
 
   function solutionsClick(yep) {
     window.location.replace("/solutions");
-}
-function homeClick(yep) {
-  window.location.replace("/");
-}
+  }
+  function homeClick(yep) {
+    window.location.replace("/");
+  }
+
+  let activeStyle = {
+    borderBottom: "6px solid #30cddc",
+    alignSelf: "center",
+    textDecoration: "none"
+  }
+
+  let nonActive = {
+    alignSelf: "center",
+    textDecoration: "none"
+  }
 
   return (
     <AppBar position="static">
@@ -88,7 +101,7 @@ function homeClick(yep) {
                 display: { xs: 'block', md: 'none' },
               }}
             >
-                            
+
 
               {pages.map((page) => (
                 <MenuItem key={page} onClick={handleCloseNavMenu}>
@@ -97,7 +110,7 @@ function homeClick(yep) {
               ))}
             </Menu>
           </Box>
-          
+
           <Typography
             variant="h6"
             noWrap
@@ -106,51 +119,59 @@ function homeClick(yep) {
           >
             LOGO
           </Typography>
-          <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
-              <Button
-                onClick={homeClick}
-                sx={{ mr: 6, fontSize: 22, ml: 10 ,my: 2, color: 'white', display: 'block',textTransform: 'none'}}
+          <Box className="thisBox" sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
+            <Button
+              component={NavLink} to="/" end style={({ isActive }) => isActive ? activeStyle : nonActive }
+              sx={{
+                mr: 6, ml: 10, my: 2, color: 'white', display: 'block', textTransform: 'none', alignSelf: "center",
+              }}                
               >
-                Home
-              </Button>
-              <PositionedMenu/>
-          </Box>
-          <div class="layered">
-    <LCSButton1/>
-    <LCSButton2/>
-</div>
-          <Box sx={{ flexGrow: 0 }}>
-            <Tooltip>
-              <IconButton onMouseOver={handleOpenUserMenu} sx={{ p: 0 }}>
+            <Typography sx={{ fontSize: 22, fontFamily: "Arial", fontWeight: "bold" }}>Home</Typography>
+          </Button> 
+          <PositionedMenu />
+          {/* <Button
+                onClick={solutionsClick}
+                sx={{ my: 2, fontSize: 22, color: 'white', display: 'block'}}
+              >
+                Solutions<br></br>Catalog
+              </Button> */}
+        </Box>
+        <div class="layered">
+          <LCSButton1 />
+          <LCSButton2 />
+        </div>
+        <Box sx={{ flexGrow: 0 }}>
+          <Tooltip title="Open settings">
+            <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>
               <div class="moveright">
-              <DehazeIcon
-              style={{ 
-                color: "#30cddc",
-                width: 50,
-                height: 50,
-            }}
-              ></DehazeIcon>
+                <DehazeIcon
+                  style={{
+                    color: "#30cddc",
+                    width: 50,
+                    height: 50,
+                  }}
+                ></DehazeIcon>
               </div>
-              </IconButton>
-            </Tooltip>
-            <Menu
-              sx={{ mt: '2 5px'}}
-              id="menu-appbar"
-              anchorEl={anchorElUser}
-              anchorOrigin={{
-                vertical: 'top',
-                horizontal: 'right',
-              }}
-              keepMounted
-              transformOrigin={{
-                vertical: 'top',
-                horizontal: 'right',
-              }}
-              open={Boolean(anchorElUser)}
-              onClose={handleCloseUserMenu}
-            >
-              {settings.map((setting) => (
-                <MenuItem key={setting} 
+            </IconButton>
+          </Tooltip>
+          <Menu
+            sx={{ mt: '2 5px' }}
+            id="menu-appbar"
+            anchorEl={anchorElUser}
+            anchorOrigin={{
+              vertical: 'top',
+              horizontal: 'right',
+            }}
+            keepMounted
+            transformOrigin={{
+              vertical: 'top',
+              horizontal: 'right',
+            }}
+            open={Boolean(anchorElUser)}
+            onClose={handleCloseUserMenu}
+          >
+            {settings.map((setting) => (
+              <MenuItem key={setting}
                 onClick={handleCloseUserMenu}
                 sx={{
                   fontsize: 35,
@@ -158,18 +179,18 @@ function homeClick(yep) {
                   borderBottom: 1,
                   borderColor: '#CCD7E4',
                   bgcolor: 'white'
-                
+
                 }}
-                >
-                 
-                  <Typography textAlign="center">{setting}</Typography>
-                </MenuItem>
-              ))}
-            </Menu>
-          </Box>
-        </Toolbar>
-      </Container>
-    </AppBar>
+              >
+
+                <Typography textAlign="center">{setting}</Typography>
+              </MenuItem>
+            ))}
+          </Menu>
+        </Box>
+      </Toolbar>
+    </Container>
+    </AppBar >
   );
 };
 export default NavBar;

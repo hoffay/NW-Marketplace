@@ -2,6 +2,7 @@ import * as React from 'react';
 import Button from '@mui/material/Button';
 import Menu from '@mui/material/Menu';
 import MenuItem from '@mui/material/MenuItem';
+import { useLocation } from "react-router-dom";
 
 export default function PositionedMenu() {
   const [anchorEl, setAnchorEl] = React.useState(null);
@@ -110,6 +111,26 @@ document.location.reload()
 }
 }
 
+let activeStyle = {
+  borderBottom: "6px solid #30cddc",
+  alignSelf: "center",
+  textDecoration: "none",
+  mr: 8, fontSize: 22, ml: 5 ,my: 2, color: 'white', display: 'block',textTransform: 'none'
+}
+
+let nonActive = {
+  alignSelf: "center",
+  textDecoration: "none",
+  mr: 8, fontSize: 22, ml: 5 ,my: 2, color: 'white', display: 'block',textTransform: 'none'
+}
+
+const { pathname } = useLocation();
+
+const navHandleClick = (e) => {
+  const { linkDisabled } = this.state
+  if(linkDisabled) e.preventDefault()
+}
+
   return (
     <div>
       <Button
@@ -117,8 +138,8 @@ document.location.reload()
         aria-controls={open ? 'demo-positioned-menu' : undefined}
         aria-haspopup="true"
         aria-expanded={open ? 'true' : undefined}
-        onMouseOver={handleClick}
-        sx={{ mr: 8, fontSize: 22, ml: 5 ,my: 2, color: 'white', display: 'block',textTransform: 'none'}}
+        onClick={handleClick}
+        sx={{ mr: 8, fontSize: 22, ml: 5 ,my: 2, color: 'white', display: 'block',textTransform: 'none', borderBottom: pathname == '/solutions' ? '6px solid #30cddc' : 'none'}}
       >
         Solutions<br></br>Catalog
       </Button>
