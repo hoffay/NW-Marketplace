@@ -94,18 +94,20 @@ Tested by viewing the webstie under different view ports and seeing that it stil
 
 ## Total Results S3
 | Issue | Result |
+|--|--|
 |13 | Passed |
-|18  | Passed |
-|14  | Passed |
-|17  | Passed |
-|16  | Passed |
+|18 | Passed |
+|14 | Passed |
+|17 | Passed |
+|16 | Passed |
 
 ## Total Results S4
 | Issue | Result |
+|--|--|
 |21 | Passed |
-|22  | Passed |
-|23  | Passed |
-|24  | Failed  |
+|22 | Passed |
+|23 | Passed |
+|24 | Failed  |
 
 # Sprint 5
 ## Issue 31: Make product cards expandable to show details
@@ -115,6 +117,7 @@ Tested by maximizing/minimizing screen sizes and making sure modals didn't overl
 
 ## Total Results S5
 | Issue | Result |
+|--|--|
 |31  | Passed |
 |32  | Passed |
 |30  | Passed |
@@ -123,7 +126,15 @@ Tested by maximizing/minimizing screen sizes and making sure modals didn't overl
 ## Issue 26: Choosing a business category on home page directs to specific category
 Tested by matching the sorted industries to the json file. Tested to see if the modal matched the vendor card.
 
+## Issue 38: Add Breadcrumbs to pages
+Tested by accessing the different pages and making sure highlight appears and does not interfere with other items. Backtracked across pages as well.
+
+## Issue 39: Create JSON for all products
+This cannot be tested since it is just the creation of a JSON file.
 
 ## Total Results S6
 | Issue | Result |
+|--|--|
 |26  | Passed |
+|38  | Passed |
+|39  | NA |
