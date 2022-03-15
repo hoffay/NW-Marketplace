@@ -37,7 +37,7 @@ function VendorCard({ vendor }) {
      industry1="Farm/Agribusiness";  
 } else if(window.location.hash==="#habitual"){
      industry1="Habitational";  
-} else if(window.location.hash==="processservice"){
+} else if(window.location.hash==="#processservice"){
      industry1="Process/Service";  
 } else if(window.location.hash==="#manufacturing"){
      industry1="Manufacturing";  
@@ -53,15 +53,13 @@ function VendorCard({ vendor }) {
      industry1="Health Care"; 
 }
 
-
 let updateVendor = vendors.filter(vendor => vendor['Industry'].includes(industry1));
 console.log(updateVendor)
-vendor=updateVendor[0]//If the number is removed all the vendors will be blank
+vendor=updateVendor[0]//If the number is removed all the vendors will be blank but the vendor shown in correct
 
 if(industry1!=="empty"){
 return (
         <div className="vendorCard">
-
             <Card key={vendor.Vendor_Name} variant="outlined" sx={{ minWidth: 275, height: 300 }}>
                 <div style={{ display: "flex", justifyContent: "center", alignItems: "center", height: 100 }}>
                     <CardMedia
