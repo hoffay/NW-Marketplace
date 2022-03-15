@@ -1,18 +1,20 @@
 # Sprint 6 Review
 ### Ethan Bores
 1. Issue(s) completed
-Issue #28: Improve scaling for "Commercial Marketplace" text on homepage
-Issue #29: Realign center of search bar with the bottom of the background
+Issue #35: Inline the click here button on home page
+Issue #36: Add font uniformity
+Issue #37: Match image colors to wireframe
 2. What went well
-Handing text resizing and maintaining a consistent place on the homepage for the "Commercial Marketplace" text went well for me.
+Adjusting colors and fonts on the homepage went smoothly for me. Besides colors and fonts, creating more responsive font resizing relative to the size of the window using 'rem' units worked out very well after getting a feel for how the units worked.
 3. What didn't go so well
-I spent slightly more time attempting to align the search bar with the bottom of the background, but still accomplished the task in a relatively short time in comparison to that of my issues of previous sprints.
+Adjusting the coloring of some of the vendor cards and the searchbar was a slightly difficult task due to default MUI colors and trying to modify them.
 4. What I have learned
-I have learned how to better use CSS to add responsiveness to websites, as well as becoming better at cleaning up my code.
+I have learned more skills involving the use of the aforementioned 'rem' units in order to provide greater responsiveness to the website overall. This goes for other elements outside of those related to the text.
 5. What still puzzles me
-I am still puzzled by the implementation of MUI to create better responsive UI.
+I am still puzzled by MUI default coloring and how to properly adjust it.
 6. What will we change to improve
-To improve, I plan to study documentation of MUI and possibly refactor my code to incorporate it for improved efficiency.
+To improve, I plan to do more research on MUI and its implementation in the elements of the website.
+
 ### Shane Tobar
 1. Issues completed
 Issue #38 Add breadcrumbs to pages, #39 Create JSON for all products.
