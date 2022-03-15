@@ -2,6 +2,7 @@ import React from 'react';
 import { vendors } from '../../../VendorData';
 import { Grid, Card, CardContent, Typography, CardHeader, CardActions, Button, CardMedia } from '@mui/material'
 import VendorModal from './VendorModal';
+import { solutions } from '../../../SolutionsData';
 
 
 
@@ -30,7 +31,7 @@ function VendorCard({ vendor }) {
     //TODO Will refactor later
     return (
 <div className='vendorCard'>
-            <Card key={vendor.Vendor_Name} variant="outlined" sx={{ minWidth: 275, height: 300 }}>
+            <Card key={vendor.Company} variant="outlined" sx={{ minWidth: 275, height: 300 }}>
                 <div style={{ display: "flex", justifyContent: "center", alignItems: "center", height: 100 }}>
                     <CardMedia
                         component="img" 
@@ -47,9 +48,7 @@ function VendorCard({ vendor }) {
                     </div>
                 </CardContent>
                 <CardActions sx={{ justifyContent: "center" }}>
-                <Button size="medium" variant="contained" sx={{ width: 200, backgroundColor: '#30cddc', textTransform: 'none' }} onClick={() => window.open(vendor.Web_Link)}>
-                        Go to Site
-                    </Button>
+                <VendorModal />
                 </CardActions>
             </Card>
 
