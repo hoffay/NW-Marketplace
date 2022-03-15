@@ -71,7 +71,7 @@ const NavBar = () => {
             <img src="nwlogo.png" height="100px" alt="Logo" ></img>
           </Typography>
 
-          <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
+          <Box sx={{minwidth: 1/4, flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
             <IconButton
               size="large"
               aria-label="account of current user"

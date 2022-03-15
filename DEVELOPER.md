@@ -20,6 +20,7 @@ Currently there are 5 main components:
     *  This component links to the respective page mylosscontrolservices.com
 3. The NavBar
     * This has all the other respective pages and logo that is needed
+    * Contains highlighted breadcrumbs for current page
 4. Searchbar
     * This is a textfield that will be submitted by the user to get relevant results
 5. The Vendor Grid
