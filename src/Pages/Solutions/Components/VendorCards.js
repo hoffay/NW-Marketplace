@@ -31,7 +31,7 @@ function VendorCard({ vendor }) {
     //TODO Will refactor later
     return (
 <div className='vendorCard'>
-            <Card key={vendor.Company} variant="outlined" sx={{ minWidth: 275, height: 300 }}>
+            <Card key={vendor.Company} variant="outlined" sx={{ width: 275, height: 300 }}>
                 <div style={{ display: "flex", justifyContent: "center", alignItems: "center", height: 100 }}>
                     <CardMedia
                         component="img" 
