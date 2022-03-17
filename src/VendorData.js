@@ -1,7 +1,7 @@
 export const vendors = [
   {
     id: 1,
-    Industry: "Farm/Agribusiness\nFood Service\nHotel/Motel",
+    Industry: "Farm/Agribusiness",
     Solution: "Wireless Monitoring",
     Company: "Quanturi",
     Example_Scenarios: "It is a challenge to control the quality of my hay while being stored.",
@@ -14,7 +14,7 @@ export const vendors = [
   },
   {
       id: 2,
-      Industry: "Farm/Agribusiness\nFood Service",
+      Industry: "Farm/Agribusiness",
       Solution: "Grain Monitoring",
       Company: "Quanturi",
       Example_Scenarios: "I am concerned about the risk of grain fires on my farm.",
@@ -40,7 +40,7 @@ export const vendors = [
   },
   {
       id: 4,
-      Industry: "Food Service",
+      Industry: "FFarm/Agribusiness\nFood Service\nHabitational\nHotel/Motel",
       Solution: "School Cafeteria Refrigeration",
       Company: "OneEvent",
       Example_Scenarios: "I am concerned about the temperature fluctuations in my cold storage unit",
@@ -65,7 +65,7 @@ export const vendors = [
   },
   {
       id: 6,
-      Industry: "Retail",
+      Industry: "Food Service\nRetail\nProcess/Service\nAuto Service\nConstruction\nHealth Care",
       Solution: "Theft and Vandalism",
       Company: "Actuate",
       Logo: "actuate",
@@ -78,7 +78,7 @@ export const vendors = [
   },
   {
       id: 7,
-      Industry: "Retail",
+      Industry: "Food Service\nRetail\nHotel/Motel\nHabitational\nProcess/Service\nManufacturing\nAuto Service\nWholesale\nConstruction\nOffice/Professional\nHealth Care\nFarm/Agribusiness",
       Solution: "Cyber Suite",
       Company: "HSB",
       Example_Scenarios: "I am concerned with monitoring my refridgeration systems within my convenience store.\n\nI am interested in monitoring power outages at my place of business while I am not present.",
@@ -90,7 +90,7 @@ export const vendors = [
   },
   {
       id: 8,
-      Industry: "Retail\nHotel/Motel",
+      Industry: "Food Service\nRetail\nHotel/Motel\nHabitational\nProcess/Service\nManufacturing\nAuto Service\nWholesale\nConstruction\nOffice/Professional\nHealth Care\nFarm/Agribusiness",
       Solution: "Energy Efficiency",
       Company: "HSB",
       Example_Scenarios: "I am concerned with monitoring my refridgeration systems within my convenience store.\n\nI am interested in monitoring power outages at my place of business while I am not present.",
@@ -102,7 +102,7 @@ export const vendors = [
   },
   {
       id: 9,
-      Industry: "Retail",
+      Industry: "Food Service\nRetail\nHotel/Motel\nProcess/Service\nAuto Service\nOffice/Professional\nHealth Care",
       Solution: "Retail Banking",
       Company: "Floatbot",
       Logo: "floatbot",
@@ -115,7 +115,7 @@ export const vendors = [
   },
   { //START OF HOTEL/MOTEL
       id: 10,
-      Industry: "Hotel/Motel",
+      Industry: "Farm/Agribusiness\nFood Service\nHabitational\nHotel/Motel",
       Solution: "Refrigeration Monitoring",
       Company: "OneEvent",
       Logo: "oneEvent",
@@ -128,7 +128,7 @@ export const vendors = [
   },
   {
       id: 11,
-      Industry: "Hotel/Motel",
+      Industry: "Food Service\nRetail\nHotel/Motel\nProcess/Service\nManufacturing\nAuto Service\nWholesale\nConstruction\nHealth Care\nFarm/Agribusiness",
       Solution: "Injury Reduction",
       Company: "Wearkinetic",
       Logo: "kinetic",
@@ -167,7 +167,7 @@ export const vendors = [
   },
   {
       id: 14,
-      Industry: "Farm/Agribusiness",
+      Industry: "Farm/Agribusiness\nFood Service\nHealth Care\nWholesale\nRetail",
       Solution: "Fleet Management",
       Company: "Razor Tracking",
       Logo: "razorTracking",
@@ -180,7 +180,7 @@ export const vendors = [
   },
   {
       id: 15,
-      Industry: "Farm/Agribusiness\nConstruction",
+      Industry: "Farm/Agribusiness\nHabitational\nFood Service\nHotel/Motel",
       Solution: "Fire Prevention",
       Company: "PrevTech",
       Logo: "prevTech",
@@ -219,7 +219,7 @@ export const vendors = [
   },
   {
       id: 18,
-      Industry: "Farm/Agribusiness",
+      Industry: "Construction\nFarm/Agribusiness",
       Solution: "Fleet Optimization",
       Company: "EquipmentShare",
       Logo: "esTrack",
@@ -232,7 +232,7 @@ export const vendors = [
   },
   {
       id: 19,
-      Industry: "Farm/Agribusiness",
+      Industry: "Habitational\nFarm/Agribusiness\nManufacturing\nConstruction",
       Solution: "InfraDrone",
       Company: "Infralytiks",
       Logo: "infraLytics",
@@ -245,7 +245,7 @@ export const vendors = [
   },
   { //HABITATIONAL
       id: 20,
-      Industry: "Habitational",
+      Industry: "Food Service\nRetail\nHotel/Motel\nHabitational\nProcess/Service\nManufacturing\nAuto Service\nWholesale\nConstruction\nOffice/Professional\nHealth Care\nFarm/Agribusiness",
       Solution: "Operational Property",
       Company: "HSB",
       Logo: "hsb",
@@ -258,7 +258,7 @@ export const vendors = [
   },
   {
       id: 21,
-      Industry: "Habitational",
+      Industry: "Farm/Agribusiness\nFood Service\nHabitational\nHotel/Motel",
       Solution: "Motion Sensors",
       Company: "OneEvent",
       Logo: "oneEvent",
@@ -271,7 +271,7 @@ export const vendors = [
   },
   {
       id: 22,
-      Industry: "Habitational",
+      Industry: "Farm/Agribusiness\nHabitational\nRetail\nFood Service",
       Solution: "Fire Hazard Sensor",
       Company: "Whiskerlabs",
       Logo: "ting",
@@ -284,7 +284,7 @@ export const vendors = [
   },
   {
       id: 23,
-      Industry: "Habitational",
+      Industry: "Habitational\nFarm/Agribusiness\nManufacturing\nConstruction",
       Solution: "Thermal Roof Inspection",
       Company: "Infralytiks",
       Logo: "infraLytics",
@@ -297,7 +297,7 @@ export const vendors = [
   },
   {
       id: 24,
-      Industry: "Habitational",
+      Industry: "Habitational\nConstruction",
       Solution: "Address-Level Analytics",
       Company: "Cape Analytics",
       Logo: "capeAnalytics",
@@ -307,5 +307,122 @@ export const vendors = [
         Discount: "Nationwide customers will receive an annual 10% discount on software monitoring",
         Example_Scenarios: "I want to avoid losses to my buildings.\n\nI want to detect problems that need to be fixed on my properties.",
         Trigger_Words_for_Search: "Imagery\nSatellite\nBuilding\nDamage\nHazard"
+  },
+  {
+    id: 25,
+    Industry: "Farm/Agribusiness\nConstruction",
+    Vendor_Name: "Zubie",
+    Solution: "Asset Trak",
+    Logo: "zubie",
+    Web_Link: "https://zubie.com/asset-trak/",
+    Description: "Asset tracking that speeds the time to recover lost or stollen assets with previous locations, device tamper alerts, and location information. Detailed location history lets users monitor how and where assets are being used.",
+    Contact_Info: "Bob Mueller\nPhone: (568) 321-8537\nBM@Zubie.com",
+    Discount: "50% device discount for Nationwide customers",
+    Example_Scenarios: "I am interested in tracking my assets and associates as they manage my equipment.",
+    Trigger_Words_for_Search: "Equipment\nMonitor\nTracking"
+  },
+  {
+    id: 26,
+    Industry: "Farm/Agribusiness\nManufacturing",
+    Vendor_Name: "Argus",
+    Logo: "argus",
+    Solution: "Fire Supression",
+    Web_Link: "http://argusfirecontrol.com/Products.html",
+    Description: "Argus Fire Control specializes in the design, manufacture, and service of industrial production protection systems for fire hazards as well as metal detection and diverting. Argus Fire Control offers engineered systems for the textile spinning and non-woven industry as well as for wood-working, cotton gins, recycling, and other industrial applications.",
+    Contact_Info: "Owen Beckett\nPhone: (465) 548-5435\nOBP@ argusfirecontrol.com",
+    Discount: "Nationwide customers will receive a 20% discount on Argus hardware.",
+    Example_Scenarios: "I need assistance maintaining my production systems.\n\nI am interested in fire control of my industrial systems.",
+    Trigger_Words_for_Search: "Fire\nIndustrial\nDetect\nManufacturing"
+  },
+  {
+    id: 27,
+    Industry: "Manufacturing\nProcess/Service\nConstruction\nFarm/Agribusiness",
+    Vendor_Name: "MakUSafe",
+    Logo: "makUSafe",
+    Solution: "MakUSafe",
+    Web_Link: "https://makusafe.com/?gclid=Cj0KCQiA5aWOBhDMARIsAIXLlkfnfBX6FZkNnPAPgq8J4DkIWSUFFts4Lav2d7ZSkQeGVY-KjAbig_0aApqIEALw_wcB",
+    Description: "The MakuSafe dashboard displays data from connected factory equipment and systems, providing insights and context into employee health safety concerns. Devices send data from each worker the business's platforms, creating opportunities to enhance operations and reduce workplace hazards.",
+    Contact_Info: "Sydney Kendall\nPhone: (635) 567-8922\nSydney@makusafe.com",
+    Discount: "Nationwide customers will receive hardware installation and training at no cost.",
+    Example_Scenarios: "I want to make sure my employees are not injured.\n\nI want to be sure my business environment is safe for my workers.\n\nI want to make corrections to my facility that might cause injury.",
+    Trigger_Words_for_Search: "Sensor\nWorker\nRisk\nMotion\nInjury\nEnvironment"
+  },
+  {
+    id: 28,
+    Industry: "Habitational\nFood Service\nRetail \nProcess Service\nOffice/Professional",
+    Vendor_Name: "Senseware",
+    Logo: "senseWare",
+    Solution: "Senseware",
+    Web_Link: "https://www.senseware.co/",
+    Description: "Senseware is a wireless sensor-based system that communicates physical asset data on a real-time basis to help promote energy efficiency and sustainability. Senseware uses smart sensors, wireless communication, the internet, and cloud-based technology to ‘connect the unconnected’and create Intelligent communities.",
+    Contact_Info: "Gia Mead\nPhone: (544)936-4512\nMead@senseware.co",
+    Discount: "Nationwide customers will receive free installation on all Senseware hardware.",
+    Example_Scenarios: "It is difficult to understand where costs are being incurred at my business.\n\nI am interested in monitoring the sensors on my premises to make managing my business more streamlined.",
+    Trigger_Words_for_Search: "Sensor\nData\nMonitor\nEfficiency"
+  },
+  {
+    id: 29,
+    Industry: "Retail\nFood Service\nProfess/Service\nHabitational\nOffice/Professional",
+    Vendor_Name: "Deep Sentinel",
+    Logo: "deepSentinel",
+    Solution:"Deep Sentinel",
+    Web_Link: "https://www.deepsentinel.com/",
+    Description: "Deep Sentinel is a home security company that produces a series of cameras powered by deep learning that can evaluate threats on a property.",
+    Contact_Info: "Peter Flynn\nPhone: (912) 453-7532\nFlynn@deepsentinel.com",
+    Discount: "Nationwide customers will receive free hardeware and  one year of software monitoring.",
+    Example_Scenarios: "I want to be sure that my business is secure.\n\nI want to make sure my employees are safe from violance while working.",
+    Trigger_Words_for_Search: "Sensor\nVideo\nSecurity\nCrime"
+  },
+  {
+    id: 30,
+    Industry: "Retail\nHotel/Motel\nProcess/Service\nAuto Service\nOffice/Professional",
+    Vendor_Name: "Cogito",
+    Solution: "Cogito",
+    Logo: "cogito",
+    Web_Link: "https://cogitocorp.com/",
+    Description: "Cogito enhances the emotional intelligence of phone professionals by applying behavioral science through artificial intelligence.",
+    Contact_Info: "Vick Ricky\nPhone: (744) 456-4211\nVick@Cogito.com",
+    Discount: "Nationtide customers will receive complimentary training and software monitoring on Cogito software.",
+    Example_Scenarios: "I want to be sure my employees are delivering the best customer experience possible.\n\nI want to help teach my employees how to be good customer service representatives.",
+    Trigger_Words_for_Search: "Customer service\nMonitor\nTeach\nBehavior"
+  },
+  {
+    id: 31,
+    Industry: "Health Care\nHabitational",
+    Vendor_Name: "Care Predict",
+    Solution: "Care Predict",
+    Logo: "carePredict",
+    Web_Link: "https://www.carepredict.com/",
+    Description: "CarePredict technology continuously observes, learns, and triggers just in time care for aging seniors. The technology is ideal for group living, home care, and senior centers.",
+    Contact_Info: "Tom Townsie\nPhone: (894) 112-4882\nTownsie@carepredict.com",
+    Discount: "Nationwide customers will receive a 5% hardware discount, along with associate training.",
+    Example_Scenarios: "I want to take care of the patients at my facility.\n\nI want to help track the movements and locations of patients.\n\nI want to avoid patient and worker injury.",
+    Trigger_Words_for_Search: "Senior care\nAssisted living\nNursing home\nPatients\nInjury\nTracking"
+  },
+  {
+    id: 32,
+    Industry: "Construction\nFood Service\nProcess/Service\nAuto Service\nHealth Care",
+    Vendor_Name: "Thimble",
+    Solution: "Thimble",
+    Logo: "thimble",
+    Web_Link: "https://www.thimble.com/",
+    Description: "Thimble provides liability coverage for customers in more than 100 professions including landscapers, beauticians, dog walkers, handymen, DJs, and musicians. The flexible coverage platform offers short term, versatile insurance to small businesses, independent workers, and freelancers.",
+    Contact_Info: "Allen Wallace\nPhone: (112) 453-1232\nWallace@thimble.com",
+    Discount: "Nationwide customers will receive a 15% discount for bind within 24 hours.",
+    Example_Scenarios: "I want to purchase insurance for my small business.",
+    Trigger_Words_for_Search: "Purchase\nProduct\nLiability\nPolicy"
+  },
+  {
+    id: 33,
+    Industry: "Food Service\nRetail\nHotel/Motel\nProcess/Service\nAuto Service\nOffice/Professional",
+    Vendor_Name: "ServiceBOT",
+    Logo: "serviceBot",
+    Solution: "Service Bot",
+    Web_Link: "https://servisbot.com/",
+    Description: "A conversational AI platform that provides a number of low-code and no-code tools that enable business users to easily design, build, and manage conversational AI experiences.",
+    Contact_Info: "Jimmie Bond\nPhone: (235) 215-4621\nBond@ServiceBOT.com",
+    Discount: "Nationwide customerw siwll receive a 20% discount when engaging to build BOT technology, bringing to production.",
+    Example_Scenarios: "I want my customers to be able to interact with my business digitally.\n\nI want to reduce call volume.\n\nI want to be able to service my customers after business hours.",
+    Trigger_Words_for_Search: "Digital\nCalls\nService\nAvailable\nAutomate"
   }
 ];
