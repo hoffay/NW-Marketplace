@@ -27,7 +27,7 @@ export const vendors = [
   },
   {
       id: 3,
-      Industry: ["Food Service"],
+      Industry: "Food Service",
       Solution: "Restaurant Insurance",
       Company: "Thimble",
       Example_Scenarios: "I want to purchase insurance for my small business",
@@ -40,7 +40,7 @@ export const vendors = [
   },
   {
       id: 4,
-      Industry: ["Food Service"],
+      Industry: "Food Service",
       Solution: "School Cafeteria Refrigeration",
       Company: "OneEvent",
       Example_Scenarios: "I am concerned about the temperature fluctuations in my cold storage unit",
@@ -52,7 +52,7 @@ export const vendors = [
   },
   { //START OF RETAIL SOLUTIONS
       id: 5,
-      Industry: ["Retail"],
+      Industry: "Retail\nConstruction",
       Solution: "Electrical Fire Safety",
       Company: "Whiskerlabs",
       Logo: "ting",
@@ -65,7 +65,7 @@ export const vendors = [
   },
   {
       id: 6,
-      Industry: ["Retail"],
+      Industry: "Retail",
       Solution: "Theft and Vandalism",
       Company: "Actuate",
       Logo: "actuate",
@@ -78,7 +78,7 @@ export const vendors = [
   },
   {
       id: 7,
-      Industry: ["Retail"],
+      Industry: "Retail",
       Solution: "Cyber Suite",
       Company: "HSB",
       Example_Scenarios: "I am concerned with monitoring my refridgeration systems within my convenience store.\n\nI am interested in monitoring power outages at my place of business while I am not present.",
@@ -90,7 +90,7 @@ export const vendors = [
   },
   {
       id: 8,
-      Industry: ["Retail", "Hotel/Motel"],
+      Industry: "Retail\nHotel/Motel",
       Solution: "Energy Efficiency",
       Company: "HSB",
       Example_Scenarios: "I am concerned with monitoring my refridgeration systems within my convenience store.\n\nI am interested in monitoring power outages at my place of business while I am not present.",
@@ -102,7 +102,7 @@ export const vendors = [
   },
   {
       id: 9,
-      Industry: ["Retail"],
+      Industry: "Retail",
       Solution: "Retail Banking",
       Company: "Floatbot",
       Logo: "floatbot",
@@ -128,7 +128,7 @@ export const vendors = [
   },
   {
       id: 11,
-      Industry: ["Hotel/Motel"],
+      Industry: "Hotel/Motel",
       Solution: "Injury Reduction",
       Company: "Wearkinetic",
       Logo: "kinetic",
@@ -141,7 +141,7 @@ export const vendors = [
   },
   { //FARM AGRIBUSINESS
       id: 12,
-      Industry: ["Farm/Agribusiness"],
+      Industry: "Farm/Agribusiness",
       Solution: "Farm Monitoring",
       Company: "Quanturi",
       Logo: "quanturi",
@@ -154,7 +154,7 @@ export const vendors = [
   },
   {
       id: 13,
-      Industry: ["Farm/Agribusiness"],
+      Industry: "Farm/Agribusiness",
       Solution: "Grain Monitoring",
       Company: "CropZilla",
       Logo: "cropzilla",
@@ -167,7 +167,7 @@ export const vendors = [
   },
   {
       id: 14,
-      Industry: ["Farm/Agribusiness"],
+      Industry: "Farm/Agribusiness",
       Solution: "Fleet Management",
       Company: "Razor Tracking",
       Logo: "razorTracking",
@@ -180,7 +180,7 @@ export const vendors = [
   },
   {
       id: 15,
-      Industry: ["Farm/Agribusiness"],
+      Industry: "Farm/Agribusiness\nConstruction",
       Solution: "Fire Prevention",
       Company: "PrevTech",
       Logo: "prevTech",
@@ -193,7 +193,7 @@ export const vendors = [
   },
   {
       id: 16,
-      Industry: ["Farm/Agribusiness"],
+      Industry: "Farm/Agribusiness",
       Solution: "Temperature Sensor",
       Company: "BassAgritech Temprevent",
       Logo: "bassAgritech",
@@ -206,7 +206,7 @@ export const vendors = [
   },
   {
       id: 17,
-      Industry: ["Farm/Agribusiness"],
+      Industry: "Farm/Agribusiness",
       Solution: "Fire Supression",
       Company: "Stripper Saver",
       Logo: "stripperSaver",
@@ -219,7 +219,7 @@ export const vendors = [
   },
   {
       id: 18,
-      Industry: ["Farm/Agribusiness"],
+      Industry: "Farm/Agribusiness",
       Solution: "Fleet Optimization",
       Company: "EquipmentShare",
       Logo: "esTrack",
@@ -232,7 +232,7 @@ export const vendors = [
   },
   {
       id: 19,
-      Industry: ["Farm/Agribusiness"],
+      Industry: "Farm/Agribusiness",
       Solution: "InfraDrone",
       Company: "Infralytiks",
       Logo: "infraLytics",
@@ -245,7 +245,7 @@ export const vendors = [
   },
   { //HABITATIONAL
       id: 20,
-      Industry: ["Habitational"],
+      Industry: "Habitational",
       Solution: "Operational Property",
       Company: "HSB",
       Logo: "hsb",
@@ -258,7 +258,7 @@ export const vendors = [
   },
   {
       id: 21,
-      Industry: ["Habitational"],
+      Industry: "Habitational",
       Solution: "Motion Sensors",
       Company: "OneEvent",
       Logo: "oneEvent",
@@ -271,7 +271,7 @@ export const vendors = [
   },
   {
       id: 22,
-      Industry: ["Habitational"],
+      Industry: "Habitational",
       Solution: "Fire Hazard Sensor",
       Company: "Whiskerlabs",
       Logo: "ting",
@@ -284,7 +284,7 @@ export const vendors = [
   },
   {
       id: 23,
-      Industry: ["Habitational"],
+      Industry: "Habitational",
       Solution: "Thermal Roof Inspection",
       Company: "Infralytiks",
       Logo: "infraLytics",
@@ -297,7 +297,7 @@ export const vendors = [
   },
   {
       id: 24,
-      Industry: ["Habitational"],
+      Industry: "Habitational",
       Solution: "Address-Level Analytics",
       Company: "Cape Analytics",
       Logo: "capeAnalytics",
