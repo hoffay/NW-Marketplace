@@ -311,7 +311,7 @@ export const vendors = [
   {
     id: 25,
     Industry: "Farm/Agribusiness\nConstruction",
-    Vendor_Name: "Zubie",
+    Company: "Zubie",
     Solution: "Asset Trak",
     Logo: "zubie",
     Web_Link: "https://zubie.com/asset-trak/",
@@ -324,7 +324,7 @@ export const vendors = [
   {
     id: 26,
     Industry: "Farm/Agribusiness\nManufacturing",
-    Vendor_Name: "Argus",
+    Company: "Argus",
     Logo: "argus",
     Solution: "Fire Supression",
     Web_Link: "http://argusfirecontrol.com/Products.html",
@@ -337,7 +337,7 @@ export const vendors = [
   {
     id: 27,
     Industry: "Manufacturing\nProcess/Service\nConstruction\nFarm/Agribusiness",
-    Vendor_Name: "MakUSafe",
+    Company: "MakUSafe",
     Logo: "makUSafe",
     Solution: "MakUSafe",
     Web_Link: "https://makusafe.com/?gclid=Cj0KCQiA5aWOBhDMARIsAIXLlkfnfBX6FZkNnPAPgq8J4DkIWSUFFts4Lav2d7ZSkQeGVY-KjAbig_0aApqIEALw_wcB",
@@ -350,7 +350,7 @@ export const vendors = [
   {
     id: 28,
     Industry: "Habitational\nFood Service\nRetail \nProcess Service\nOffice/Professional",
-    Vendor_Name: "Senseware",
+    Company: "Senseware",
     Logo: "senseWare",
     Solution: "Senseware",
     Web_Link: "https://www.senseware.co/",
@@ -363,7 +363,7 @@ export const vendors = [
   {
     id: 29,
     Industry: "Retail\nFood Service\nProfess/Service\nHabitational\nOffice/Professional",
-    Vendor_Name: "Deep Sentinel",
+    Company: "Deep Sentinel",
     Logo: "deepSentinel",
     Solution:"Deep Sentinel",
     Web_Link: "https://www.deepsentinel.com/",
@@ -376,7 +376,7 @@ export const vendors = [
   {
     id: 30,
     Industry: "Retail\nHotel/Motel\nProcess/Service\nAuto Service\nOffice/Professional",
-    Vendor_Name: "Cogito",
+    Company: "Cogito",
     Solution: "Cogito",
     Logo: "cogito",
     Web_Link: "https://cogitocorp.com/",
@@ -389,7 +389,7 @@ export const vendors = [
   {
     id: 31,
     Industry: "Health Care\nHabitational",
-    Vendor_Name: "Care Predict",
+    Company: "Care Predict",
     Solution: "Care Predict",
     Logo: "carePredict",
     Web_Link: "https://www.carepredict.com/",
@@ -402,7 +402,7 @@ export const vendors = [
   {
     id: 32,
     Industry: "Construction\nFood Service\nProcess/Service\nAuto Service\nHealth Care",
-    Vendor_Name: "Thimble",
+    Company: "Thimble",
     Solution: "Thimble",
     Logo: "thimble",
     Web_Link: "https://www.thimble.com/",
@@ -415,7 +415,7 @@ export const vendors = [
   {
     id: 33,
     Industry: "Food Service\nRetail\nHotel/Motel\nProcess/Service\nAuto Service\nOffice/Professional",
-    Vendor_Name: "ServiceBOT",
+    Company: "ServiceBOT",
     Logo: "serviceBot",
     Solution: "Service Bot",
     Web_Link: "https://servisbot.com/",
