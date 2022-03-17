@@ -14,7 +14,7 @@ export const solutions = [
     },
     {
         id: 2,
-        Industry: ["Farm/Agribusiness", "Food Service"],
+        Industry: "Farm/Agribusiness\nFood Service",
         Solution: "Grain Monitoring",
         Company: "Quanturi",
         Example_Scenarios: "I am concerned about the risk of grain fires on my farm.",
@@ -113,21 +113,8 @@ export const solutions = [
           Example_Scenarios: "I want my customers to be able to interact with my business digitally.\n\nI want to reduce call volume.\n\nI want to be able to service my customers after business hours.",
           Trigger_Words_for_Search: "Digital\nCalls\nService\nAvailable\nAutomate"
     },
-    {
-        id: 10,
-        Industry: ["Retail"],
-        Solution: "Retail Banking",
-        Company: "Floatbot",
-        Logo: "floatbot",
-          Web_Link: "https://floatbot.ai/",
-          Description: "Floatbot is a conversational AI platform that helps businesses increase sales and reduce call volume by automating data collection and customer support, through (hybrid) AI-powered chatbots and voicebots.",
-          Contact_Info: "Briane Stein\nPhone: (215) 987-4532",
-          Discount: "Nationwide customers will receive a 50% discount when deployed on at least two platforms.",
-          Example_Scenarios: "I want my customers to be able to interact with my business digitally.\n\nI want to reduce call volume.\n\nI want to be able to service my customers after business hours.",
-          Trigger_Words_for_Search: "Digital\nCalls\nService\nAvailable\nAutomate"
-    },
     { //START OF HOTEL/MOTEL
-        id: 11,
+        id: 10,
         Industry: "Hotel/Motel",
         Solution: "Refrigeration Monitoring",
         Company: "OneEvent",
@@ -140,7 +127,7 @@ export const solutions = [
           Trigger_Words_for_Search: "Cooking\nBuilding"
     },
     {
-        id: 12,
+        id: 11,
         Industry: ["Hotel/Motel"],
         Solution: "Injury Reduction",
         Company: "Wearkinetic",
@@ -153,7 +140,7 @@ export const solutions = [
           Trigger_Words_for_Search: "Sensor\nWorker\nRisk\nMotion\nInjury"
     },
     { //FARM AGRIBUSINESS
-        id: 13,
+        id: 12,
         Industry: ["Farm/Agribusiness"],
         Solution: "Farm Monitoring",
         Company: "Quanturi",
@@ -166,7 +153,7 @@ export const solutions = [
           Trigger_Words_for_Search: "Farm\nHay\nGrain\nFire\nQuality"
     },
     {
-        id: 14,
+        id: 13,
         Industry: ["Farm/Agribusiness"],
         Solution: "Grain Monitoring",
         Company: "CropZilla",
@@ -179,7 +166,7 @@ export const solutions = [
           Trigger_Words_for_Search: "Farm\nCost\nMonitor\nControl\nDetect"
     },
     {
-        id: 15,
+        id: 14,
         Industry: ["Farm/Agribusiness"],
         Solution: "Fleet Management",
         Company: "Razor Tracking",
@@ -192,7 +179,7 @@ export const solutions = [
           Trigger_Words_for_Search: "Track\nSpeed\nVehicle\nEquipment\nAlert"
     },
     {
-        id: 16,
+        id: 15,
         Industry: ["Farm/Agribusiness"],
         Solution: "Fire Prevention",
         Company: "PrevTech",
@@ -205,7 +192,7 @@ export const solutions = [
           Trigger_Words_for_Search: "Monitor\nElectrical\nEfficiency\nProblems"
     },
     {
-        id: 17,
+        id: 16,
         Industry: ["Farm/Agribusiness"],
         Solution: "Temperature Sensor",
         Company: "BassAgritech Temprevent",
@@ -218,7 +205,7 @@ export const solutions = [
           Trigger_Words_for_Search: "Machinery\nEquipment\nFire\nTemperature\nSensor"
     },
     {
-        id: 18,
+        id: 17,
         Industry: ["Farm/Agribusiness"],
         Solution: "Fire Supression",
         Company: "Stripper Saver",
@@ -231,7 +218,7 @@ export const solutions = [
           Trigger_Words_for_Search: "Fire\nStripper\nJohn Deere"
     },
     {
-        id: 19,
+        id: 18,
         Industry: ["Farm/Agribusiness"],
         Solution: "Fleet Optimization",
         Company: "EquipmentShare",
@@ -244,7 +231,7 @@ export const solutions = [
           Trigger_Words_for_Search: "Vehicles\nEquipment\nSensor\nMonitor\nTrack"
     },
     {
-        id: 20,
+        id: 19,
         Industry: ["Farm/Agribusiness"],
         Solution: "InfraDrone",
         Company: "Infralytiks",
@@ -257,7 +244,7 @@ export const solutions = [
           Trigger_Words_for_Search: "Fire\nBuilding\nFarm"
     },
     { //HABITATIONAL
-        id: 21,
+        id: 20,
         Industry: ["Habitational"],
         Solution: "Operational Property",
         Company: "HSB",
@@ -270,7 +257,7 @@ export const solutions = [
           Trigger_Words_for_Search: "Systems\nPower\nSensor\nWater\nPipes\nTemperature"
     },
     {
-        id: 22,
+        id: 21,
         Industry: ["Habitational"],
         Solution: "Motion Sensors",
         Company: "OneEvent",
@@ -283,7 +270,7 @@ export const solutions = [
           Trigger_Words_for_Search: "Building"
     },
     {
-        id: 23,
+        id: 22,
         Industry: ["Habitational"],
         Solution: "Fire Hazard Sensor",
         Company: "Whiskerlabs",
@@ -296,7 +283,7 @@ export const solutions = [
           Trigger_Words_for_Search: "Property\nEfficiency\nMonitor"
     },
     {
-        id: 24,
+        id: 23,
         Industry: ["Habitational"],
         Solution: "Thermal Roof Inspection",
         Company: "Infralytiks",
@@ -309,7 +296,7 @@ export const solutions = [
           Trigger_Words_for_Search: "Fire\nBuilding\nFarm"
     },
     {
-        id: 25,
+        id: 24,
         Industry: ["Habitational"],
         Solution: "Address-Level Analytics",
         Company: "Cape Analytics",
