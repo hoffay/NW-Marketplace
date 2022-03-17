@@ -83,7 +83,7 @@ industry1="Food Service";
    industry1="Health Care"; 
 }
 
-const updateVendor = solutions.filter(solution => solution['Industry'].includes(industry1));
+const updateVendor = (industry1 != "") ? solutions.filter(solution => solution['Industry'].includes(industry1)) : solutions;
 return updateVendor;
 }
 function VendorGrid() {
