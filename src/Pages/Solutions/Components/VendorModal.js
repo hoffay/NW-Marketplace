@@ -17,6 +17,7 @@ const style = {
     p: 4,
     borderColor: '#1f74db',
     height: "45rem",
+    overflow: "scroll"
 };
 
 
