@@ -47,14 +47,12 @@ export default function VendorModal({ vendor }) {
                         </Typography>
                     </div>
                     <Typography id="modal-modal-title" fontWeight="bold" variant="h4" sx={{ mt: 2 }}>
-                        {vendor.Vendor_Name}
+                        {vendor.Company}
                     </Typography>
                     <div style={{ display: "inline-flex", mt: 2, marginBottom: "1rem", marginTop: "1rem" }}>
-                        <Typography fontWeight="bold" sx={{ mr: 1 }}>
-                            Company Name:
-                        </Typography>
-                        <Typography>
-                            {vendor.Vendor_Name}
+                        <Typography sx={{ mr: 1 }}>
+                        <div style={{fontWeight:"bold", display:"inline"}}>Company name: </div>
+                            {vendor.Company}
                         </Typography>
                     </div>
                     <div style={{ display: "inline-flex", mt: 2 }}>
