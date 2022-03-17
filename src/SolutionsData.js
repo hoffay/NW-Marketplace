@@ -1,7 +1,7 @@
 export const solutions = [
     {
       id: 1,
-      Industry: ["Farm/Agribusiness", "Food Service"],
+      Industry: "Farm/Agribusiness\nFood Service\nHotel/Motel",
       Solution: "Wireless Monitoring",
       Company: "Quanturi",
       Example_Scenarios: "It is a challenge to control the quality of my hay while being stored.",
@@ -128,7 +128,7 @@ export const solutions = [
     },
     { //START OF HOTEL/MOTEL
         id: 11,
-        Industry: ["Hotel/Motel"],
+        Industry: "Hotel/Motel",
         Solution: "Refrigeration Monitoring",
         Company: "OneEvent",
         Logo: "oneEvent",
@@ -152,16 +152,8 @@ export const solutions = [
           Example_Scenarios: "I want to make sure my employees are not injured.\n\nI want to be sure my business environment is safe for my workers.\n\nI want to make corrections to my facility that might cause injury.",
           Trigger_Words_for_Search: "Sensor\nWorker\nRisk\nMotion\nInjury"
     },
-    {
-        id: 13,
-        Industry: ["Hotel/Motel"],
-        Solution: "Wireless Temperature Monitoring",
-        Company: "Quanturi",
-        Example_Scenarios: "",
-        Description: ""
-    },
     { //FARM AGRIBUSINESS
-        id: 14,
+        id: 13,
         Industry: ["Farm/Agribusiness"],
         Solution: "Farm Monitoring",
         Company: "Quanturi",
@@ -174,7 +166,7 @@ export const solutions = [
           Trigger_Words_for_Search: "Farm\nHay\nGrain\nFire\nQuality"
     },
     {
-        id: 15,
+        id: 14,
         Industry: ["Farm/Agribusiness"],
         Solution: "Grain Monitoring",
         Company: "CropZilla",
@@ -187,7 +179,7 @@ export const solutions = [
           Trigger_Words_for_Search: "Farm\nCost\nMonitor\nControl\nDetect"
     },
     {
-        id: 16,
+        id: 15,
         Industry: ["Farm/Agribusiness"],
         Solution: "Fleet Management",
         Company: "Razor Tracking",
@@ -200,7 +192,7 @@ export const solutions = [
           Trigger_Words_for_Search: "Track\nSpeed\nVehicle\nEquipment\nAlert"
     },
     {
-        id: 17,
+        id: 16,
         Industry: ["Farm/Agribusiness"],
         Solution: "Fire Prevention",
         Company: "PrevTech",
@@ -213,7 +205,7 @@ export const solutions = [
           Trigger_Words_for_Search: "Monitor\nElectrical\nEfficiency\nProblems"
     },
     {
-        id: 18,
+        id: 17,
         Industry: ["Farm/Agribusiness"],
         Solution: "Temperature Sensor",
         Company: "BassAgritech Temprevent",
@@ -226,7 +218,7 @@ export const solutions = [
           Trigger_Words_for_Search: "Machinery\nEquipment\nFire\nTemperature\nSensor"
     },
     {
-        id: 19,
+        id: 18,
         Industry: ["Farm/Agribusiness"],
         Solution: "Fire Supression",
         Company: "Stripper Saver",
@@ -239,7 +231,7 @@ export const solutions = [
           Trigger_Words_for_Search: "Fire\nStripper\nJohn Deere"
     },
     {
-        id: 20,
+        id: 19,
         Industry: ["Farm/Agribusiness"],
         Solution: "Fleet Optimization",
         Company: "EquipmentShare",
@@ -252,7 +244,7 @@ export const solutions = [
           Trigger_Words_for_Search: "Vehicles\nEquipment\nSensor\nMonitor\nTrack"
     },
     {
-        id: 21,
+        id: 20,
         Industry: ["Farm/Agribusiness"],
         Solution: "InfraDrone",
         Company: "Infralytiks",
@@ -265,7 +257,7 @@ export const solutions = [
           Trigger_Words_for_Search: "Fire\nBuilding\nFarm"
     },
     { //HABITATIONAL
-        id: 22,
+        id: 21,
         Industry: ["Habitational"],
         Solution: "Operational Property",
         Company: "HSB",
@@ -278,7 +270,7 @@ export const solutions = [
           Trigger_Words_for_Search: "Systems\nPower\nSensor\nWater\nPipes\nTemperature"
     },
     {
-        id: 23,
+        id: 22,
         Industry: ["Habitational"],
         Solution: "Motion Sensors",
         Company: "OneEvent",
@@ -291,7 +283,7 @@ export const solutions = [
           Trigger_Words_for_Search: "Building"
     },
     {
-        id: 24,
+        id: 23,
         Industry: ["Habitational"],
         Solution: "Fire Hazard Sensor",
         Company: "Whiskerlabs",
@@ -304,7 +296,7 @@ export const solutions = [
           Trigger_Words_for_Search: "Property\nEfficiency\nMonitor"
     },
     {
-        id: 25,
+        id: 24,
         Industry: ["Habitational"],
         Solution: "Thermal Roof Inspection",
         Company: "Infralytiks",
@@ -317,7 +309,7 @@ export const solutions = [
           Trigger_Words_for_Search: "Fire\nBuilding\nFarm"
     },
     {
-        id: 26,
+        id: 25,
         Industry: ["Habitational"],
         Solution: "Address-Level Analytics",
         Company: "Cape Analytics",
