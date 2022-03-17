@@ -32,13 +32,14 @@ function VendorCard({ vendor }) {
     return (
 <div className='vendorCard'>
             <Card key={vendor.Company} variant="outlined" sx={{ width: 275, height: 300 }}>
-                <div style={{ display: "flex", justifyContent: "center", alignItems: "center", height: 100 }}>
+                <div style={{ display: "inline-grid", justifyContent: "center", alignItems: "center", height: 100, justifyItems: "left" }}>
                     <CardMedia
                         component="img" 
                         image={process.env.PUBLIC_URL + `/VendorImages/${vendor.Logo}.png`}
                         height="auto"
                         sx={{ width: "auto" }}
                     />
+                    <Typography variant="h5" fontWeight="bold">{vendor.Solution}</Typography>
                 </div>
                 <CardContent>
                     <div style={{ overflow: "hidden", textOverflow: "ellipsis", maxHeight: "100px" }}>
