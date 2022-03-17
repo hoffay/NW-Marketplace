@@ -12,9 +12,6 @@ import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 import ArrowBackIcon from '@mui/icons-material/ArrowBack';
 
-
-
-
 const StyledMenu = styled((props) => (
   <Menu
     elevation={0}
@@ -85,7 +82,7 @@ industry1="Food Service";
    industry1="Health Care"; 
 }
 
-const updateVendor = vendors.filter(vendor => vendor['Industry'].includes(industry1));
+const updateVendor = (industry1 != "") ? vendors.filter(solution => solution['Industry'].includes(industry1)) : vendors;
 return updateVendor;
 }
 function VendorGrid() {
@@ -111,7 +108,8 @@ function VendorGrid() {
   }, []);
 
   const loadUsersData = async () => {
-    setData(sortCards());
+    let newData = sortCards(vendors);
+    setData(newData);
   }
 
 
@@ -122,8 +120,8 @@ function VendorGrid() {
 
   const ascending = () => {
     const newvendor_list = [...data].sort((a, b) => {
-      if (a.Vendor_Name < b.Vendor_Name) return -1;
-      if (a.Vendor_Name === b.Vendor_Name) return 0;
+      if (a.Company < b.Company) return -1;
+      if (a.Company === b.Company) return 0;
       return 1;
     });
     setData(newvendor_list);
@@ -134,8 +132,8 @@ function VendorGrid() {
 
   const descending = () => {
     const newvendor_list = [...data].sort((a, b) => {
-      if (b.Vendor_Name < a.Vendor_Name) return -1;
-      if (b.Vendor_Name === a.Vendor_Name) return 0;
+      if (b.Company < a.Company) return -1;
+      if (b.Company === a.Company) return 0;
       return 1;
     });
     setData(newvendor_list);
@@ -169,9 +167,9 @@ function VendorGrid() {
     }
   };
 
-  let vendorDisplay = data.map(vendor => (
-    <Grid item key={vendor.Vendor_Name} >
-      <VendorCard vendor={vendor} />
+  let vendorDisplay = data.map(solution => (
+    <Grid item key={solution.id} >
+      <VendorCard vendor={solution} />
     </Grid>
   ));
 
