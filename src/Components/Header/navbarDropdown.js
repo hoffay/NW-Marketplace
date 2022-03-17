@@ -26,7 +26,7 @@ function retail() {
   if(window.location.hash===""){
   window.location.replace("/solutions#retail").then(document.location.reload());
 }else{
-  window.location.replace("/solutions#food")
+  window.location.replace("/solutions#retail")
 document.location.reload()
 }
 }
