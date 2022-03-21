@@ -4,7 +4,40 @@ import { InputAdornment, TextField, IconButton, Button } from '@mui/material';
 import "./Searchbar.css";
 
 
+
+
 function Searchbar({ placeholder, data }) {
+    const [search, setSearch] = useState("");
+    var myHeaders = new Headers();
+    myHeaders.append("x-api-key", "2bc9qNxIb21xzyqgyqLc9530yGcTSdVG2Nk0wx5e");
+    myHeaders.append("Content-Type", "application/json");
+
+    let handleSubmit = async (e) => {
+        e.preventDefault();
+        try {
+          let res = await fetch("https://as3op0zurd.execute-api.us-east-1.amazonaws.com/prod/commercial_marketplace/", {
+            method: "POST",
+            headers: myHeaders,
+            body: JSON.stringify({
+              searchString: search,
+              k: "3",
+              path: "/postText"
+            }),
+          });
+          let resJson = await res.json();
+          
+          if (res.status === 200) {
+            setSearch("")
+            console.log(resJson)
+          } else {
+            console.log("POST ERROR")
+          }
+          console.log('END FUNCTION')
+        } catch (err) {
+          console.log(err);
+        }
+      };
+
     return (
             <div className="searchBar">
                 <div className="searchInputs">
@@ -12,6 +45,7 @@ function Searchbar({ placeholder, data }) {
                         className="muiSearchField"
                         placeholder="What is the product you are looking for?"
                         type="search"
+                        onChange={(e) => {setSearch(e.target.value); console.log(search)}}
                         sx={{ 
                             width: "100%",
                             "& .MuiOutlinedInput-root": {
@@ -43,7 +77,9 @@ function Searchbar({ placeholder, data }) {
                             )
                         }}
                     />
-                    <Button sx=
+                    <Button type="submit" 
+                        onClick={handleSubmit}
+                        sx=
                         {{ color: "white", 
                         backgroundColor: "#30cddc", 
                         width: "10%",
