@@ -26,3 +26,17 @@ Working with APIs in React projects
 CORS and state management
 6. What will we change to improve
 Hopefully completing issues ahead of time which can be done with stronger communication.
+
+### Ryan Hoffmann
+Issue(s) completed in the sprint?
+I completed #40: Route bottom bar and #44: Switch data to solutions json
+What went well?
+Routing
+What didn’t go so well?
+Nothing.
+What have I learned?
+Moving data and routing around is pretty easy.
+What still puzzles me?
+Nothing
+What will we change to improve?
+Javascript and React knowledge.
