@@ -17,12 +17,12 @@ function CLButton() {
                 backgroundColor: "white",
                 fontWeight: 'bold',
                 textDecorationLine: 'underline',
-                fontSize: '3rem',
+                fontSize: '2rem',
                 display: 'inline-block',
                 alignContent: 'center',
                 color: '#30cddc',
                 textTransform: 'none',
-                bottom: '0.8rem',
+                bottom: '0.5rem',
                 '&:hover': {
                     backgroundColor: 'white',}
             }}

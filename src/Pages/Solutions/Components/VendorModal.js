@@ -12,12 +12,13 @@ const style = {
     transform: 'translate(-50%, -50%)',
     width: "40rem",
     bgcolor: 'background.paper',
-    border: '2px solid',
+    border: '3px solid',
+    borderRadius: '8px',
     boxShadow: 24,
     p: 4,
     borderColor: '#1f74db',
     height: "45rem",
-    overflow: "scroll"
+    overflow: "auto"
 };
 
 
@@ -28,7 +29,16 @@ export default function VendorModal({ vendor }) {
 
     return (
         <div>
-            <Button size="medium" variant="contained" sx={{ width: 200 }} onClick={handleOpen}>Details</Button>
+            <Button size="medium" variant="contained" 
+                    sx=
+                    {{ 
+                        width: 200, 
+                        textTransform: 'none', 
+                        backgroundColor: "#30cddc", 
+                        fontWeight: 'bold',
+                        borderRadius: '8px',
+                    }}  
+                    onClick={handleOpen}>Details</Button>
             <Modal
                 open={open}
                 onClose={handleClose}
@@ -114,7 +124,10 @@ export default function VendorModal({ vendor }) {
                                 color: "white", 
                                 backgroundColor: "#30cddc", 
                                 width: "18rem", 
-                                height: "3rem" 
+                                height: "3rem",
+                                textTransform: "none", 
+                                fontWeight: "bold",
+                                borderRadius: "10px",
                                 }} onClick={() => window.open(vendor.Web_Link)}>
                             Go to Site
                             </Button>
