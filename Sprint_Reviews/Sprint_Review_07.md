@@ -12,3 +12,17 @@ I've learned more styling tags and how they work to make improvements in the aes
 I am still struggling with layering elements so that they do not affect the position or view of other elements.
 6. What will we change to improve
 To improve, I plan to further research other more reliable methods of layering elements rather than just the ones I used in this sprint.
+
+### Shane Tobar
+1. Issues completed
+Issue #42 Add the NLP api to the searchbar
+2. What went well
+Utilized the api endpoint to allow for searching
+3. What didn't go so well
+Understanding the API functions as the docs didn't have much info on it.
+4. What I have learned
+Working with APIs in React projects
+5. What still puzzles me
+CORS and state management
+6. What will we change to improve
+Hopefully completing issues ahead of time which can be done with stronger communication.

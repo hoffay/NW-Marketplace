@@ -142,3 +142,13 @@ Tested with varying window sizes
 |38  | Passed |
 |33  | NA  |
 |39  | NA |
+
+# Spring 7
+## Issue 42: Add NLP api to the searchbar
+Tested by making sure api request displayed the correct cards on solutions page. Ensured that filtering still works after searching.
+
+
+## Total Results S6
+| Issue | Result |
+|--|--|
+|42  | Passed |
