@@ -11,7 +11,7 @@ import Background from '../../Components/Background';
 function Solutions() {
   return (
     <div>
-      <div class="backgroundWrap"><Background /></div>
+      <div className="backgroundWrap"><Background /></div>
       <div class = 'pos'>
         <div className="wrapSolutions">
           <div className="searchbar">

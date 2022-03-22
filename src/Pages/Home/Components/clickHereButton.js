@@ -7,7 +7,7 @@ function CLButtonClick(CLButton) {window.location.replace("/solutions");}
 function CLButton() {
     return (
         <div className = "center">
-        <><div class = "textAdj1">
+        <><div className = "textAdj1">
             Looking for something else?
         </div><>
         <Button
@@ -29,7 +29,7 @@ function CLButton() {
             onClick={CLButtonClick}>
             Click here
         </Button>
-        <default class = "textAdj2">
+        <default className = "textAdj2">
             to browse through our most trending searches...
         </default></></>
         </div>
