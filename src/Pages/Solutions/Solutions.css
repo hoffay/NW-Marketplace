@@ -69,3 +69,14 @@
   .sortButton {
     margin-right: 20px;
   }
+
+  .backgroundWrap {
+    width: 100%;
+    position: absolute;
+    margin-top: -19rem;
+    z-index: -1;
+  }
+
+  .searchbar{
+    margin-bottom: 4rem;
+  }

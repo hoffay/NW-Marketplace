@@ -188,6 +188,15 @@ function VendorGrid() {
               disableElevation
               onClick={handleClick}
               endIcon={<KeyboardArrowDownIcon />}
+              sx={{
+              textTransform: 'none',
+              fontFamily: 'Calibri',
+              fontWeight: 'bold',
+              fontSize: '1.4rem',
+              backgroundColor: '#fff',
+              color: '#30cddc',
+              border: '2px solid #30cddc',    
+              }}
             >
               Sort by
             </Button>
@@ -214,12 +223,12 @@ function VendorGrid() {
           </div>
         </div>
         {scrollX !== 0 && (
-          <Button variant="outlined" size="medium" sx={{ border: "2px solid", color: "#1f74db" }} onClick={() => slide(-200)}>
+          <Button variant="outlined" size="medium" sx={{ border: "2px solid", color: "#30cddc" }} onClick={() => slide(-200)}>
             <ArrowBackIosIcon />
           </Button>
         )}
         {!scrolEnd && (
-          <Button variant="outlined" size="medium" sx={{ border: "2px solid", color: "#1f74db" }} onClick={() => slide(+200)}>
+          <Button variant="outlined" size="medium" sx={{ border: "2px solid", color: "#30cddc" }} onClick={() => slide(+200)}>
             <ArrowForwardIosIcon />
           </Button>
         )}
