@@ -147,8 +147,15 @@ Tested with varying window sizes
 ## Issue 42: Add NLP api to the searchbar
 Tested by making sure api request displayed the correct cards on solutions page. Ensured that filtering still works after searching.
 
+## Issue 40: Route bottom bar
+Tested by checking every single item to make sure it routes to the correct link.
 
-## Total Results S6
+## Issue 44: Switch data to solutions json
+Tested by comparing querrys with both data sets to make sure they match.
+
+## Total Results S7
 | Issue | Result |
 |--|--|
+|40  | Passed |
 |42  | Passed |
+|44  | Passed |
