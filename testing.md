@@ -153,9 +153,13 @@ Tested by checking every single item to make sure it routes to the correct link.
 ## Issue 44: Switch data to solutions json
 Tested by comparing querrys with both data sets to make sure they match.
 
+## Issue 33: Image cutoff of Navbar
+Tested with varying window sizes 
+
 ## Total Results S7
 | Issue | Result |
 |--|--|
 |40  | Passed |
 |42  | Passed |
 |44  | Passed |
+|33  | Passed |

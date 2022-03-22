@@ -40,3 +40,17 @@ What still puzzles me?
 Nothing
 What will we change to improve?
 Javascript and React knowledge.
+
+### Gregory Bowles
+Issue(s) completed in the sprint?
+I completed #33: Image Cutoff
+What went well?
+Adding finishing touches 
+What didn’t go so well?
+Nothing.
+What have I learned?
+Adapting to ny own screen size
+What still puzzles me?
+Nothing
+What will we change to improve?
+Javascript and React knowledge.
