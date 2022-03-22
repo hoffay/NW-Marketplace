@@ -114,6 +114,7 @@ function VendorGrid() {
     if(location.state !== null)
     {
       setData(location.state.data)
+      location.state = null;
     }
     else{
       let newData = sortCards(vendors);
