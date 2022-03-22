@@ -11,6 +11,7 @@ import Divider from '@mui/material/Divider';
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 import ArrowBackIcon from '@mui/icons-material/ArrowBack';
+import {useLocation} from 'react-router-dom';
 
 const StyledMenu = styled((props) => (
   <Menu
@@ -87,6 +88,8 @@ return updateVendor;
 }
 function VendorGrid() {
 
+  const location = useLocation();
+
   const [anchorEl, setAnchorEl] = React.useState(null);
   const open = Boolean(anchorEl);
   const handleClick = (event) => {
@@ -108,8 +111,17 @@ function VendorGrid() {
   }, []);
 
   const loadUsersData = async () => {
-    let newData = sortCards(vendors);
-    setData(newData);
+    if(location.state !== null)
+    {
+      setData(location.state.data)
+      location.state = null;
+    }
+    else{
+      let newData = sortCards(vendors);
+      console.log(newData);
+      setData(newData);
+    }
+    
   }
 
 
