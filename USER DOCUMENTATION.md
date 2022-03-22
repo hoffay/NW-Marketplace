@@ -10,7 +10,7 @@ Users can see where they are at on the page by looking at the highlight in the n
 - Users will first be greeted with the home page
 - Available will be the Header containing navigation
 - Footer containing Product Filters
-- Search bar for finding specific solutions
+- Search bar for finding specific solutions based on keywords
 - When in the Solutions page, users can look at all the possible products they need
 - Solutions page provides search bar for easier navigation
 - Solutions page provides a sorting button function for company names
