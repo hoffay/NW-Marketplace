@@ -49,7 +49,7 @@ export default function VendorModal({ vendor }) {
                     <div style={{ height: "4rem" }}>
                         <img
                             alt="VendorImage"
-                            src={process.env.PUBLIC_URL + `/VendorImages/${vendor.Logo}.png`}
+                            src={process.env.PUBLIC_URL + `/VendorImages/${vendor.Logo ? vendor.Logo : vendor['Vendor Name'].replace(/\s/g, '').toLowerCase()}.png`}
                         />
                     </div>
                     <div style={{ display: "flex", backgroundColor: "#1f74db", alignItems: "center", height: "4rem", marginLeft: "-32px", marginRight: "-32px" }}>
