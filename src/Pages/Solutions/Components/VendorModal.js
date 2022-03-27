@@ -128,7 +128,7 @@ export default function VendorModal({ vendor }) {
                                 textTransform: "none", 
                                 fontWeight: "bold",
                                 borderRadius: "10px",
-                                }} onClick={() => window.open(vendor.Web_Link)}>
+                                }} onClick={() => window.open(vendor['Web Link'])}>
                             Go to Site
                             </Button>
                         </div>
