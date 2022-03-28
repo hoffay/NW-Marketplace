@@ -1,9 +1,17 @@
+import { WindowRounded } from '@mui/icons-material';
 import { vendors } from '../../../VendorData';
 
 function categoryTitle(){
    
-    let industry="All"
-    if(window.location.hash==="#food") {
+    let industry="All vendors";
+
+   if(window.location.hash=='') {
+      return (
+      <div className = "category-title">
+      <h1>Popular Searches</h1>
+      </div>
+   );}
+    else if(window.location.hash==="#food") {
   industry="Food Service Solutions";
   } else if(window.location.hash==="#retail"){
      industry="Retail Solutions";  
