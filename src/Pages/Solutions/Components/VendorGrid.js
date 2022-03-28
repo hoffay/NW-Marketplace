@@ -113,27 +113,20 @@ function VendorGrid() {
   const loadUsersData = async () => {
     if(location.state !== null)
     {
-      setData(location.state.data)
+      setData(location.state.data);
       location.state = null;
     }
     else{
       let newData = sortCards(vendors);
-      console.log(newData);
       setData(newData);
     }
     
   }
 
-
-  const handleSort = (sortChoice) => {
-    let value = sortChoice;
-
-  }
-
   const ascending = () => {
     const newvendor_list = [...data].sort((a, b) => {
-      if (a.Company < b.Company) return -1;
-      if (a.Company === b.Company) return 0;
+      if (a["Vendor Name"] < b["Vendor Name"]) return -1;
+      if (a["Vendor Name"] === b["Vendor Name"]) return 0;
       return 1;
     });
     setData(newvendor_list);
@@ -144,8 +137,8 @@ function VendorGrid() {
 
   const descending = () => {
     const newvendor_list = [...data].sort((a, b) => {
-      if (b.Company < a.Company) return -1;
-      if (b.Company === a.Company) return 0;
+      if (b["Vendor Name"] < a["Vendor Name"]) return -1;
+      if (b["Vendor Name"] === a["Vendor Name"]) return 0;
       return 1;
     });
     setData(newvendor_list);

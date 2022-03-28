@@ -31,11 +31,11 @@ function createCard(vendor) {
 function VendorCard({ vendor }) {
     return (
 <div className='vendorCard'>
-            <Card key={vendor.Company} variant="outlined" sx={{ width: 300, height: 350, borderRadius: '20px' }}>
+            <Card key={vendor['Vendor Name']} variant="outlined" sx={{ width: 300, height: 350, borderRadius: '20px' }}>
                 <div style={{ display: "inline-grid", justifyContent: "center", alignItems: "center", height: 100, justifyItems: "left", marginLeft:16 }}>
                     <CardMedia
                         component="img" 
-                        image={process.env.PUBLIC_URL + `/VendorImages/${vendor.Logo}.png`}
+                        image={process.env.PUBLIC_URL + `/VendorImages/${vendor.Logo ? vendor.Logo : vendor['Vendor Name'].replace(/\s/g, '').toLowerCase()}.png`}
                         height="auto"
                         sx={{ width: "auto" }}
                     />
@@ -45,7 +45,7 @@ function VendorCard({ vendor }) {
                     <div style={{ overflow: "hidden", textOverflow: "ellipsis", maxHeight: "100px"}}>
                         <Typography align="left">
                             <div style={{fontWeight:"bold", display:"inline"}}>Company: </div>
-                            {vendor.Company}
+                            {vendor['Vendor Name']}
                         </Typography>
                     </div>
                     <br />
