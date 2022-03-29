@@ -173,9 +173,13 @@ Monitored AWS from prod server to ensure endpoint calls were executing properly
 ## Issue 50: Remove refresh from search
 Tested by logging the state variable after re-rendering
 
+## Issue 34: Add social media and other icons to modal
+Tested by making sure every modal had icons next to the respective data.
+
 ## Total Results S8
 | Issue | Result |
 |--|--|
+|34  | Passed |
 |45  | Passed |
 |49  | Passed |
 |50  | Passed |
