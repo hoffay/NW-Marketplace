@@ -17,3 +17,6 @@
 
 ## Testing
 Testing is done manually by experimenting with core elements of each feature. Specific testing steps can be found in testing.md
+
+## Use
+The website can be reached at https://main.d3cjc2mzzc9ihe.amplifyapp.com/
