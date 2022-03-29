@@ -107,8 +107,15 @@ export default function VendorModal({ vendor }) {
                         <div style={{ display: "flex", flexDirection: "row", justifyContent: "space-between" }}>
                         <div style={{ flexDirection: "column", marginLeft: 32, marginTop: 20, color: "white", whiteSpace: "break-spaces" }}>
                             <div style={{ marginBottom: "1rem" }}>
-                            <Typography>
-                                {vendor['Contact Info']}
+                            <Typography display="flex">
+                                <div align="left">
+                            <img src="nameIcon.svg" height="18px" alt="Logo" ></img>⠀
+                            <br></br>
+                            <img src="phoneIcon.svg" height="18px" alt="Logo" ></img>
+                            <br></br>
+                            <img src="emailIcon.svg" height="18px" alt="Logo" ></img>
+                            </div>
+                                {vendor.Contact_Info}
                             </Typography>
                             </div>
                             
@@ -117,6 +124,9 @@ export default function VendorModal({ vendor }) {
                             <Typography>
                                 Social Media
                             </Typography>
+                            <img src="facebookIcon.svg" height="25px" alt="Logo" ></img>⠀
+                            <img src="instagramIcon.svg" height="25px" alt="Logo" ></img>⠀
+                            <img src="twitterIcon.svg" height="25px" alt="Logo" ></img>
                         </div>
                         </div>
                         <div style={{ display: "flex", justifyContent: "center", marginBottom: "2rem" }}>
