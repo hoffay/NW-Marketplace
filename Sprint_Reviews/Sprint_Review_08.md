@@ -25,3 +25,17 @@ Working with APIs in React projects
 state management across functional components
 6. What will we change to improve
 Hopefully completing issues ahead of time which can be done with stronger communication.
+
+###Ryan Hoffmann
+1. Issues completed
+Issue #34 Add social media and other icons to modal
+2. What went well
+Finding SVGs for the icons
+3. What didn't go so well
+Nothing
+4. What I have learned
+There are a lot of good SVGs out there.
+5. What still puzzles me
+Nothing
+6. What will we change to improve
+Faster issue completion
