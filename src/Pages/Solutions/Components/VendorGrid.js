@@ -12,6 +12,7 @@ import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 import ArrowBackIcon from '@mui/icons-material/ArrowBack';
 import {useLocation} from 'react-router-dom';
+import Searchbar from '../../../Components/Searchbar/Searchbar';
 
 const StyledMenu = styled((props) => (
   <Menu
