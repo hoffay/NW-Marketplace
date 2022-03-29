@@ -4,6 +4,8 @@ import VendorGrid from "./Components/VendorGrid";
 import Searchbar from '../../Components/Searchbar/Searchbar';
 import Background from '../../Components/Background';
 import { vendors } from '../../VendorData';
+import CategoryTitles from './Components/CategoryTitles';
+
 
 
 
@@ -27,6 +29,7 @@ function Solutions() {
           <div className="searchbar">
         <Searchbar page={page} setPage={resetPage}/>
         </div>
+        <CategoryTitles />
           </div>
         </div>
       <div> <VendorGrid data={data}/></div>
