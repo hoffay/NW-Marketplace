@@ -143,7 +143,7 @@ Tested with varying window sizes
 |33  | NA  |
 |39  | NA |
 
-# Spring 7
+# Sprint 7
 ## Issue 42: Add NLP api to the searchbar
 Tested by making sure api request displayed the correct cards on solutions page. Ensured that filtering still works after searching.
 
@@ -163,3 +163,19 @@ Tested with varying window sizes
 |42  | Passed |
 |44  | Passed |
 |33  | Passed |
+
+# Sprint 8
+## Issue 45: Fix image when search is used
+Tested by checking the modals and cards of results from search API
+## Issue 49: CORS Issue in API Calls
+Monitored AWS from prod server to ensure endpoint calls were executing properly
+
+## Issue 50: Remove refresh from search
+Tested by logging the state variable after re-rendering
+
+## Total Results S8
+| Issue | Result |
+|--|--|
+|45  | Passed |
+|49  | Passed |
+|50  | Passed |

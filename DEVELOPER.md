@@ -24,6 +24,7 @@ Currently there are 5 main components:
 4. Searchbar
     * This is a textfield that will be submitted by the user to get relevant results
     * Currently gets results from API
+    * Routes to solutions page with API response data
 5. The Vendor Grid
     * This is a MUI Grid containing cards the hold all the necessary vendor info
 6. Vendor Card
