@@ -176,10 +176,14 @@ Tested by logging the state variable after re-rendering
 ## Issue 34: Add social media and other icons to modal
 Tested by making sure every modal had icons next to the respective data.
 
+##Issue 48: Mobile Responsiveness
+Tested with altering window sizes and differing viewing modes
+
 ## Total Results S8
 | Issue | Result |
 |--|--|
 |34  | Passed |
 |45  | Passed |
+|48  | Passed |
 |49  | Passed |
 |50  | Passed |
