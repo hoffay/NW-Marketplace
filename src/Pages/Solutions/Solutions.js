@@ -3,6 +3,7 @@ import './Solutions.css';
 import VendorGrid from "./Components/VendorGrid";
 import Searchbar from '../../Components/Searchbar/Searchbar';
 import Background from '../../Components/Background';
+import CategoryTitles from './Components/CategoryTitles';
 
 
 
@@ -17,6 +18,7 @@ function Solutions() {
           <div className="searchbar">
         <Searchbar/>
         </div>
+        <CategoryTitles />
           </div>
         </div>
       <div> <VendorGrid /></div>

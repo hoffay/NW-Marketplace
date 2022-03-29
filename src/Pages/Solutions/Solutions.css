@@ -73,10 +73,29 @@
   .backgroundWrap {
     width: 100%;
     position: absolute;
-    margin-top: -19rem;
-    z-index: -1;
+    margin-top: -32vh;
+    z-index: -2;
   }
 
   .searchbar{
-    margin-bottom: 4rem;
+    margin-top: -2vh;
+  }
+
+  .category-title{
+    font-size: 1.6rem;
+    font-family: 'Times New Roman', Times, serif;
+    color: #1f74db;
+    margin-bottom: 0px;
+    z-index: -1;
+    position: absolute;
+    margin-left: -6rem;
+  }
+
+  .category-subtext{
+    font-size: 1.8rem;
+    font-family: 'calibri';
+    color: #747478;
+    margin-top: -2rem;
+    z-index: -1;
+    position: absolute;
   }
