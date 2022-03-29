@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useCallback } from "react";
 import SearchIcon from '@mui/icons-material/Search';
 import { InputAdornment, TextField, IconButton, Button } from '@mui/material';
 import { useNavigate } from "react-router-dom";
@@ -8,13 +8,16 @@ import Solutions from '../../Pages/Solutions/Solutions';
 
 
 
-function Searchbar() {
+function Searchbar({page, resetPage}) {
     const [search, setSearch] = useState("");
     const [searchData, setSearchData] = useState("")
+    const [sol, setSol] = useState("")
     var myHeaders = new Headers();
     myHeaders.append("x-api-key", "2bc9qNxIb21xzyqgyqLc9530yGcTSdVG2Nk0wx5e");
     myHeaders.append("Content-Type", "application/json");
     const navigate = useNavigate();
+
+    
 
     let handleSubmit = async (e) => {
         e.preventDefault();
@@ -33,8 +36,10 @@ function Searchbar() {
                 setSearch("")
                 console.log(resJson)
                 setSearchData(resJson)
+                
                 navigate('/solutions', {state:{data: resJson}});
                 window.location.reload(false)
+                setSol("") //re-render
             } else {
                 console.log("POST ERROR")
             }
