@@ -39,3 +39,17 @@ There are a lot of good SVGs out there.
 Nothing
 6. What will we change to improve
 Faster issue completion
+
+### Gregory Bowles
+1. Issues completed
+Issue #48 Improving mobile responsiveness and scaling
+2. What went well
+Researching potential solutions
+3. What didn't go so well
+Application of work found
+4. What I have learned
+Working with responsiveness in react 
+5. What still puzzles me
+Nothing 
+6. What will we change to improve
+Improving my work ethic and communication to get work done ahead of time
