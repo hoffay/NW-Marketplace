@@ -25,3 +25,16 @@ Working with APIs in React projects
 state management across functional components
 6. What will we change to improve
 Hopefully completing issues ahead of time which can be done with stronger communication.
+### Gregory Bowles
+1. Issues completed
+Issue #48 Improving mobile responsiveness and scaling
+2. What went well
+Researching potential solutions
+3. What didn't go so well
+Application of work found
+4. What I have learned
+Working with responsiveness in react 
+5. What still puzzles me
+Nothing 
+6. What will we change to improve
+Improving my work ethic and communication to get work done ahead of time
