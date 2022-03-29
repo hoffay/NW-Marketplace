@@ -49,7 +49,7 @@ export default function VendorModal({ vendor }) {
                     <div style={{ height: "4rem" }}>
                         <img
                             alt="VendorImage"
-                            src={process.env.PUBLIC_URL + `/VendorImages/${vendor.Logo}.png`}
+                            src={process.env.PUBLIC_URL + `/VendorImages/${vendor.Logo ? vendor.Logo : vendor['Vendor Name'].replace(/\s/g, '').toLowerCase()}.png`}
                         />
                     </div>
                     <div style={{ display: "flex", backgroundColor: "#1f74db", alignItems: "center", height: "4rem", marginLeft: "-32px", marginRight: "-32px" }}>
@@ -58,12 +58,12 @@ export default function VendorModal({ vendor }) {
                         </Typography>
                     </div>
                     <Typography id="modal-modal-title" fontWeight="bold" variant="h4" sx={{ mt: 2 }}>
-                        {vendor.Solution}
+                        {vendor.Solution ? vendor.Solution : vendor['Vendor Name']}
                     </Typography>
                     <div style={{ display: "inline-flex", mt: 2, marginBottom: "1rem", marginTop: "1rem" }}>
                         <Typography sx={{ mr: 1 }}>
                         <div style={{fontWeight:"bold", display:"inline"}}>Company name: </div>
-                            {vendor.Company}
+                            {vendor['Vendor Name']}
                         </Typography>
                     </div>
                     <div style={{ display: "inline-flex", mt: 2 }}>
@@ -91,7 +91,7 @@ export default function VendorModal({ vendor }) {
                         marginBottom: "3rem"
                     }}>
                         <Typography>
-                            {vendor.Example_Scenarios}
+                            {vendor['Example Scenarios']}
                         </Typography>
                     </div>
                     <div className="socialsBox" style={{
@@ -138,7 +138,7 @@ export default function VendorModal({ vendor }) {
                                 textTransform: "none", 
                                 fontWeight: "bold",
                                 borderRadius: "10px",
-                                }} onClick={() => window.open(vendor.Web_Link)}>
+                                }} onClick={() => window.open(vendor['Web Link'])}>
                             Go to Site
                             </Button>
                         </div>
