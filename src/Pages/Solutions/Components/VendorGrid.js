@@ -55,9 +55,9 @@ const StyledMenu = styled((props) => (
   },
 }));
 
-
+let industry1=""
 function sortCards(){
-  let industry1=""
+  
   if(window.location.hash==="#food") {
 industry1="Food Service";
 } else if(window.location.hash==="#retail"){
@@ -84,7 +84,7 @@ industry1="Food Service";
    industry1="Health Care"; 
 }
 
-const updateVendor = (industry1 != "") ? vendors.filter(solution => solution['Industry'].includes(industry1)) : vendors;
+const updateVendor = (industry1 != "") ? vendors.filter(vendor => vendor['Industry'].includes(industry1)) : vendors;
 return updateVendor;
 }
 function VendorGrid() {
@@ -160,6 +160,10 @@ function VendorGrid() {
     }
   };
 
+  function getVendors(vendor)
+  {
+    return vendor['Vendor Name'].str.split(/\r?\n/);
+  }
 
   const scrollCheck = () => {
     setscrollX(scrl.current.scrollLeft);
@@ -173,11 +177,28 @@ function VendorGrid() {
     }
   };
 
-  let vendorDisplay = data.map(solution => (
-    <Grid item key={solution.id} >
-      <VendorCard vendor={solution} />
+  function exSol() {
+    data.map(vendor => {
+      for(let sol in vendor['Products'].split(/\r?\n/))
+      {
+        console.log(sol)
+      }
+    })
+  }
+
+  let solutionDisplay = [...data].map(vendor => {
+    vendor['Products'].split(/\r?\n/).map(sol => {
+        <Grid item key={sol} >
+          <VendorCard sol={sol} />
+        </Grid>
+    })
+  })
+  
+  let vendorDisplay = data.map(vendor => (
+    <Grid item key={vendor['Vendor Name']} >
+      <VendorCard vendor={vendor} />
     </Grid>
-  ));
+  ))
 
   return (
     <div className="VendorWrap">
@@ -241,7 +262,7 @@ function VendorGrid() {
       </div>
       <div className="fullVendorView" sx={{ display: "flex", wrap: "wrap", justifyContent: "center", overflowX: "hidden" }} >
         <Grid ref={scrl} onScroll={scrollCheck} id="vendorGrid" container columnSpacing={{ xs: 1, sm: 2, md: 3 }} wrap="nowrap" sx={{ overflowX: "hidden" }}>
-          {vendorDisplay}
+          {exSol()}
         </Grid>
       </div>
     </div>
