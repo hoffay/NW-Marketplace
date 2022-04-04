@@ -178,25 +178,43 @@ function VendorGrid() {
   };
 
   function exSol() {
+    const cardList = []
     data.map(vendor => {
-      for(let sol in vendor['Products'].split(/\r?\n/))
+      //console.log(vendor['Products'].split(/\r?\n/))
+      let solutions = vendor['Products'].split(/\r?\n/)
+      //console.log(solutions)
+      for(let i = 0; i < solutions.length; i++)
       {
-        console.log(sol)
+        //console.log(solutions[i])
+        cardList.push(<Grid item key={vendor['Product Name']} >
+          <VendorCard solution={solutions[i]} />
+        </Grid>)
       }
+      for(let i = 0; i < cardList.length; i++)
+      {
+        console.log(cardList[i])
+      }
+      return cardList
     })
   }
 
   let solutionDisplay = [...data].map(vendor => {
     vendor['Products'].split(/\r?\n/).map(sol => {
         <Grid item key={sol} >
-          <VendorCard sol={sol} />
+          <VendorCard vendor={vendor} solname={sol} />
         </Grid>
     })
   })
   
   let vendorDisplay = data.map(vendor => (
     <Grid item key={vendor['Vendor Name']} >
-      <VendorCard vendor={vendor} />
+      <VendorCard vendor={vendor} solName={vendor['Products'].split(/\r?\n/)[0]}/>
+    </Grid>
+  ))
+
+  let solDisplay = data.map(vendor => (
+    <Grid item key={vendor['Vendor Name']} >
+      <VendorCard vendor={vendor}/>
     </Grid>
   ))
 
@@ -262,7 +280,7 @@ function VendorGrid() {
       </div>
       <div className="fullVendorView" sx={{ display: "flex", wrap: "wrap", justifyContent: "center", overflowX: "hidden" }} >
         <Grid ref={scrl} onScroll={scrollCheck} id="vendorGrid" container columnSpacing={{ xs: 1, sm: 2, md: 3 }} wrap="nowrap" sx={{ overflowX: "hidden" }}>
-          {exSol()}
+          {industry1 == "" ? solDisplay : vendorDisplay}
         </Grid>
       </div>
     </div>
