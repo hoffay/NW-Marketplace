@@ -28,7 +28,7 @@ function createCard(vendor) {
     );
 }
 
-function VendorCard({ vendor }) {
+function VendorCard({ vendor, solName }) {
     return (
 <div className='vendorCard'>
             <Card key={vendor['Vendor Name']} variant="outlined" sx={{ width: 300, height: 350, borderRadius: '20px' }}>
@@ -39,7 +39,7 @@ function VendorCard({ vendor }) {
                         height="auto"
                         sx={{ width: "auto" }}
                     />
-                    <Typography variant="h5" fontWeight="bold">{vendor['Products']}</Typography>
+                    <Typography variant="h5" fontWeight="bold">{solName}</Typography>
                 </div>
                 <CardContent>
                     <div style={{ overflow: "hidden", textOverflow: "ellipsis", maxHeight: "100px"}}>
