@@ -159,7 +159,7 @@ export const vendors = [
     "Industry": "Manufacturing\nProcess/Service\nConstruction\nFarm/Agribusiness",
     "Vendor Name": "MakUSafe",
     "Products": "Wearable Injury Prevention",
-    "Logo": "makusafe",
+    "Logo": "makeusafe",
     "Web Link": "https://makusafe.com/?gclid=Cj0KCQiA5aWOBhDMARIsAIXLlkfnfBX6FZkNnPAPgq8J4DkIWSUFFts4Lav2d7ZSkQeGVY-KjAbig_0aApqIEALw_wcB",
     "Description": "The MakuSafe dashboard displays data from connected factory equipment and systems, providing insights and context into employee health safety concerns. Devices send data from each worker the business's platforms, creating opportunities to enhance operations and reduce workplace hazards.",
     "Contact Info": "Sydney Kendall\nPhone: (635) 567-8922\nSydney@makusafe.com",
