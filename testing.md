@@ -187,3 +187,14 @@ Tested with altering window sizes and differing viewing modes
 |48  | Passed |
 |49  | Passed |
 |50  | Passed |
+
+##Issue 51: Improve Scaling
+Tested by changing the viewport and viewing on multiple devices.
+
+## Total Results S8
+| Issue | Result |
+|--|--|
+|51  | Passed |
+
+
+
