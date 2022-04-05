@@ -188,13 +188,17 @@ Tested with altering window sizes and differing viewing modes
 |49  | Passed |
 |50  | Passed |
 
-##Issue 51: Improve Scaling
+## Issue 51: Improve Scaling
 Tested by changing the viewport and viewing on multiple devices.
 
-## Total Results S8
+## Issue 54: Show Only Vendors on Main Solutions Page
+Tested by ensuring that on "click here" button, only companies are shown. On other filters, solutions are shown.
+
+## Total Results S9
 | Issue | Result |
 |--|--|
 |51  | Passed |
+|54  | Passed |
 
 
 
