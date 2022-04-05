@@ -24,7 +24,7 @@ export default function PositionedMenu() {
         aria-haspopup="true"
         aria-expanded={open ? 'true' : undefined}
         onClick={handleClick}
-        sx={{ mr: 8, fontSize: 22, ml: 5 ,my: 2, color: 'white', display: 'block',textTransform: 'none'}}
+        sx={{ fontSize: 22, ml: 5 ,my: 2, color: 'white', display: 'block',textTransform: 'none',align: 'right'}}
       >
         Solutions<br></br>Catalog
       </Button>

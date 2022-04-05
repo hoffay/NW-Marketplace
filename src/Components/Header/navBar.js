@@ -53,9 +53,8 @@ function homeClick(yep) {
             variant="h6"
             noWrap
             component="div"
-            sx={{ mr: 15, display: { xs: 'none', md: 'flex' } }}
-          >
-            <img src="nwlogo.png" height="100px" alt="Logo" ></img>
+            sx={{ display: { xs: 'none', md: 'flex' } }}>
+            <img src="nwlogo.png" height="85vw" alt="Logo" ></img>
           </Typography>
 
           <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
@@ -102,14 +101,14 @@ function homeClick(yep) {
             variant="h6"
             noWrap
             component="div"
-            sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}
+            sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none'} }}
           >
             LOGO
           </Typography>
           <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
               <Button
                 onClick={homeClick}
-                sx={{ mr: 6, fontSize: 22, ml: 10 ,my: 2, color: 'white', display: 'block',textTransform: 'none'}}
+                sx={{fontSize: 22, ml: '25%' , my: 2, color: 'white', display: 'block', textTransform: 'none'}}
               >
                 Home
               </Button>
