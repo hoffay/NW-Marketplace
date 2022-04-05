@@ -121,9 +121,7 @@ const NavBar = () => {
           <Box className="thisBox" sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
             <Button
               component={NavLink} to="/" end style={({ isActive }) => isActive ? activeStyle : nonActive }
-              sx={{
-                mr: 6, ml: 10, my: 2, color: 'white', display: 'block', textTransform: 'none', alignSelf: "center",
-              }}                
+              sx={{mr: 6, ml: '30%', my: 2, color: 'white', display: 'block', textTransform: 'none', alignSelf: "center"}}                
               >
             <Typography sx={{ fontSize: 22, fontFamily: "Arial", fontWeight: "bold" }}>Home</Typography>
           </Button> 
