@@ -55,9 +55,9 @@ const StyledMenu = styled((props) => (
   },
 }));
 
-
+let industry1=""
 function sortCards(){
-  let industry1=""
+  
   if(window.location.hash==="#food") {
 industry1="Food Service";
 } else if(window.location.hash==="#retail"){
@@ -84,7 +84,7 @@ industry1="Food Service";
    industry1="Health Care"; 
 }
 
-const updateVendor = (industry1 != "") ? vendors.filter(solution => solution['Industry'].includes(industry1)) : vendors;
+const updateVendor = (industry1 != "") ? vendors.filter(vendor => vendor['Industry'].includes(industry1)) : vendors;
 return updateVendor;
 }
 function VendorGrid() {
@@ -160,6 +160,10 @@ function VendorGrid() {
     }
   };
 
+  function getVendors(vendor)
+  {
+    return vendor['Vendor Name'].str.split(/\r?\n/);
+  }
 
   const scrollCheck = () => {
     setscrollX(scrl.current.scrollLeft);
@@ -173,11 +177,46 @@ function VendorGrid() {
     }
   };
 
-  let vendorDisplay = data.map(solution => (
-    <Grid item key={solution.id} >
-      <VendorCard vendor={solution} />
+  function exSol() {
+    const cardList = []
+    data.map(vendor => {
+      //console.log(vendor['Products'].split(/\r?\n/))
+      let solutions = vendor['Products'].split(/\r?\n/)
+      //console.log(solutions)
+      for(let i = 0; i < solutions.length; i++)
+      {
+        //console.log(solutions[i])
+        cardList.push(<Grid item key={vendor['Product Name']} >
+          <VendorCard solution={solutions[i]} />
+        </Grid>)
+      }
+      for(let i = 0; i < cardList.length; i++)
+      {
+        console.log(cardList[i])
+      }
+      return cardList
+    })
+  }
+
+  let solutionDisplay = [...data].map(vendor => {
+    vendor['Products'].split(/\r?\n/).map(sol => {
+        <Grid item key={sol} >
+          <VendorCard vendor={vendor} solname={sol} />
+        </Grid>
+    })
+  })
+  
+  let vendorDisplay = data.map(vendor => (
+    <Grid item key={vendor['Vendor Name']} >
+      <VendorCard vendor={vendor} solName={vendor['Products'].split(/\r?\n/)[0]}/>
     </Grid>
-  ));
+  ))
+
+  let solDisplay = data.map(vendor => (
+    <Grid item key={vendor['Vendor Name']} >
+      <VendorCard vendor={vendor}/>
+    </Grid>
+  ))
 
   return (
     <div className="VendorWrap">
@@ -241,7 +280,7 @@ function VendorGrid() {
       </div>
       <div className="fullVendorView" sx={{ display: "flex", wrap: "wrap", justifyContent: "center", overflowX: "hidden" }} >
         <Grid ref={scrl} onScroll={scrollCheck} id="vendorGrid" container columnSpacing={{ xs: 1, sm: 2, md: 3 }} wrap="nowrap" sx={{ overflowX: "hidden" }}>
-          {vendorDisplay}
+          {industry1 == "" ? solDisplay : vendorDisplay}
         </Grid>
       </div>
     </div>

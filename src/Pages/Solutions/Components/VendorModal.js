@@ -115,7 +115,7 @@ export default function VendorModal({ vendor }) {
                             <br></br>
                             <img src="emailIcon.svg" height="18px" alt="Logo" ></img>
                             </div>
-                                {vendor.Contact_Info}
+                                {vendor['Contact Info']}
                             </Typography>
                             </div>
                             
