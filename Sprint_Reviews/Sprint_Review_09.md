@@ -1,18 +1,20 @@
-
-# Sprint 8 Review
+# Sprint 9 Review
 ### Ethan Bores
 1. Issue(s) completed
-Issue #46: Add category titles to solutions page
+Issue #52: Add "Possible Solutions" text on search
+Issue #53: Adjust vendor image logo location
+Issue #56: Correct grammar/spelling issues
 2. What went well
-Developing the basic functionalities to determine what category was selected went very well for me.
+Tweaking the image location of the vendor logos on both the modal and the cards went smoother than I had expected.
 3. What didn't go so well
-Attempting to handle search topics proved to be difficult for me. I am currently still attempting to parse the user's search text string to be poroperly displayed.
+Locating and correcting grammatical and spelling errors within the vendor information file proved to be more time consuming and tedious than I predicted, as there were over 3000 words to check across over 30 vendors.
 4. What I have learned
-I have learned how functions work in javascript and how to read window hashes from the URL of the current page. I have also brushed up on my MUI and CSS knowledge.
+I have learned about MUI arguments for styling and placement of objects within various parts of the website.
 5. What still puzzles me
-I am still learning how to use MUI to develop mobile responsive elements and pages for the website.
+I am still puzzled by how to parse search queries in order to display the text on the search results page.
 6. What will we change to improve
-To improve, I plan to continue watching video courses on YouTube which teach MUI skills. I will also be reading up on the correct MUI documentation to add greater responsiveness for different devices and window sizes.
+To improve, I plan to look into useParams and useQuery web hooks (as suggested by my teammate, Shane Tobar) in order to retrieve and parse the text entered into the search box.
+
 ### Shane Tobar
 1. Issues completed
 Issue #54 Show only Companies on Main Solutions Page
