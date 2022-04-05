@@ -66,9 +66,8 @@ const NavBar = () => {
             variant="h6"
             noWrap
             component="div"
-            sx={{ mr: 15, display: { xs: 'none', md: 'flex' } }}
-          >
-            <img src="nwlogo.png" height="100px" alt="Logo" ></img>
+            sx={{ display: { xs: 'none', md: 'flex' } }}>
+            <img src="nwlogo.png" height="85vw" alt="Logo" ></img>
           </Typography>
 
           <Box sx={{minwidth: 1/4, flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
@@ -115,16 +114,14 @@ const NavBar = () => {
             variant="h6"
             noWrap
             component="div"
-            sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}
+            sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none'} }}
           >
             LOGO
           </Typography>
           <Box className="thisBox" sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
             <Button
               component={NavLink} to="/" end style={({ isActive }) => isActive ? activeStyle : nonActive }
-              sx={{
-                mr: 6, ml: 10, my: 2, color: 'white', display: 'block', textTransform: 'none', alignSelf: "center",
-              }}                
+              sx={{mr: 6, ml: '30%', my: 2, color: 'white', display: 'block', textTransform: 'none', alignSelf: "center"}}                
               >
             <Typography sx={{ fontSize: 22, fontFamily: "Arial", fontWeight: "bold" }}>Home</Typography>
           </Button> 

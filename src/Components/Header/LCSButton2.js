@@ -23,7 +23,7 @@ function LCSButton2() {
                 height: '50px',
                 zIndex: '1',
                 marginLeft: '100px',
-                marginRight: '180px',
+                marginRight: '150px',
                 paddingLeft: '40px',
                 textTransform: 'none',
                 '&:hover': {
