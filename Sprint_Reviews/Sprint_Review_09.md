@@ -15,15 +15,15 @@ I am still learning how to use MUI to develop mobile responsive elements and pag
 To improve, I plan to continue watching video courses on YouTube which teach MUI skills. I will also be reading up on the correct MUI documentation to add greater responsiveness for different devices and window sizes.
 ### Shane Tobar
 1. Issues completed
-Issue #45 Fix image when search is used, #49 CORS issue in API call, and #50 Remove refresh from search
+Issue #54 Show only Companies on Main Solutions Page
 2. What went well
-Utilized the api endpoint to allow for searching
+Formatting JSON data and mapping it
 3. What didn't go so well
-HTML and CSS practices
+accessing within a complex json
 4. What I have learned
 Working with APIs in React projects
 5. What still puzzles me
-state management across functional components
+responsive design
 6. What will we change to improve
 Hopefully completing issues ahead of time which can be done with stronger communication.
 

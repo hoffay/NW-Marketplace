@@ -14,6 +14,7 @@
 - Below the search bar in the middle of the website, a button linking to the most trending user searches can be found.
 - The **Solutions** page contains the search bar for users to search, and a list of vendors for users to select products from. The list of vendors are scrollable using the arrow buttons and are sortable using the sort by menu drop down list.
 - Highlighted breadcrumbs are featured on the navigation bar so users know what page they are on
+- On the solutions page, the user can go by filter, search, or show all vendors
 
 ## Testing
 Testing is done manually by experimenting with core elements of each feature. Specific testing steps can be found in testing.md
