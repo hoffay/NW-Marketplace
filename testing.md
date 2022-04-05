@@ -64,6 +64,9 @@ Tested by ensuring sort accuracy of company names across the page
 
 ## Issue 20: Replace solutions with the dropdown
 Tested by making sure when clicking the dropdown all the items are there and it doesn't change the rest of the page when opened.
+
+## Issue 30: Make site more scalable
+Tested by viewing the webstie under different view ports and seeing that it still scaled well.
 ## Total Results S1
 | Issue | Result |
 |--|--|
@@ -91,18 +94,20 @@ Tested by making sure when clicking the dropdown all the items are there and it 
 
 ## Total Results S3
 | Issue | Result |
+|--|--|
 |13 | Passed |
-|18  | Passed |
-|14  | Passed |
-|17  | Passed |
-|16  | Passed |
+|18 | Passed |
+|14 | Passed |
+|17 | Passed |
+|16 | Passed |
 
 ## Total Results S4
 | Issue | Result |
+|--|--|
 |21 | Passed |
-|22  | Passed |
-|23  | Passed |
-|24  | Failed  |
+|22 | Passed |
+|23 | Passed |
+|24 | Failed  |
 
 # Sprint 5
 ## Issue 31: Make product cards expandable to show details
@@ -112,5 +117,73 @@ Tested by maximizing/minimizing screen sizes and making sure modals didn't overl
 
 ## Total Results S5
 | Issue | Result |
-|31 | Passed |
+|--|--|
+|31  | Passed |
 |32  | Passed |
+|30  | Passed |
+
+# Sprint 6
+## Issue 26: Choosing a business category on home page directs to specific category
+Tested by matching the sorted industries to the json file. Tested to see if the modal matched the vendor card.
+
+## Issue 38: Add Breadcrumbs to pages
+Tested by accessing the different pages and making sure highlight appears and does not interfere with other items. Backtracked across pages as well.
+
+## Issue 39: Create JSON for all products
+This cannot be tested since it is just the creation of a JSON file.
+
+## Issue 33: Image cutoff of Navbar
+Tested with varying window sizes
+
+## Total Results S6
+| Issue | Result |
+|--|--|
+|26  | Passed |
+|38  | Passed |
+|33  | NA  |
+|39  | NA |
+
+# Sprint 7
+## Issue 42: Add NLP api to the searchbar
+Tested by making sure api request displayed the correct cards on solutions page. Ensured that filtering still works after searching.
+
+## Issue 40: Route bottom bar
+Tested by checking every single item to make sure it routes to the correct link.
+
+## Issue 44: Switch data to solutions json
+Tested by comparing querrys with both data sets to make sure they match.
+
+## Issue 33: Image cutoff of Navbar
+Tested with varying window sizes 
+
+## Total Results S7
+| Issue | Result |
+|--|--|
+|40  | Passed |
+|42  | Passed |
+|44  | Passed |
+|33  | Passed |
+
+# Sprint 8
+## Issue 45: Fix image when search is used
+Tested by checking the modals and cards of results from search API
+## Issue 49: CORS Issue in API Calls
+Monitored AWS from prod server to ensure endpoint calls were executing properly
+
+## Issue 50: Remove refresh from search
+Tested by logging the state variable after re-rendering
+
+## Issue 34: Add social media and other icons to modal
+Tested by making sure every modal had icons next to the respective data.
+
+##Issue 48: Mobile Responsiveness
+Tested with altering window sizes and differing viewing modes
+
+## Total Results S8
+| Issue | Result |
+|--|--|
+|34  | Passed |
+|45  | Passed |
+|48  | Passed |
+|49  | Passed |
+|50  | Passed |

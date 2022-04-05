@@ -1,6 +1,9 @@
 import React from 'react';
 import { vendors } from '../../../VendorData';
 import { Grid, Card, CardContent, Typography, CardHeader, CardActions, Button, CardMedia } from '@mui/material'
+import VendorModal from './VendorModal';
+import { fontWeight } from '@mui/system';
+import { solutions } from '../../../SolutionsData';
 
 
 
@@ -26,35 +29,42 @@ function createCard(vendor) {
 }
 
 function VendorCard({ vendor }) {
-
     return (
-        <div className="vendorCard">
-
-            <Card key={vendor.Vendor_Name} variant="outlined" sx={{ minWidth: 275, height: 300 }}>
-                <div style={{ display: "flex", justifyContent: "center", alignItems: "center", height: 100 }}>
+<div className='vendorCard'>
+            <Card key={vendor['Vendor Name']} variant="outlined" sx={{ width: 300, height: 350, borderRadius: '20px' }}>
+                <div style={{ display: "inline-grid", justifyContent: "center", alignItems: "center", height: 100, justifyItems: "left", marginLeft:16 }}>
                     <CardMedia
                         component="img" 
-                        image={process.env.PUBLIC_URL + `/VendorImages/${vendor.Logo}.png`}
+                        image={process.env.PUBLIC_URL + `/VendorImages/${vendor.Logo ? vendor.Logo : vendor['Vendor Name'].replace(/\s/g, '').toLowerCase()}.png`}
                         height="auto"
                         sx={{ width: "auto" }}
                     />
+                    <Typography variant="h5" fontWeight="bold">{vendor.Solution}</Typography>
                 </div>
                 <CardContent>
+                    <div style={{ overflow: "hidden", textOverflow: "ellipsis", maxHeight: "100px"}}>
+                        <Typography align="left">
+                            <div style={{fontWeight:"bold", display:"inline"}}>Company: </div>
+                            {vendor['Vendor Name']}
+                        </Typography>
+                    </div>
+                    <br />
                     <div style={{ overflow: "hidden", textOverflow: "ellipsis", maxHeight: "100px" }}>
                         <Typography align="left">
+                            <div style={{fontWeight:"bold",display:"inline"}}>Info: </div>
                             {vendor.Description}
                         </Typography>
                     </div>
+
                 </CardContent>
                 <CardActions sx={{ justifyContent: "center" }}>
-                    <Button size="medium" variant="contained" sx={{ width: 200 }} onClick={() => window.open(vendor.Web_Link)}>
-                        Go to Site
-                    </Button>
+                <VendorModal vendor={vendor}/>
                 </CardActions>
             </Card>
 
         </div>
-    );
+    )
+
 }
 
 export default VendorCard;

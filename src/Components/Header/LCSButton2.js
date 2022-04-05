@@ -13,7 +13,7 @@ function LCSButton2() {
             <Button 
             sx={{
                 color: 'white',
-                fontFamily: 'Georgia, Times New Roman, Times, serif',
+                fontFamily: 'arial',
                 fontSize: 16,
                 border: '2px solid 30cddc',
                 borderRadius: '50px',
@@ -31,7 +31,7 @@ function LCSButton2() {
                 }}
                 onClick={LCSRedirect}>
             
-            Go to Website
+            Go to website
             </Button>
     );
 }

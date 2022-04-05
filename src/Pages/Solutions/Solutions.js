@@ -1,23 +1,38 @@
-import React from 'react';
+import {React, useState, useCallback} from 'react';
 import './Solutions.css';
 import VendorGrid from "./Components/VendorGrid";
 import Searchbar from '../../Components/Searchbar/Searchbar';
+import Background from '../../Components/Background';
+import { vendors } from '../../VendorData';
+import CategoryTitles from './Components/CategoryTitles';
 
 
 
 
 
 function Solutions() {
+  const [page, setPage] = useState("")
+  const resetPage = useCallback(() => {setPage("data refresh")}, [setPage])
+
+  const doSomething = function (e) {
+    console.log('WORKING')
+    //setData("");
+  }
   
+  const [data, setData] = useState(vendors);
 
   return (
     <div>
+      <div className="backgroundWrap"><Background /></div>
       <div class = 'pos'>
         <div className="wrapSolutions">
-        <Searchbar/>
+          <div className="searchbar">
+        <Searchbar page={page} setPage={resetPage}/>
+        </div>
+        <CategoryTitles />
           </div>
         </div>
-      <div> <VendorGrid /></div>
+      <div> <VendorGrid data={data}/></div>
     </div>
 
 

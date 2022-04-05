@@ -65,47 +65,66 @@ function ProductCategories() {
           </Grid>
           <Grid item>
             <Box>
-              <a href="#Auto Service">Auto Service</a>
+              <a href="/solutions#autoService">Auto Service</a>
             </Box>
           </Grid>
           <Grid item>
             <Box>
-              <a href="#Contracting">Contracting</a>
+              <a href="/solutions#construction">Contracting</a>
             </Box>
           </Grid>
           <Grid item>
             <Box>
-              <a href="#Habitational">Habitational</a>
+              <a href="/solutions#farmagribusiness">Farm/Agribusiness</a>
             </Box>
           </Grid>
           <Grid item>
             <Box>
-              <a href="#Health Care">Health Care</a>
+              <a href="/solutions#food">Food Services</a>
             </Box>
           </Grid>
           <Grid item>
             <Box>
-              <a href="#Manufacturing">Manufacturing</a>
+              <a href="/solutions#habitual">Habitational</a>
             </Box>
           </Grid>
           <Grid item>
             <Box>
-              <a href="#Office/Professional">Office/Professional</a>
+              <a href="/solutions#healthcare">Health Care</a>
             </Box>
           </Grid>
           <Grid item>
             <Box>
-              <a href="#Process/Service">Process/Service</a>
+              <a href="/solutions#hotelmotel">Hotel/Motel</a>
             </Box>
           </Grid>
           <Grid item>
             <Box>
-              <a href="#Wholesale">Wholesale</a>
+              <a href="/solutions#manufacturing">Manufacturing</a>
+            </Box>
+          </Grid>
+          <Grid item>
+            <Box>
+              <a href="/solutions#officeprofessional">Office/Professional</a>
+            </Box>
+          </Grid>
+          <Grid item>
+            <Box>
+              <a href="/solutions#processservice">Process/Service</a>
+            </Box>
+          </Grid>
+          <Grid item>
+            <Box>
+              <a href="/solutions#retail">Retail</a>
+            </Box>
+          </Grid>
+          <Grid item>
+            <Box>
+              <a href="/solutions#wholesale">Wholesale</a>
             </Box>
           </Grid>
         </Grid>
-
-      </div>
+        </div>
     </div>
   );
 

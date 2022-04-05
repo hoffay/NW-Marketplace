@@ -11,6 +11,8 @@ import Divider from '@mui/material/Divider';
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 import ArrowBackIcon from '@mui/icons-material/ArrowBack';
+import {useLocation} from 'react-router-dom';
+import Searchbar from '../../../Components/Searchbar/Searchbar';
 
 const StyledMenu = styled((props) => (
   <Menu
@@ -54,7 +56,40 @@ const StyledMenu = styled((props) => (
 }));
 
 
+function sortCards(){
+  let industry1=""
+  if(window.location.hash==="#food") {
+industry1="Food Service";
+} else if(window.location.hash==="#retail"){
+   industry1="Retail";  
+} else if(window.location.hash==="#hotelmotel"){
+   industry1="Hotel/Motel";  
+} else if(window.location.hash==="#farmagribusiness"){
+   industry1="Farm/Agribusiness";  
+} else if(window.location.hash==="#habitual"){
+   industry1="Habitational";  
+} else if(window.location.hash==="#processservice"){
+   industry1="Process/Service";  
+} else if(window.location.hash==="#manufacturing"){
+   industry1="Manufacturing";  
+} else if(window.location.hash==="#autoService"){
+   industry1="Auto Service";  
+} else if(window.location.hash==="#wholesale"){
+   industry1="Wholesale";  
+} else if(window.location.hash==="#construction"){
+   industry1="Construction";  
+} else if(window.location.hash==="#officeprofessional"){
+   industry1="Office/Professional";  
+} else if(window.location.hash==="#healthcare"){
+   industry1="Health Care"; 
+}
+
+const updateVendor = (industry1 != "") ? vendors.filter(solution => solution['Industry'].includes(industry1)) : vendors;
+return updateVendor;
+}
 function VendorGrid() {
+
+  const location = useLocation();
 
   const [anchorEl, setAnchorEl] = React.useState(null);
   const open = Boolean(anchorEl);
@@ -77,19 +112,22 @@ function VendorGrid() {
   }, []);
 
   const loadUsersData = async () => {
-    setData(vendors);
-  }
-
-
-  const handleSort = (sortChoice) => {
-    let value = sortChoice;
-
+    if(location.state !== null)
+    {
+      setData(location.state.data);
+      location.state = null;
+    }
+    else{
+      let newData = sortCards(vendors);
+      setData(newData);
+    }
+    
   }
 
   const ascending = () => {
     const newvendor_list = [...data].sort((a, b) => {
-      if (a.Vendor_Name < b.Vendor_Name) return -1;
-      if (a.Vendor_Name === b.Vendor_Name) return 0;
+      if (a["Vendor Name"] < b["Vendor Name"]) return -1;
+      if (a["Vendor Name"] === b["Vendor Name"]) return 0;
       return 1;
     });
     setData(newvendor_list);
@@ -100,8 +138,8 @@ function VendorGrid() {
 
   const descending = () => {
     const newvendor_list = [...data].sort((a, b) => {
-      if (b.Vendor_Name < a.Vendor_Name) return -1;
-      if (b.Vendor_Name === a.Vendor_Name) return 0;
+      if (b["Vendor Name"] < a["Vendor Name"]) return -1;
+      if (b["Vendor Name"] === a["Vendor Name"]) return 0;
       return 1;
     });
     setData(newvendor_list);
@@ -135,9 +173,9 @@ function VendorGrid() {
     }
   };
 
-  let vendorDisplay = data.map(vendor => (
-    <Grid item key={vendor.Vendor_Name} >
-      <VendorCard vendor={vendor} />
+  let vendorDisplay = data.map(solution => (
+    <Grid item key={solution.id} >
+      <VendorCard vendor={solution} />
     </Grid>
   ));
 
@@ -156,6 +194,15 @@ function VendorGrid() {
               disableElevation
               onClick={handleClick}
               endIcon={<KeyboardArrowDownIcon />}
+              sx={{
+              textTransform: 'none',
+              fontFamily: 'Calibri',
+              fontWeight: 'bold',
+              fontSize: '1.4rem',
+              backgroundColor: '#fff',
+              color: '#30cddc',
+              border: '2px solid #30cddc',    
+              }}
             >
               Sort by
             </Button>
@@ -182,12 +229,12 @@ function VendorGrid() {
           </div>
         </div>
         {scrollX !== 0 && (
-          <Button variant="outlined" size="medium" sx={{ border: "2px solid", color: "#1f74db" }} onClick={() => slide(-200)}>
+          <Button variant="outlined" size="medium" sx={{ border: "2px solid", color: "#30cddc" }} onClick={() => slide(-200)}>
             <ArrowBackIosIcon />
           </Button>
         )}
         {!scrolEnd && (
-          <Button variant="outlined" size="medium" sx={{ border: "2px solid", color: "#1f74db" }} onClick={() => slide(+200)}>
+          <Button variant="outlined" size="medium" sx={{ border: "2px solid", color: "#30cddc" }} onClick={() => slide(+200)}>
             <ArrowForwardIosIcon />
           </Button>
         )}
