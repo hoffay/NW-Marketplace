@@ -39,7 +39,7 @@ function VendorCard({ vendor, solName }) {
                         height="auto"
                         sx={{ width: "auto" }}
                     />
-                    <Typography variant="h5" fontWeight="bold">{solName}</Typography>
+                    <Typography variant="h6" fontWeight="bold">{solName}</Typography>
                 </div>
                 <CardContent>
                     <div style={{ overflow: "hidden", textOverflow: "ellipsis", maxHeight: "100px"}}>
