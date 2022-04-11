@@ -13,12 +13,12 @@ function LCSButton2() {
             <Button 
             sx={{
                 color: 'white',
-                fontFamily: 'arial',
+                fontFamily: 'Georgia, Times New Roman, Times, serif',
                 fontSize: '1vw',
                 border: '2px solid 30cddc',
                 borderRadius: '4vw',
                 backgroundColor: "#30cddc",
-                fontWeight: '850',
+                fontWeight: '650',
                 width: '18vw',
                 height: '6.5vh',
                 zIndex: '1',
