@@ -14,6 +14,9 @@ export default function PositionedMenu() {
     setAnchorEl(null);
   };
 //TODO Will refactor later
+function all() {
+  window.location.replace("/solutions").then(document.location.reload());
+}
 function food() {
   if(window.location.hash===""){
   window.location.replace("/solutions#food").then(document.location.reload());
@@ -162,7 +165,7 @@ let activeStyle = {
        
       >
              
-        <MenuItem >All</MenuItem>
+        <MenuItem onClick={all}>All</MenuItem>
         <MenuItem onClick={food}>Food Services</MenuItem>
         <MenuItem onClick={retail}>Retail</MenuItem>
         <MenuItem onClick={hotelmotel}>Hotel/Motel</MenuItem>
