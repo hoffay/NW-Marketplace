@@ -82,7 +82,7 @@ function Searchbar({page, resetPage}) {
                         startAdornment: (
                             <InputAdornment>
                                 <IconButton>
-                                    <SearchIcon style={{ fill: "#30cddc", width: 40, height: 40 }} />
+                                    <SearchIcon style={{ fill: "#30cddc", width: '3vw', height: '3vw' }} />
                                 </IconButton>
                             </InputAdornment>
                         )
@@ -96,7 +96,7 @@ function Searchbar({page, resetPage}) {
                         backgroundColor: "#30cddc",
                         width: "10%",
                         fontWeight: "bold",
-                        fontSize: "16px",
+                        fontSize: "1vw",
                         fontFamily: "arial",
                         textTransform: "none",
                         "&.MuiButtonBase-root:hover": {

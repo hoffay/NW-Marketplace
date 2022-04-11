@@ -130,8 +130,7 @@
   .layered {
     display: grid;
     justify-items: center;
-    align-items: center;
-    margin-right:-5%;
+    align-items: center; 
   }
   
   .layered > * {

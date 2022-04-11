@@ -17,13 +17,13 @@
   text-align: center;
   padding: 14px;
   margin-left: 1px;
-  width: 200px;
+  width: 14vw;
   text-decoration: none;
-  height: 50px;
+  height: 3vw;
   font-weight: bold;
   justify-content: center;
   font-family: "times new roman";
-  font-size: 1.5rem;
+  font-size: 1.6vw;
 }
 
 .blocks a:hover {
@@ -36,19 +36,20 @@
   background-color: #0067C5;
   text-align: center;
   padding: 14px;
-  margin-left: 1px;
-  width: 200px;
+  margin-left: .1vw;
+  width: 14vw;
   text-decoration: none;
   font-size: 1.5rem;
-  height: 50px;
+  height: 3vw;
   overflow: hidden;
   text-decoration: none;
   justify-content: center;
   font-family: "times new roman";
+  font-size: 1.6vw;
 }
 
 .prodArrows {
   display: flex;
   justify-content: right;
-  padding: 20px;
+  padding: 1.3vw;
 }

@@ -133,9 +133,6 @@ let activeStyle = {
 }
 
 
-
-
-
   return (
     <div>
       <Button
@@ -144,7 +141,7 @@ let activeStyle = {
         aria-haspopup="true"
         aria-expanded={open ? 'true' : undefined}
         onClick={handleClick}
-        sx={{ mr: 8, fontSize: 22, ml: 5 ,my: 2, color: 'white', display: 'block',textTransform: 'none', borderBottom: pathname == '/solutions' ? '6px solid #30cddc' : 'none'}}
+        sx={{ fontSize: '1.45vw', ml: '1vw' ,my: '.5vw', color: 'white', display: 'block',textTransform: 'none', borderBottom: pathname == '/solutions' ? '6px solid #30cddc' : 'none'}}
       >
         Solutions<br></br>Catalog
       </Button>

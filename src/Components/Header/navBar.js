@@ -48,7 +48,7 @@ const NavBar = () => {
   }
 
   let activeStyle = {
-    borderBottom: "6px solid #30cddc",
+    borderBottom: ".5vw solid #30cddc",
     alignSelf: "center",
     textDecoration: "none"
   }
@@ -67,7 +67,7 @@ const NavBar = () => {
             noWrap
             component="div"
             sx={{ display: { xs: 'none', md: 'flex' } }}>
-            <img src="nwlogo.png" height="85vw" alt="Logo" ></img>
+            <img src="nwlogo.png" width="180vw" height="78.1116278vw" alt="Logo" ></img>
           </Typography>
 
           <Box sx={{minwidth: 1/4, flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
@@ -116,22 +116,16 @@ const NavBar = () => {
             component="div"
             sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none'} }}
           >
-            LOGO
+            
           </Typography>
           <Box className="thisBox" sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
             <Button
               component={NavLink} to="/" end style={({ isActive }) => isActive ? activeStyle : nonActive }
-              sx={{mr: 6, ml: '30%', my: 2, color: 'white', display: 'block', textTransform: 'none', alignSelf: "center"}}                
+              sx={{mr: '4vw', ml: '30%', my: '.5vw', color: 'white', display: 'block', textTransform: 'none', alignSelf: "center"}}                
               >
-            <Typography sx={{ fontSize: 22, fontFamily: "Arial", fontWeight: "bold" }}>Home</Typography>
+            <Typography sx={{ fontSize: '1.45vw', fontFamily: "Arial", fontWeight: "bold" }}>Home</Typography>
           </Button> 
           <PositionedMenu />
-          {/* <Button
-                onClick={solutionsClick}
-                sx={{ my: 2, fontSize: 22, color: 'white', display: 'block'}}
-              >
-                Solutions<br></br>Catalog
-              </Button> */}
         </Box>
         <div class="layered">
           <LCSButton1 />
@@ -144,8 +138,8 @@ const NavBar = () => {
                 <DehazeIcon
                   style={{
                     color: "#30cddc",
-                    width: 50,
-                    height: 50,
+                    width: '3vw',
+                    height: '3vw',
                   }}
                 ></DehazeIcon>
               </div>
