@@ -17,7 +17,7 @@ function LCSButton1() {
                     backgroundColor: "white",
                     fontWeight: '850',
                     width: '18vw',
-                    height: '6.5vh',
+                    height: '3.3vw',
                     marginRight: '30vw',
                     zIndex: '2',
                     textTransform: 'none',
