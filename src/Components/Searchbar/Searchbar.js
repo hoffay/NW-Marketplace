@@ -13,8 +13,10 @@ function Searchbar({page, resetPage}) {
     const [searchData, setSearchData] = useState("")
     const [sol, setSol] = useState("")
     var myHeaders = new Headers();
-    myHeaders.append("x-api-key", "2bc9qNxIb21xzyqgyqLc9530yGcTSdVG2Nk0wx5e");
-    myHeaders.append("Content-Type", "application/json");
+    //myHeaders.append("x-api-key", "2bc9qNxIb21xzyqgyqLc9530yGcTSdVG2Nk0wx5e");
+    //myHeaders.append("Content-Type", "application/json");
+    myHeaders.append("Access-Control-Allow-Origin", "*");
+    myHeaders.append("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
     const navigate = useNavigate();
 
     
@@ -22,14 +24,15 @@ function Searchbar({page, resetPage}) {
     let handleSubmit = async (e) => {
         e.preventDefault();
         try {
-            let res = await fetch("https://as3op0zurd.execute-api.us-east-1.amazonaws.com/prod/commercial_marketplace/", {
-                method: "POST",
-                headers: myHeaders,
-                body: JSON.stringify({
-                    searchString: search,
-                    k: "3",
-                    path: "/postText"
-                }),
+            let url = `https://sfmlapis.senseforth.com/SmartSearch/searcher?input=${encodeURIComponent(search)}&numResults=3`
+            console.log(url)
+            let res = await fetch(url, {
+                method: "GET"
+                // body: JSON.stringify({
+                //     searchString: search,
+                //     k: "3",
+                //     path: "/postText"
+                // }),
             });
             let resJson = await res.json();
             if (res.status === 200) {
