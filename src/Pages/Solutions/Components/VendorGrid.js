@@ -126,8 +126,8 @@ function VendorGrid() {
 
   const ascending = () => {
     const newvendor_list = [...data].sort((a, b) => {
-      if (a["Vendor Name"] < b["Vendor Name"]) return -1;
-      if (a["Vendor Name"] === b["Vendor Name"]) return 0;
+      if (a["vendor_name"] < b["vendor_name"]) return -1;
+      if (a["vendor_name"] === b["vendor_name"]) return 0;
       return 1;
     });
     setData(newvendor_list);
@@ -138,8 +138,8 @@ function VendorGrid() {
 
   const descending = () => {
     const newvendor_list = [...data].sort((a, b) => {
-      if (b["Vendor Name"] < a["Vendor Name"]) return -1;
-      if (b["Vendor Name"] === a["Vendor Name"]) return 0;
+      if (b["vendor_name"] < a["vendor_name"]) return -1;
+      if (b["vendor_name"] === a["vendor_name"]) return 0;
       return 1;
     });
     setData(newvendor_list);
@@ -162,7 +162,7 @@ function VendorGrid() {
 
   function getVendors(vendor)
   {
-    return vendor['Vendor Name'].str.split(/\r?\n/);
+    return vendor['vendor_name'].str.split(/\r?\n/);
   }
 
   const scrollCheck = () => {
@@ -181,12 +181,12 @@ function VendorGrid() {
     const cardList = []
     data.map(vendor => {
       //console.log(vendor['Products'].split(/\r?\n/))
-      let solutions = vendor['Products'].split(/\r?\n/)
+      let solutions = vendor['product'] ? vendor['product'].split(/\r?\n/) : ""
       //console.log(solutions)
       for(let i = 0; i < solutions.length; i++)
       {
         //console.log(solutions[i])
-        cardList.push(<Grid item key={vendor['Product Name']} >
+        cardList.push(<Grid item key={vendor['vendor_name']} >
           <VendorCard solution={solutions[i]} />
         </Grid>)
       }
@@ -198,22 +198,22 @@ function VendorGrid() {
     })
   }
 
-  let solutionDisplay = [...data].map(vendor => {
-    vendor['Products'].split(/\r?\n/).map(sol => {
-        <Grid item key={sol} >
-          <VendorCard vendor={vendor} solname={sol} />
-        </Grid>
-    })
-  })
+  // let solutionDisplay = [...data].map(vendor => {
+  //   vendor['product'].split(/\r?\n/).map(sol => {
+  //       <Grid item key={sol} >
+  //         <VendorCard vendor={vendor} solname={sol} />
+  //       </Grid>
+  //   })
+  // })
   
   let vendorDisplay = data.map(vendor => (
-    <Grid item key={vendor['Vendor Name']} >
-      <VendorCard vendor={vendor} solName={vendor['Products'].split(/\r?\n/)[0]}/>
+    <Grid item key={vendor['vendor_name']} >
+      <VendorCard vendor={vendor} solName={vendor['product'] ? vendor['product'].split(/\r?\n/)[0] : ""}/>
     </Grid>
   ))
 
   let solDisplay = data.map(vendor => (
-    <Grid item key={vendor['Vendor Name']} >
+    <Grid item key={vendor['vendor_name']} >
       <VendorCard vendor={vendor}/>
     </Grid>
   ))
