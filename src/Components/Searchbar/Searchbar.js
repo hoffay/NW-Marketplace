@@ -37,7 +37,7 @@ function Searchbar({page, resetPage}) {
                 console.log(resJson)
                 setSearchData(resJson)
                 
-                navigate('/solutions', {state:{data: resJson}});
+                navigate('/solutions#search', {state:{data: resJson}});
                 window.location.reload(false)
                 setSol("") //re-render
             } else {
