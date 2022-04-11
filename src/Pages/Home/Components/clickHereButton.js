@@ -1,6 +1,7 @@
 import React from 'react';
 import { Button, TextField } from '@mui/material';
 import '../App.css';
+import './clickHereButton.css';
 
 function CLButtonClick(CLButton) {window.location.replace("/solutions");}
 
@@ -17,12 +18,12 @@ function CLButton() {
                 backgroundColor: "white",
                 fontWeight: 'bold',
                 textDecorationLine: 'underline',
-                fontSize: '2rem',
+                fontSize: '2vw',
                 display: 'inline-block',
                 alignContent: 'center',
                 color: '#30cddc',
                 textTransform: 'none',
-                bottom: '0.5rem',
+                bottom: '.5vw',
                 '&:hover': {
                     backgroundColor: 'white',}
             }}
