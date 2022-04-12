@@ -31,34 +31,34 @@ function createCard(vendor) {
 function VendorCard({ vendor, solName }) {
     return (
 <div className='vendorCard'>
-            <Card key={vendor['Vendor Name']} variant="outlined" sx={{ width: 300, height: 350, borderRadius: '20px' }}>
-                <div style={{ display: "inline-grid", justifyContent: "center", alignItems: "center", height: 100, justifyItems: "left", marginLeft:16 }}>
+            <Card key={vendor['vendor_name']} variant="outlined" sx={{ width: 300, height: 350, borderRadius: '20px' }}>
+                <div style={{ display: "inline-grid", justifyContent: "center", alignItems: "center", height: 90, justifyItems: "left", marginLeft:16 }}>
                     <CardMedia
                         component="img" 
-                        image={process.env.PUBLIC_URL + `/VendorImages/${vendor['Logo'] ? vendor['Logo'] : vendor['Vendor Name'].replace(/\s/g, '').toLowerCase()}.png`}
+                        image={process.env.PUBLIC_URL + `/VendorImages/${vendor['Logo'] ? vendor['Logo'] : vendor['vendor_name'].replace(/\s/g, '').toLowerCase()}.png`}
                         height="auto"
                         sx={{ width: "auto" }}
                     />
-                    <Typography variant="h6" fontWeight="bold">{solName}</Typography>
+                    
                 </div>
-                <CardContent>
+                <Typography variant="h6" fontWeight="bold" marginLeft="16px">{solName}</Typography>
+                <CardContent style={{ paddingTop: 0, paddingBottom: 0 }}>
                     <div style={{ overflow: "hidden", textOverflow: "ellipsis", maxHeight: "100px"}}>
                         <Typography align="left">
                             <div style={{fontWeight:"bold", display:"inline"}}>Company: </div>
-                            {vendor['Vendor Name']}
+                            {vendor['vendor_name']}
                         </Typography>
                     </div>
-                    <br />
-                    <div style={{ overflow: "hidden", textOverflow: "ellipsis", maxHeight: "100px" }}>
+                    <div style={{ overflow: "hidden", textOverflow: "ellipsis", height: "100px" }}>
                         <Typography align="left">
                             <div style={{fontWeight:"bold",display:"inline"}}>Info: </div>
-                            {vendor['Description']}
+                            {vendor['description']}
                         </Typography>
                     </div>
 
                 </CardContent>
                 <CardActions sx={{ justifyContent: "center" }}>
-                <VendorModal vendor={vendor}/>
+                <VendorModal vendor={vendor} solName={solName}/>
                 </CardActions>
             </Card>
 
