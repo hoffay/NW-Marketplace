@@ -201,4 +201,11 @@ Tested by ensuring that on "click here" button, only companies are shown. On oth
 |54  | Passed |
 
 
+## Total Results S9
+| Issue | Result |
+|--|--|
+|48  | Passed |
+
+## Issue 48: Improving mobile responsiveness
+Tested with varying window sizes
 
