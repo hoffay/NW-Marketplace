@@ -171,7 +171,7 @@ export const vendors = [
     "Industry": "Habitational\nFarm/Agribusiness\nManufacturing\nConstruction",
     "vendor_name": "InfraLytiks",
     "product": "Data Analytics",
-    "Logo": "infralytics",
+    "Logo": "infralytiks",
     "web_link": "https://infralytiks.com/",
     "description": "InfraLytiks is an engineering and data analytics company that uses machine learning, artificial intelligence, and computer vision to automate complex processes and detect internal building hazards.",
     "contact_info": "Gracelyn Hart\nPhone: (214) 321-7892\nGracelyn@infralytiks.com",

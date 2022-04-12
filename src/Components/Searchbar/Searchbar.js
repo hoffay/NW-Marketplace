@@ -24,7 +24,7 @@ function Searchbar({page, resetPage}) {
     let handleSubmit = async (e) => {
         e.preventDefault();
         try {
-            let url = `https://sfmlapis.senseforth.com/SmartSearch/searcher?input=${encodeURIComponent(search)}&numResults=3`
+            let url = `https://sfmlapis.senseforth.com/SmartSearch/searcher?input=${encodeURIComponent(search)}&numResults=10`
             console.log(url)
             let res = await fetch(url, {
                 method: "GET"
