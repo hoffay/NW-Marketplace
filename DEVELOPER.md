@@ -25,6 +25,7 @@ Currently there are 5 main components:
     * This is a textfield that will be submitted by the user to get relevant results
     * Currently gets results from API
     * Routes to solutions page with API response data
+    * Currently using 3rd party API, but there is a commented out function for using the previous NW API.
 5. The Vendor Grid
     * This is a MUI Grid containing cards the hold all the necessary vendor info
 6. Vendor Card

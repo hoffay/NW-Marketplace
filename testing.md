@@ -203,10 +203,14 @@ Tested by ensuring that on "click here" button, only companies are shown. On oth
 ## Issue 60: Redo all scaling on the homepage
 Tested by checking how the website looks on multiple monitors, browser zoom levels, os zoom levels, and ensuring it looks good on all.
 
+## Issue 61: Integrate 3rd Party Vendor
+Tested by logging the request response and ensuring that the data properly matched the current DB. Made sure that the vendor cards created from search still had the same format and data displayed
+
 ## Total Results S10
 | Issue | Result |
 |--|--|
 |60  | Passed |
+|61  | Passed |
 
 
 
