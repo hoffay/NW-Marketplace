@@ -13,18 +13,17 @@ function LCSButton2() {
             <Button 
             sx={{
                 color: 'white',
-                fontFamily: 'arial',
-                fontSize: 16,
+                fontFamily: 'Georgia, Times New Roman, Times, serif',
+                fontSize: '1vw',
                 border: '2px solid 30cddc',
-                borderRadius: '50px',
+                borderRadius: '4vw',
                 backgroundColor: "#30cddc",
                 fontWeight: '850',
-                width: '280px',
-                height: '50px',
+                width: '18vw',
+                height: '3.3vw',
                 zIndex: '1',
-                marginLeft: '100px',
-                marginRight: '150px',
-                paddingLeft: '40px',
+                marginRight: '2vw',
+                paddingLeft: '3vw',
                 textTransform: 'none',
                 '&:hover': {
                     backgroundColor: '#d0d3d4',}

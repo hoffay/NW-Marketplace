@@ -22,7 +22,7 @@ const style = {
 };
 
 
-export default function VendorModal({ vendor }) {
+export default function VendorModal({ vendor, solName }) {
     const [open, setOpen] = React.useState(false);
     const handleOpen = () => setOpen(true);
     const handleClose = () => setOpen(false);
@@ -49,7 +49,7 @@ export default function VendorModal({ vendor }) {
                     <div style={{ height: "4rem" }}>
                         <img
                             alt="VendorImage"
-                            src={process.env.PUBLIC_URL + `/VendorImages/${vendor.Logo ? vendor.Logo : vendor['Vendor Name'].replace(/\s/g, '').toLowerCase()}.png`}
+                            src={process.env.PUBLIC_URL + `/VendorImages/${vendor.Logo ? vendor.Logo : vendor['vendor_name'].replace(/\s/g, '').toLowerCase()}.png`}
                         />
                     </div>
                     <div style={{ display: "flex", backgroundColor: "#1f74db", alignItems: "center", height: "4rem", marginLeft: "-32px", marginRight: "-32px" }}>
@@ -58,12 +58,12 @@ export default function VendorModal({ vendor }) {
                         </Typography>
                     </div>
                     <Typography id="modal-modal-title" fontWeight="bold" variant="h4" sx={{ mt: 2 }}>
-                        {vendor.Solution ? vendor.Solution : vendor['Vendor Name']}
+                        {solName ? solName : vendor['vendor_name']}
                     </Typography>
                     <div style={{ display: "inline-flex", mt: 2, marginBottom: "1rem", marginTop: "1rem" }}>
                         <Typography sx={{ mr: 1 }}>
                         <div style={{fontWeight:"bold", display:"inline"}}>Company name: </div>
-                            {vendor['Vendor Name']}
+                            {vendor['vendor_name']}
                         </Typography>
                     </div>
                     <div style={{ display: "inline-flex", mt: 2 }}>
@@ -71,7 +71,7 @@ export default function VendorModal({ vendor }) {
                             Info:
                         </Typography>
                         <Typography>
-                           {vendor.Description}
+                           {vendor['description']}
                         </Typography>
                     </div>
                     <Typography variant="h5" fontWeight="bold" sx={{ mt: "3rem" }}>
@@ -91,7 +91,7 @@ export default function VendorModal({ vendor }) {
                         marginBottom: "3rem"
                     }}>
                         <Typography>
-                            {vendor['Example Scenarios']}
+                            {vendor['example_scenarios']}
                         </Typography>
                     </div>
                     <div className="socialsBox" style={{
@@ -115,7 +115,7 @@ export default function VendorModal({ vendor }) {
                             <br></br>
                             <img src="emailIcon.svg" height="18px" alt="Logo" ></img>
                             </div>
-                                {vendor['Contact Info']}
+                                {vendor['contact_info']}
                             </Typography>
                             </div>
                             
@@ -138,7 +138,7 @@ export default function VendorModal({ vendor }) {
                                 textTransform: "none", 
                                 fontWeight: "bold",
                                 borderRadius: "10px",
-                                }} onClick={() => window.open(vendor['Web Link'])}>
+                                }} onClick={() => window.open(vendor['web_link'])}>
                             Go to Site
                             </Button>
                         </div>
