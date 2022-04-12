@@ -58,7 +58,7 @@ function VendorCard({ vendor, solName }) {
 
                 </CardContent>
                 <CardActions sx={{ justifyContent: "center" }}>
-                <VendorModal vendor={vendor}/>
+                <VendorModal vendor={vendor} solName={solName}/>
                 </CardActions>
             </Card>
 

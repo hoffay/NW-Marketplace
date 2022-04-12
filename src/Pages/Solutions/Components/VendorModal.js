@@ -22,7 +22,7 @@ const style = {
 };
 
 
-export default function VendorModal({ vendor }) {
+export default function VendorModal({ vendor, solName }) {
     const [open, setOpen] = React.useState(false);
     const handleOpen = () => setOpen(true);
     const handleClose = () => setOpen(false);
@@ -58,7 +58,7 @@ export default function VendorModal({ vendor }) {
                         </Typography>
                     </div>
                     <Typography id="modal-modal-title" fontWeight="bold" variant="h4" sx={{ mt: 2 }}>
-                        {vendor['product'] ? vendor['product'] : vendor['vendor_name']}
+                        {solName ? solName : vendor['vendor_name']}
                     </Typography>
                     <div style={{ display: "inline-flex", mt: 2, marginBottom: "1rem", marginTop: "1rem" }}>
                         <Typography sx={{ mr: 1 }}>
