@@ -214,7 +214,7 @@ function VendorGrid() {
 
   let solDisplay = data.map(vendor => (
     <Grid item key={vendor['vendor_name']} >
-      <VendorCard vendor={vendor}/>
+      <VendorCard vendor={vendor} solName={vendor['product'] ? vendor['product'].split(/\r?\n/)[0] : ""}/>
     </Grid>
   ))
 
