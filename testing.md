@@ -200,5 +200,13 @@ Tested by ensuring that on "click here" button, only companies are shown. On oth
 |51  | Passed |
 |54  | Passed |
 
+## Issue 60: Redo all scaling on the homepage
+Tested by checking how the website looks on multiple monitors, browser zoom levels, os zoom levels, and ensuring it looks good on all.
+
+## Total Results S10
+| Issue | Result |
+|--|--|
+|60  | Passed |
+
 
 
