@@ -123,7 +123,7 @@ const NavBar = () => {
               component={NavLink} to="/" end style={({ isActive }) => isActive ? activeStyle : nonActive }
               sx={{mr: '4vw', ml: '30%', my: '.5vw', color: 'white', display: 'block', textTransform: 'none', alignSelf: "center"}}                
               >
-            <Typography sx={{ fontSize: '1.45vw', fontFamily: "Arial", fontWeight: "bold" }}>Home</Typography>
+            <Typography sx={{ fontSize: '1.45vw', fontFamily: "Arial" }}>Home</Typography>
           </Button> 
           <PositionedMenu />
         </Box>
