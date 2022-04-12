@@ -14,6 +14,9 @@ export default function PositionedMenu() {
     setAnchorEl(null);
   };
 //TODO Will refactor later
+function all() {
+  window.location.replace("/solutions").then(document.location.reload());
+}
 function food() {
   if(window.location.hash===""){
   window.location.replace("/solutions#food").then(document.location.reload());
@@ -133,9 +136,6 @@ let activeStyle = {
 }
 
 
-
-
-
   return (
     <div>
       <Button
@@ -144,7 +144,7 @@ let activeStyle = {
         aria-haspopup="true"
         aria-expanded={open ? 'true' : undefined}
         onClick={handleClick}
-        sx={{ mr: 8, fontSize: 22, ml: 5 ,my: 2, color: 'white', display: 'block',textTransform: 'none', borderBottom: pathname == '/solutions' ? '6px solid #30cddc' : 'none'}}
+        sx={{ fontFamily: "Arial",fontSize: '1.45vw', ml: '1vw' ,my: '.5vw', color: 'white', display: 'block',textTransform: 'none', borderBottom: pathname == '/solutions' ? '6px solid #30cddc' : 'none'}}
       >
         Solutions<br></br>Catalog
       </Button>
@@ -165,7 +165,7 @@ let activeStyle = {
        
       >
              
-        <MenuItem >All</MenuItem>
+        <MenuItem onClick={all}>All</MenuItem>
         <MenuItem onClick={food}>Food Services</MenuItem>
         <MenuItem onClick={retail}>Retail</MenuItem>
         <MenuItem onClick={hotelmotel}>Hotel/Motel</MenuItem>

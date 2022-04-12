@@ -8,9 +8,16 @@ function categoryTitle(){
    if(window.location.hash=='') {
       return (
       <div className = "category-title">
-      <h1>Popular Searches</h1>
+      <h1>All Vendors</h1>
       </div>
    );}
+    else if(window.location.hash==="#search"){
+      return (
+         <div className = "category-title">
+         <h1>Search Results</h1>
+         </div>
+      )
+    }
     else if(window.location.hash==="#food") {
   industry="Food Service Solutions";
   } else if(window.location.hash==="#retail"){

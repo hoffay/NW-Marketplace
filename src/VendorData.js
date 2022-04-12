@@ -29,7 +29,7 @@ export const vendors = [
     "product": "Temperature Monitoring\nRefrigeration Monitoring",
     "Logo": "oneevent",
     "web_link": "https://oneeventtech.com/",
-    "description": "OneEvent is a sensor technology solution that leverages machine learning to evaluate changes to the environment in which it is positioned. The product has been focused on the early ditection of fire loss.",
+    "description": "OneEvent is a sensor technology solution that leverages machine learning to evaluate changes to the environment in which it is positioned. The product has been focused on the early detection of fire loss.",
     "contact_info": "Name: Chris Thomas\nPhone: (752) 651-4538\nThomas@oneevent.com",
     "Discount": "Nationwide customers will receive free installation on all OneEvent sensors",
     "example_scenarios": "I am interested in monitoring the sensors on my premises to make managing my business more streamlined.",
@@ -44,8 +44,8 @@ export const vendors = [
     "description": "HSB can help avoid or reduce the damage to your building or equipment by detecting adverse conditions and then sending an alert, so the hazard can be mitigated prior to a loss.\n\nHSB sensors are ideal for detecting water leaks, frozen pipes, refrigeration failure, high temperature conditions, mold conditions, and power outages.",
     "contact_info": "Name: Zack Miller\nPhone: (651) 534-8324\nMiller@HSB.com",
     "Discount": "Nationwide customers will receive a 5% hardware discount equipment, along with free installation.",
-    "example_scenarios": "I am concerned with monitoring my refridgeration systems within my convenience store.\n\nI am interested in monitoring power outages at my place of business while I am not present.",
-    "trigger_words_for_search": "Refridgeration\nSystems\nPower\nSensor\nWater\nPipes\nTemperature"
+    "example_scenarios": "I am concerned with monitoring my refrigeration systems within my convenience store.\n\nI am interested in monitoring power outages at my place of business while I am not present.",
+    "trigger_words_for_search": "Refrigeration\nSystems\nPower\nSensor\nWater\nPipes\nTemperature"
   },
   {
     "Industry": "Farm/Agribusiness\nConstruction",
@@ -92,7 +92,7 @@ export const vendors = [
     "description": "Ting offers a unique and innovative approach to predict potentially hazardous conditions and help prevent disasters before they strike.",
     "contact_info": "Tim Martin\nPhone: (894) 546-1325\nTim.Martin@whiskerlabs.com",
     "Discount": "Nationwide customers will receive a 5% hardware discount.",
-    "example_scenarios": "I am interested in controlling the technology on my premises to make managing my business in a more streamlined fashion.",
+    "example_scenarios": "I am interested in controlling the technology on my premises to manage my business in a more streamlined fashion.",
     "trigger_words_for_search": "Property\nEfficiency\nMonitor"
   },
   {
@@ -104,13 +104,13 @@ export const vendors = [
     "description": "Temperature sensors detect overheating bearings or other components before any major issues can be caused. Sensors can fit in much tighter places and last longer than the most advanced temperature sensors currently on the market.",
     "contact_info": "Luke Allen\nPhone: (895)541-8974\nLAS@bassagritech.com",
     "Discount": "Nationwide customers will receive a 15% hardware discount and free installation.",
-    "example_scenarios": "I am interested in avoiding overheating of my equipment.\n\nI am concerned about machinery fires.",
+    "example_scenarios": "I am interested in avoiding the overheating of my equipment.\n\nI am concerned about machinery fires.",
     "trigger_words_for_search": "Machinery\nEquipment\nFire\nTemperature\nSensor"
   },
   {
     "Industry": "Farm/Agribusiness",
     "vendor_name": "Stripper Saver",
-    "product": "Cotton Stripper Fire Supression",
+    "product": "Cotton Stripper Fire Suppression",
     "Logo": "strippersaver",
     "web_link": "https://www.facebook.com/Stripper-Saver-806-759-0649-735080730030510/",
     "description": "Fire suppression systems designed specifically for John Deere Cotton Strippers.",
@@ -161,7 +161,7 @@ export const vendors = [
     "product": "Wearable Injury Prevention",
     "Logo": "makeusafe",
     "web_link": "https://makusafe.com/?gclid=Cj0KCQiA5aWOBhDMARIsAIXLlkfnfBX6FZkNnPAPgq8J4DkIWSUFFts4Lav2d7ZSkQeGVY-KjAbig_0aApqIEALw_wcB",
-    "description": "The MakuSafe dashboard displays data from connected factory equipment and systems, providing insights and context into employee health safety concerns. Devices send data from each worker the business's platforms, creating opportunities to enhance operations and reduce workplace hazards.",
+    "description": "The MakUSafe dashboard displays data from connected factory equipment and systems, providing insights and context into employee health safety concerns. Devices send data from each worker to the business's platforms, creating opportunities to enhance operations and reduce workplace hazards.",
     "contact_info": "Sydney Kendall\nPhone: (635) 567-8922\nSydney@makusafe.com",
     "Discount": "Nationwide customers will receive hardware installation and training at no cost.",
     "example_scenarios": "I want to make sure my employees are not injured.\n\nI want to be sure my business environment is safe for my workers.\n\nI want to make corrections to my facility that might cause injury.",
@@ -197,7 +197,7 @@ export const vendors = [
     "product": "IoT Commercial Environment Sensor Monitoring",
     "Logo": "senseware",
     "web_link": "https://www.senseware.co/",
-    "description": "Senseware is a wireless sensor-based system that communicates physical asset data on a real-time basis to help promote energy efficiency and sustainability. Senseware uses smart sensors, wireless communication, the internet, and cloud-based technology to ‘connect the unconnected’and create Intelligent communities.",
+    "description": "Senseware is a wireless sensor-based system that communicates physical asset data on a real-time basis to help promote energy efficiency and sustainability. Senseware uses smart sensors, wireless communication, the internet, and cloud-based technology to ‘connect the unconnected’ and create Intelligent communities.",
     "contact_info": "Gia Mead\nPhone: (544)936-4512\nMead@senseware.co",
     "Discount": "Nationwide customers will receive free installation on all Senseware hardware.",
     "example_scenarios": "It is difficult to understand where costs are being incurred at my business.\n\nI am interested in monitoring the sensors on my premises to make managing my business more streamlined.",
@@ -211,8 +211,8 @@ export const vendors = [
     "web_link": "https://www.deepsentinel.com/",
     "description": "Deep Sentinel is a home security company that produces a series of cameras powered by deep learning that can evaluate threats on a property.",
     "contact_info": "Peter Flynn\nPhone: (912) 453-7532\nFlynn@deepsentinel.com",
-    "Discount": "Nationwide customers will receive free hardeware and  one year of software monitoring.",
-    "example_scenarios": "I want to be sure that my business is secure.\n\nI want to make sure my employees are safe from violance while working.",
+    "Discount": "Nationwide customers will receive free hardware and  one year of software monitoring.",
+    "example_scenarios": "I want to be sure that my business is secure.\n\nI want to make sure my employees are safe from violence while working.",
     "trigger_words_for_search": "Sensor\nVideo\nSecurity\nCrime"
   },
   {
@@ -223,7 +223,7 @@ export const vendors = [
     "web_link": "https://cogitocorp.com/",
     "description": "Cogito enhances the emotional intelligence of phone professionals by applying behavioral science through artificial intelligence.",
     "contact_info": "Vick Ricky\nPhone: (744) 456-4211\nVick@Cogito.com",
-    "Discount": "Nationtide customers will receive complimentary training and software monitoring on Cogito software.",
+    "Discount": "Nationwide customers will receive complimentary training and software monitoring on Cogito software.",
     "example_scenarios": "I want to be sure my employees are delivering the best customer experience possible.\n\nI want to help teach my employees how to be good customer service representatives.",
     "trigger_words_for_search": "Customer service\nMonitor\nTeach\nBehavior"
   },
@@ -259,7 +259,7 @@ export const vendors = [
     "web_link": "https://servisbot.com/",
     "description": "A conversational AI platform that provides a number of low-code and no-code tools that enable business users to easily design, build, and manage conversational AI experiences.",
     "contact_info": "Jimmie Bond\nPhone: (235) 215-4621\nBond@ServiceBOT.com",
-    "Discount": "Nationwide customerw siwll receive a 20% discount when engaging to build BOT technology, bringing to production.",
+    "Discount": "Nationwide customers will receive a 20% discount when engaging to build BOT technology, bringing to production.",
     "example_scenarios": "I want my customers to be able to interact with my business digitally.\n\nI want to reduce call volume.\n\nI want to be able to service my customers after business hours.",
     "trigger_words_for_search": "Digital\nCalls\nService\nAvailable\nAutomate"
   },
@@ -271,8 +271,8 @@ export const vendors = [
     "web_link": "https://actuate.ai/",
     "description": "Actuate builds software that employs computer vision to automatically detect gun threats, intruders, and liability hazards in security camera feeds.",
     "contact_info": "Jessa Darrows\nPhone: (911) 546-4651\nDarrows@actuate.ai",
-    "Discount": "Nationwide customers will receive a 15% dicsount on software monitoring.",
-    "example_scenarios": "I want to be sure that my business is secure.\n\nI want to make sure my employees are safe from violance while working.\n\nI want to reduce hazards that might cause injury to my customers.",
+    "Discount": "Nationwide customers will receive a 15% discount on software monitoring.",
+    "example_scenarios": "I want to be sure that my business is secure.\n\nI want to make sure my employees are safe from violence while working.\n\nI want to reduce hazards that might cause injury to my customers.",
     "trigger_words_for_search": "Sensor\nVideo\nSecurity\nCrime\nHazard\nCustomers"
   },
   {
@@ -281,7 +281,7 @@ export const vendors = [
     "product": "Low-Code Chat Bot Building Tools",
     "Logo": "floatbot",
     "web_link": "https://floatbot.ai/",
-    "description": "Floatbot is a conversational AI platform that helps businesses increase sales and reduce call volume by automating data collection and customer support, through (hybrid) AI-powered chatbots and voicebots.",
+    "description": "Floatbot is a conversational AI platform that helps businesses increase sales and reduce call volume by automating data collection and customer support via (hybrid) AI-powered chatbots and voicebots.",
     "contact_info": "Briane Stein\nPhone: (215) 987-4532",
     "Discount": "Nationwide customers will receive a 50% discount when deployed on at least two platforms.",
     "example_scenarios": "I want my customers to be able to interact with my business digitally.\n\nI want to reduce call volume.\n\nI want to be able to service my customers after business hours.",
