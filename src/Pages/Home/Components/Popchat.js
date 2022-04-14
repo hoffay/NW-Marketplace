@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import './Popchat.css';
-//import the css here
+import SmartToyIcon from '@mui/icons-material/SmartToy';//import the css here
+import { Button } from '@mui/material';
 
 export const PopChat = ( props ) => {
   let hide = {
@@ -24,7 +25,7 @@ const handleSend = e => {
 
   return (
     <div id='chatCon'>
-      <div class="chat-box" style={chatopen ? show : hide}>
+      {/* CHAT WINDOW NEEDS RESIZING <div class="chat-box" style={chatopen ? show : hide}>
     <div class="header">Chat with me</div>
     <div class="msg-area">
       {
@@ -42,9 +43,20 @@ const handleSend = e => {
       <input type="text"  ref={textRef} />
       <button onClick={handleSend}><i class="fa fa-paper-plane"></i></button>
     </div>
-  </div>
+  </div> */}
     <div class="pop">
-      <p><img onClick={toggle} src="https://p7.hiclipart.com/preview/151/758/442/iphone-imessage-messages-logo-computer-icons-message.jpg" alt="" /></p>
+      <Button sx={{ 
+        backgroundColor: "#30cddc",
+         color: "white",
+          borderRadius: 8,
+          height: "7vh",
+          width: "7vh",
+          "&.MuiButtonBase-root:hover": {
+            backgroundColor: '#1f74db'
+          }
+          }}>
+        <SmartToyIcon onClick={toggle} alt="" />
+      </Button>
     </div>
     </div>
   )

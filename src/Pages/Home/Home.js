@@ -21,8 +21,7 @@ function Home() {
       <CMLogo />
         <div className="wrap">
           <Searchbar />
-          <CLButton/>
-          
+          <CLButton/> 
         </div>
         <PopChat messages={msg} getMessage={getMessage} />
       </body>
