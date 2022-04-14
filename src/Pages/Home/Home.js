@@ -5,6 +5,13 @@ import ProductCategories from './Components/productCategories.js'
 import Background from '../../Components/Background';
 import CLButton from "./Components/clickHereButton";
 import CMLogo from "./Components/CMLogo";
+import PopChat from "./Components/Popchat";
+
+const msg=['hello, friend']
+
+ let getMessage = (msg) => {
+   console.log(msg)
+ }
 
 function Home() {
   return (
@@ -14,8 +21,9 @@ function Home() {
       <CMLogo />
         <div className="wrap">
           <Searchbar />
-          <CLButton/>
+          <CLButton/> 
         </div>
+        <PopChat messages={msg} getMessage={getMessage} />
       </body>
       <div>
         <ProductCategories/>
