@@ -47,7 +47,6 @@ function categoryTitle(){
   return (
     <div className = "category-title">
         <h1>{industry}</h1>
-        <div className = "category-subtext">as per your search</div>
     </div>
     );
   }
