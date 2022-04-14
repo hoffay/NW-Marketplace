@@ -82,7 +82,10 @@ industry1="Food Service";
    industry1="Office/Professional";  
 } else if(window.location.hash==="#healthcare"){
    industry1="Health Care"; 
+} else if(window.location.hash==="#search"){
+  industry1="Search";
 }
+console.log(industry1)
 
 const updateVendor = (industry1 != "") ? vendors.filter(vendor => vendor['Industry'].includes(industry1)) : vendors;
 return updateVendor;
@@ -123,6 +126,8 @@ function VendorGrid() {
     }
     
   }
+
+  let isSearch = window.location.hash==="#search" ? true : false;
 
   const ascending = () => {
     const newvendor_list = [...data].sort((a, b) => {
@@ -208,7 +213,7 @@ function VendorGrid() {
   
   let vendorDisplay = data.map(vendor => (
     <Grid item key={vendor['vendor_name']} >
-      <VendorCard vendor={vendor} solName={vendor['product'] ? vendor['product'].split(/\r?\n/)[0] : ""}/>
+      <VendorCard vendor={vendor} solName={industry1 === "" && isSearch === false ? "" : vendor['product'].split(/\r?\n/)[0]}/>
     </Grid>
   ))
 
@@ -280,7 +285,7 @@ function VendorGrid() {
       </div>
       <div className="fullVendorView" sx={{ display: "flex", wrap: "wrap", justifyContent: "center", overflowX: "hidden" }} >
         <Grid ref={scrl} onScroll={scrollCheck} id="vendorGrid" container columnSpacing={{ xs: 1, sm: 2, md: 3 }} wrap="nowrap" sx={{ overflowX: "hidden" }}>
-          {industry1 == "" ? solDisplay : vendorDisplay}
+          {industry1 == "" || isSearch == true ? vendorDisplay : solDisplay}
         </Grid>
       </div>
     </div>
