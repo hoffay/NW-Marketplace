@@ -90,7 +90,7 @@ export default function VendorModal({ vendor, solName }) {
                         marginTop: "1rem",
                         marginBottom: "3rem"
                     }}>
-                        <Typography>
+                        <Typography textAlign="center">
                             {vendor['example_scenarios']}
                         </Typography>
                     </div>
