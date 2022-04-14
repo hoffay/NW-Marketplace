@@ -213,4 +213,11 @@ Tested by logging the request response and ensuring that the data properly match
 |61  | Passed |
 
 
+## Total Results S9
+| Issue | Result |
+|--|--|
+|48  | Passed |
+
+## Issue 48: Improving mobile responsiveness
+Tested with varying window sizes
 

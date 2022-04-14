@@ -169,15 +169,15 @@ let activeStyle = {
         <MenuItem onClick={food}>Food Services</MenuItem>
         <MenuItem onClick={retail}>Retail</MenuItem>
         <MenuItem onClick={hotelmotel}>Hotel/Motel</MenuItem>
-        <MenuItem onClick={farmagribusiness}>Farm/Agribusines</MenuItem>
         <MenuItem onClick={habitual}>Habitual</MenuItem>
-        <MenuItem onClick={processservice}>Proecess/Service</MenuItem>
         <MenuItem onClick={manufacturing}>Manufacturing</MenuItem>
         <MenuItem onClick={autoService}>Auto Service</MenuItem>
         <MenuItem onClick={wholesale}>Wholesale</MenuItem>
+        <MenuItem onClick={processservice}>Process/Service</MenuItem>
         <MenuItem onClick={Construction}>Construction</MenuItem>
         <MenuItem onClick={officeprofessional}>Office/Professional</MenuItem>
         <MenuItem onClick={healthcare}>Health Care</MenuItem>
+        <MenuItem onClick={farmagribusiness}>Farm/Agribusines</MenuItem>
       </Menu>
     </div>
   );
