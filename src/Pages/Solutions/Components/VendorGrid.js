@@ -208,7 +208,7 @@ function VendorGrid() {
   
   let vendorDisplay = data.map(vendor => (
     <Grid item key={vendor['vendor_name']} >
-      <VendorCard vendor={vendor} solName={vendor['product'] ? vendor['product'].split(/\r?\n/)[0] : ""}/>
+      <VendorCard vendor={vendor} solName={industry1 != "" ? vendor['product'].split(/\r?\n/)[0] : ""}/>
     </Grid>
   ))
 
@@ -280,7 +280,7 @@ function VendorGrid() {
       </div>
       <div className="fullVendorView" sx={{ display: "flex", wrap: "wrap", justifyContent: "center", overflowX: "hidden" }} >
         <Grid ref={scrl} onScroll={scrollCheck} id="vendorGrid" container columnSpacing={{ xs: 1, sm: 2, md: 3 }} wrap="nowrap" sx={{ overflowX: "hidden" }}>
-          {industry1 == "" ? solDisplay : vendorDisplay}
+          {industry1 == "" ? vendorDisplay : solDisplay}
         </Grid>
       </div>
     </div>
