@@ -28,6 +28,25 @@ function createCard(vendor) {
     );
 }
 
+function breakLines(sol) {
+    if(sol.length <= 26)
+    {
+        return (
+            <Typography variant="h6" fontWeight="bold" marginLeft="16px">
+            {sol} 
+            <br />
+            <br></br>  
+            </Typography>
+            
+        )
+    }
+    else{
+        return (
+            <Typography variant="h6" fontWeight="bold" marginLeft="16px">{sol}</Typography>
+        )
+    }
+}
+
 function VendorCard({ vendor, solName }) {
     return (
 <div className='vendorCard'>
@@ -41,7 +60,7 @@ function VendorCard({ vendor, solName }) {
                     />
                     
                 </div>
-                <Typography variant="h6" fontWeight="bold" marginLeft="16px">{solName}</Typography>
+                {breakLines(solName)}
                 <CardContent style={{ paddingTop: 0, paddingBottom: 0 }}>
                     <div style={{ overflow: "hidden", textOverflow: "ellipsis", maxHeight: "100px"}}>
                         <Typography align="left">
