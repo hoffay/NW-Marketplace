@@ -55,7 +55,7 @@ const handleSend = e => {
             backgroundColor: '#1f74db'
           }
           }}>
-        <SmartToyIcon onClick={toggle} alt="" />
+        <SmartToyIcon onClick={toggle} sx={{ width: "3.5vw", height: "4vh" }} alt="" />
       </Button>
     </div>
     </div>
