@@ -26,3 +26,17 @@ Implementing UI principles
 HTML page outlining
 6. What will we change to improve
 Testing capabilities
+
+### Ethan Bores
+1. Issues completed
+Issue #53: Adjust vendor image logo location, #70: Make modal fonts match prototype
+2. What went well
+Fixing the overlap issue between the vedor logo image and the ribbon within the vendor modal was a relatively simple fix.
+3. What didn't go so well
+Nothing in particular proved to be very challenging, as all issues assigned were quick, minor fixes/adjustments to the website styling.
+4. What I have learned
+I have learned the differences between the different arguments for the 'display' tag in CSS and how the affect element placement/location.
+5. What still puzzles me
+I am still slightly puzzled by the 'justifyContent' tag; however, this seems to be something that should be easy to learn about given the appropriate resources.
+6. What will we change to improve
+I plan on furthering my knowledge of CSS tags for minor tweaks to styling and element placement on the website.
