@@ -212,12 +212,18 @@ Tested by logging the request response and ensuring that the data properly match
 |60  | Passed |
 |61  | Passed |
 
+## Issue 63: Make modal banner more like a ribbon
+Tested by comparing the ribbon to the one one in the prototype.
 
-## Total Results S9
+## Issue 68: Ellipses for info text on card
+Tested by checking cards that do and don't have overflow to see if the ellipses appear when needed.
+
+## Issue 69: Add profile icon to modal example scenarios
+Tested by comparing the profile icon to the one in the prototype.
+
+## Total Results S11
 | Issue | Result |
 |--|--|
-|48  | Passed |
-
-## Issue 48: Improving mobile responsiveness
-Tested with varying window sizes
-
+|63  | Passed |
+|68  | Passed |
+|69  | Passed |
