@@ -3,7 +3,14 @@ import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 import Modal from '@mui/material/Modal';
 import Button from '@mui/material/Button';
-
+import './ribbon.css';
+import { fontSize } from '@mui/system';
+import AccountCircleOutlinedIcon from '@mui/icons-material/AccountCircleOutlined';
+import FacebookOutlinedIcon from '@mui/icons-material/FacebookOutlined';
+import InstagramIcon from '@mui/icons-material/Instagram';
+import TwitterIcon from '@mui/icons-material/Twitter';
+import PhoneInTalkOutlinedIcon from '@mui/icons-material/PhoneInTalkOutlined';
+import EmailOutlinedIcon from '@mui/icons-material/EmailOutlined';
 
 const style = {
     position: 'absolute',
@@ -26,7 +33,8 @@ export default function VendorModal({ vendor, solName }) {
     const [open, setOpen] = React.useState(false);
     const handleOpen = () => setOpen(true);
     const handleClose = () => setOpen(false);
-
+    var firstHalf=vendor.Discount.split(' ').slice(0, 2).join(' ')
+    var secondHalf=vendor.Discount.split(' ').slice(2, vendor.Discount.length).join(' ')
     return (
         <div>
             <Button size="medium" variant="contained" 
@@ -52,9 +60,12 @@ export default function VendorModal({ vendor, solName }) {
                             src={process.env.PUBLIC_URL + `/VendorImages/${vendor.Logo ? vendor.Logo : vendor['vendor_name'].replace(/\s/g, '').toLowerCase()}.png`}
                         />
                     </div>
-                    <div style={{ display: "flex", backgroundColor: "#1f74db", alignItems: "center", height: "4rem", marginLeft: "-32px", marginRight: "-32px" }}>
-                        <Typography id="modal-modal-discount" color="white" sx={{ marginLeft: "32px" }}>
-                            {vendor.Discount}
+                          
+                    <div class="ribbon" style={{ display: "flex", backgroundColor: "#1f74db", alignItems: "center", height: "4rem", marginLeft: "-32px", marginRight: "-32px" }}>
+                        <Typography id="modal-modal-discount" color="white" sx={{ marginLeft: "25px", fontSize:"15px",  textTransform: 'none',paddingLeft:"35px"}}>
+                            {
+                                <><strong>{firstHalf}</strong> {secondHalf}</> 
+                            }
                         </Typography>
                     </div>
                     <Typography id="modal-modal-title" fontWeight="bold" variant="h4" sx={{ mt: 2 }}>
@@ -84,14 +95,17 @@ export default function VendorModal({ vendor, solName }) {
                         borderRadius: 25,
                         borderBottomRightRadius: 0,
                         borderColor: "#1f74db",
-                        backgroundColor: "#ddddff",
+                        backgroundColor: "#D5EDFF",
                         justifyContent: "center",
                         alignItems: "center",
                         marginTop: "1rem",
                         marginBottom: "3rem"
                     }}>
                         <Typography textAlign="center">
+                        <div style={{ display: "flex", flexDirection: "row", justifyContent: "space-between",color:"#1f74db" }}>
+                           <AccountCircleOutlinedIcon style={{fontSize:'60px',color:"#1f74db"}}></AccountCircleOutlinedIcon>
                             {vendor['example_scenarios']}
+                            </div>
                         </Typography>
                     </div>
                     <div className="socialsBox" style={{
@@ -106,27 +120,27 @@ export default function VendorModal({ vendor, solName }) {
                     }}>
                         <div style={{ display: "flex", flexDirection: "row", justifyContent: "space-between" }}>
                         <div style={{ flexDirection: "column", marginLeft: 32, marginTop: 20, color: "white", whiteSpace: "break-spaces" }}>
-                            <div style={{ marginBottom: "1rem" }}>
+                            <div style={{ marginBottom: "1rem"}}>
                             <Typography display="flex">
-                                <div align="left">
-                            <img src="nameIcon.svg" height="18px" alt="Logo" ></img>⠀
-                            <br></br>
-                            <img src="phoneIcon.svg" height="18px" alt="Logo" ></img>
-                            <br></br>
-                            <img src="emailIcon.svg" height="18px" alt="Logo" ></img>
+                                <div align="left" >
+                                    <AccountCircleOutlinedIcon style={{color:"30cddc",fontSize:"25px"}}></AccountCircleOutlinedIcon><br></br>
+                                    <PhoneInTalkOutlinedIcon style={{color:"30cddc",fontSize:"25px"}}></PhoneInTalkOutlinedIcon><br></br>
+                                    <EmailOutlinedIcon style={{color:"30cddc",fontSize:"25px"}}></EmailOutlinedIcon>
                             </div>
+                            <div style={{lineHeight:1.9,marginLeft:"5px"}}>
                                 {vendor['contact_info']}
+                                </div>
                             </Typography>
                             </div>
                             
                         </div>
-                        <div style={{ marginTop: 20, color: "white", marginRight: 32 }}>
+                        <div style={{ marginTop: 20, color: "white", marginRight: 32,lineHeight:1.9}}>
                             <Typography>
                                 Social Media
                             </Typography>
-                            <img src="facebookIcon.svg" height="25px" alt="Logo" ></img>⠀
-                            <img src="instagramIcon.svg" height="25px" alt="Logo" ></img>⠀
-                            <img src="twitterIcon.svg" height="25px" alt="Logo" ></img>
+                           <FacebookOutlinedIcon style={{color:"30cddc",paddingRight:"10px"}}></FacebookOutlinedIcon>
+                           <InstagramIcon style={{color:"30cddc",paddingRight:"10px"}}></InstagramIcon>
+                           <TwitterIcon style={{color:"30cddc"}}></TwitterIcon>
                         </div>
                         </div>
                         <div style={{ display: "flex", justifyContent: "center", marginBottom: "2rem" }}>
