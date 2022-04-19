@@ -1,11 +1,6 @@
 import React from 'react';
-import { vendors } from '../../../VendorData';
 import { Grid, Card, CardContent, Typography, CardHeader, CardActions, Button, CardMedia } from '@mui/material'
 import VendorModal from './VendorModal';
-import { fontWeight } from '@mui/system';
-import { solutions } from '../../../SolutionsData';
-
-
 
 function createCard(vendor) {
     return (
