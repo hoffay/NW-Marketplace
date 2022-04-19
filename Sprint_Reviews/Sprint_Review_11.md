@@ -40,3 +40,17 @@ I have learned the differences between the different arguments for the 'display'
 I am still slightly puzzled by the 'justifyContent' tag; however, this seems to be something that should be easy to learn about given the appropriate resources.
 6. What will we change to improve
 I plan on furthering my knowledge of CSS tags for minor tweaks to styling and element placement on the website.
+
+## Gregory Bowles
+1. Issues completed
+N/A
+2. What went well
+Good team communication
+3. What didn't go so well
+Positioning of website
+4. What I have learned
+Continued progress in scaling
+5. What still puzzles me
+HTML page outlining
+6. What will we change to improve
+Formating
