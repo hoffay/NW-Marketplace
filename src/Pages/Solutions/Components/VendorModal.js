@@ -54,7 +54,7 @@ export default function VendorModal({ vendor, solName }) {
                 aria-describedby="modal-modal-description"
             >
                 <Box sx={style}>
-                    <div style={{ height: "4rem" }}>
+                    <div style={{ height: "4rem", position: "relative", display: "inline-block", marginBottom: "2rem"}}>
                         <img
                             alt="VendorImage"
                             src={process.env.PUBLIC_URL + `/VendorImages/${vendor.Logo ? vendor.Logo : vendor['vendor_name'].replace(/\s/g, '').toLowerCase()}.png`}
