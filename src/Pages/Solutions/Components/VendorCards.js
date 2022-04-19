@@ -1,11 +1,6 @@
 import React from 'react';
-import { vendors } from '../../../VendorData';
 import { Grid, Card, CardContent, Typography, CardHeader, CardActions, Button, CardMedia } from '@mui/material'
 import VendorModal from './VendorModal';
-import { fontWeight } from '@mui/system';
-import { solutions } from '../../../SolutionsData';
-
-
 
 function createCard(vendor) {
     return (
@@ -62,13 +57,13 @@ function VendorCard({ vendor, solName }) {
                 </div>
                 {breakLines(solName)}
                 <CardContent style={{ paddingTop: 0, paddingBottom: 0 }}>
-                    <div style={{ overflow: "hidden", textOverflow: "ellipsis", maxHeight: "100px"}}>
+                    <div style={{ maxHeight: "100px"}}>
                         <Typography align="left">
                             <div style={{fontWeight:"bold", display:"inline"}}>Company: </div>
                             {vendor['vendor_name']}
                         </Typography>
                     </div>
-                    <div style={{ overflow: "hidden", textOverflow: "ellipsis", height: "100px" }}>
+                    <div style={{ overflow: "hidden", textOverflow: "ellipsis", height: "100px",display: '-webkit-box', WebkitBoxOrient: 'vertical',WebkitLineClamp: 4}}>
                         <Typography align="left">
                             <div style={{fontWeight:"bold",display:"inline"}}>Info: </div>
                             {vendor['description']}
