@@ -1,8 +1,8 @@
 import React from 'react';
-import { Grid, Card, CardContent, Typography, CardHeader, CardActions, Button, CardMedia } from '@mui/material'
+import { Card, CardContent, Typography, CardActions, CardMedia/*, CardHeader,Grid,Button*/ } from '@mui/material'
 import VendorModal from './VendorModal';
 
-function createCard(vendor) {
+/*function createCard(vendor) {
     return (
         <div className="vendorCard">
             <Grid item xs={12} sm={6} md={4}>
@@ -21,7 +21,7 @@ function createCard(vendor) {
             </Grid>
         </div>
     );
-}
+}*/
 
 function breakLines(sol) {
     if(sol.length <= 26)

@@ -1,9 +1,5 @@
-import React, { Component } from 'react';
 import { vendors } from '../../../VendorData';
 import { useState, useEffect } from 'react';
-import reactDom from 'react-dom';
-import VendorGrid from "./VendorGrid";
-import { render } from '@testing-library/react';
 function sortCards(){
    
     let industry1="empty"

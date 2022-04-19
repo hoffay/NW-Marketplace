@@ -1,11 +1,10 @@
-import { WindowRounded } from '@mui/icons-material';
-import { vendors } from '../../../VendorData';
+
 
 function categoryTitle(){
    
     let industry="All vendors";
 
-   if(window.location.hash=='') {
+   if(window.location.hash==='') {
       return (
       <div className = "category-title">
       <h1>All Vendors</h1>

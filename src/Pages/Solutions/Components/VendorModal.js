@@ -4,7 +4,6 @@ import Typography from '@mui/material/Typography';
 import Modal from '@mui/material/Modal';
 import Button from '@mui/material/Button';
 import './ribbon.css';
-import { fontSize } from '@mui/system';
 import AccountCircleOutlinedIcon from '@mui/icons-material/AccountCircleOutlined';
 import FacebookOutlinedIcon from '@mui/icons-material/FacebookOutlined';
 import InstagramIcon from '@mui/icons-material/Instagram';

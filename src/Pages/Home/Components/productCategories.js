@@ -1,7 +1,6 @@
 import React, { useState, useRef } from 'react';
-import { Grid, IconButton, Button } from '@mui/material';
-import styles from './productCategories.css';
-import LCSButton1 from "../../../Components/Header/LCSButton";
+import { Grid, Button } from '@mui/material';
+import './productCategories.css';
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 import ArrowBackIosIcon from '@mui/icons-material/ArrowBackIos';
 import Box from '@mui/material/Box';
@@ -40,7 +39,6 @@ function ProductCategories() {
   };
 
   return (
-
     <div className="container">
       <div className="prodArrows">
         {scrollX !== 0 && (
