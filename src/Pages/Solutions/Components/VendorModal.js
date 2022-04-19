@@ -68,7 +68,7 @@ export default function VendorModal({ vendor, solName }) {
                             }
                         </Typography>
                     </div>
-                    <Typography id="modal-modal-title" fontWeight="bold" variant="h4" sx={{ mt: 2 }}>
+                    <Typography id="modal-modal-title" fontWeight="bold" variant="h4" fontFamily={"times new roman"} fontSize = {'40px'} sx={{ mt: 2 }}>
                         {solName ? solName : vendor['vendor_name']}
                     </Typography>
                     <div style={{ display: "inline-flex", mt: 2, marginBottom: "1rem", marginTop: "1rem" }}>
@@ -85,7 +85,7 @@ export default function VendorModal({ vendor, solName }) {
                            {vendor['description']}
                         </Typography>
                     </div>
-                    <Typography variant="h5" fontWeight="bold" sx={{ mt: "3rem" }}>
+                    <Typography variant="h5" fontWeight="bold" fontFamily={"times new roman"} sx={{ mt: "3rem" }}>
                         Example Scenarios
                     </Typography>
                     <div style={{
@@ -135,7 +135,7 @@ export default function VendorModal({ vendor, solName }) {
                             
                         </div>
                         <div style={{ marginTop: 20, color: "white", marginRight: 32,lineHeight:1.9}}>
-                            <Typography>
+                            <Typography style = {{fontWeight: 'bold'}}>
                                 Social Media
                             </Typography>
                            <FacebookOutlinedIcon style={{color:"30cddc",paddingRight:"10px"}}></FacebookOutlinedIcon>
