@@ -4,7 +4,7 @@ import SmartToyIcon from '@mui/icons-material/SmartToy';//import the css here
 import { Button } from '@mui/material';
 
 export const PopChat = ( props ) => {
-  let hide = {
+  /*let hide = {
     display: 'none',
   }
   let show = {
@@ -12,16 +12,16 @@ export const PopChat = ( props ) => {
   }
   let textRef = React.createRef()
   const {messages} = props
-
+*/
   const [chatopen, setChatopen] = useState(false)
   const toggle = e => {
     setChatopen(!chatopen)
   }
 
-const handleSend = e => {
+/*const handleSend = e => {
   const get = props.getMessage
   get(textRef.current.value)
-}
+}*/
 
   return (
     <div id='chatCon'>
