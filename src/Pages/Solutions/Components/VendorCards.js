@@ -24,6 +24,11 @@ import VendorModal from './VendorModal';
 }*/
 
 function breakLines(sol) {
+    if(!sol)
+    {
+        return;
+    }
+
     if(sol.length <= 26)
     {
         return (
@@ -42,7 +47,10 @@ function breakLines(sol) {
     }
 }
 
+
 function VendorCard({ vendor, solName }) {
+    
+
     return (
 <div className='vendorCard'>
             <Card key={vendor['vendor_name']} variant="outlined" sx={{ width: 300, height: 350, borderRadius: '20px' }}>
