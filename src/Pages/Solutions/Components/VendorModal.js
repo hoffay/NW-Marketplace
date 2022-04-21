@@ -32,8 +32,8 @@ export default function VendorModal({ vendor, solName }) {
     const [open, setOpen] = React.useState(false);
     const handleOpen = () => setOpen(true);
     const handleClose = () => setOpen(false);
-    var firstHalf=vendor.Discount.split(' ').slice(0, 2).join(' ')
-    var secondHalf=vendor.Discount.split(' ').slice(2, vendor.Discount.length).join(' ')
+    //var firstHalf=vendor.Discount.split(' ').slice(0, 2).join(' ')
+    //var secondHalf=vendor.Discount.split(' ').slice(2, vendor.Discount.length).join(' ')
     return (
         <div>
             <Button size="medium" variant="contained" 
@@ -63,7 +63,7 @@ export default function VendorModal({ vendor, solName }) {
                     <div class="ribbon" style={{ display: "flex", backgroundColor: "#1f74db", alignItems: "left", height: "4rem", marginLeft: "-32px", marginRight: "-32px" }}>
                         <Typography id="modal-modal-discount" color="white" sx={{align:'left', fontSize:"15px",  textTransform: 'none',textAlign:'left', marginRight: "100px"}}>
                             {
-                                <><strong>{firstHalf}</strong> {secondHalf}</> 
+                                <>{vendor.Discount ? vendor.Discount : "Nationwide customers receive a discount for this solution"}</> 
                             }
                         </Typography>
                     </div>
