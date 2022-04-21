@@ -61,8 +61,8 @@ export default function VendorModal({ vendor, solName }) {
                         />
                     </div>
                           
-                    <div class="ribbon" style={{ display: "flex", backgroundColor: "#1f74db", alignItems: "center", height: "4rem", marginLeft: "-32px", marginRight: "-32px" }}>
-                        <Typography id="modal-modal-discount" color="white" sx={{ marginLeft: "25px", fontSize:"15px",  textTransform: 'none',paddingLeft:"35px"}}>
+                    <div class="ribbon" style={{ display: "flex", backgroundColor: "#1f74db", alignItems: "left", height: "4rem", marginLeft: "-32px", marginRight: "-32px" }}>
+                        <Typography id="modal-modal-discount" color="white" sx={{align:'left', fontSize:"15px",  textTransform: 'none',textAlign:'left', marginRight: "100px"}}>
                             {
                                 <><strong>{firstHalf}</strong> {secondHalf}</> 
                             }
