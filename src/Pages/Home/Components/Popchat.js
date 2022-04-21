@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import './Popchat.css';
 import SmartToyIcon from '@mui/icons-material/SmartToy';//import the css here
-import { Button } from '@mui/material';
+import { Button, Tooltip } from '@mui/material';
 
 export const PopChat = ( props ) => {
   /*let hide = {
@@ -45,6 +45,7 @@ export const PopChat = ( props ) => {
     </div>
   </div> */}
     <div class="pop">
+      <Tooltip title="Our Soon-to-be Chatbot!">
       <Button sx={{ 
         backgroundColor: "#30cddc",
          color: "white",
@@ -57,6 +58,7 @@ export const PopChat = ( props ) => {
           }}>
         <SmartToyIcon onClick={toggle} sx={{ width: "3.5vw", height: "4vh" }} alt="" />
       </Button>
+      </Tooltip>
     </div>
     </div>
   )
