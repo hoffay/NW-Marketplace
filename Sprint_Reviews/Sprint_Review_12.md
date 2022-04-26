@@ -29,17 +29,17 @@ Testing capabilities
 
 ### Ethan Bores
 1. Issues completed
-Issue #53: Adjust vendor image logo location, #70: Make modal fonts match prototype
+N/A (All issues closed/No new issues created)
 2. What went well
-Fixing the overlap issue between the vedor logo image and the ribbon within the vendor modal was a relatively simple fix.
+Completing the website and the final meeting/presentation to the full Nationwide team went exceptionally well.
 3. What didn't go so well
-Nothing in particular proved to be very challenging, as all issues assigned were quick, minor fixes/adjustments to the website styling.
+Nothing stood out as being challenging for this sprint in terms of code; however, coming up with slides for the presentation required some thinking and planning.
 4. What I have learned
-I have learned the differences between the different arguments for the 'display' tag in CSS and how the affect element placement/location.
+I have learned much about the corporate environment, workflow, and how correspondance is carried out throughout this sprint via our final meeting with Nationwide.
 5. What still puzzles me
-I am still slightly puzzled by the 'justifyContent' tag; however, this seems to be something that should be easy to learn about given the appropriate resources.
+I still struggle with mastering Git and the commands when working with it. In particular, encountering merge conflicts proved difficult for me to resolve.
 6. What will we change to improve
-I plan on furthering my knowledge of CSS tags for minor tweaks to styling and element placement on the website.
+To improve, I plan to add more code comments and better structuring in my future endeavours.
 
 ## Gregory Bowles
 1. Issues completed
