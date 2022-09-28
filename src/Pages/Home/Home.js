@@ -14,6 +14,7 @@ const msg=['hello, friend']
  }
 
 function Home() {
+  alert("Note: Search bars will not work due to removal of API");
   return (
     <main>
       <body>
