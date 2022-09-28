@@ -15,6 +15,10 @@
 - Highlighted breadcrumbs are featured on the navigation bar so users know what page they are on
 - On the solutions page, the user can go by filter, search, or show all vendors
 - Response mechanics for different sizes for mobile and tablets.
+
+## Note
+Search bars do not work anymore due to API removal.
+
 ## Testing
 Testing is done manually by experimenting with core elements of each feature. Specific testing steps can be found in testing.md
 
