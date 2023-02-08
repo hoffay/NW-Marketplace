@@ -22,5 +22,3 @@ Search bars do not work anymore due to API removal.
 ## Testing
 Testing is done manually by experimenting with core elements of each feature. Specific testing steps can be found in testing.md
 
-## Use
-The website can be reached at https://nationwide-marketplace.herokuapp.com/
